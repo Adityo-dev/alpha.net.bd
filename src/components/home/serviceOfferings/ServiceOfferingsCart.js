@@ -13,9 +13,10 @@ function ServiceOfferingsCart({ serviceOfferingsData }) {
         {serviceOfferingsData?.image}
       </p>
       <div>
-        <h3 className="text-3xl uppercase text-center">
+        <h3 className="text-2xl font-semibold uppercase text-center">
           {serviceOfferingsData?.title}
         </h3>
+
         <div className="flex flex-col gap-2 mt-4">
           {serviceOfferingsData?.details.map((info, ind) => (
             <Link

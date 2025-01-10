@@ -1,0 +1,39 @@
+const hostServiceData = [
+  {
+    title: "Free migrations",
+    description:
+      "Moving to HostSeba is easy, well take care of the migration for you for FREE",
+  },
+  {
+    title: "24/7 support",
+    description:
+      "Our team is always online 24/7 for you support and customer service.",
+  },
+  {
+    title: "Free Daily backup",
+    description:
+      "We automatically create daily, weekly backups of your entire websites",
+  },
+  {
+    title: "30 days guarantee",
+    description:
+      "Give our high-speed hosting service a try completely risk-free! money back guarantee.",
+  },
+];
+
+function HostServiceFeatures() {
+  return (
+    <section className="container mx-auto px-6 ">
+      <div className="flex items-center gap-6 justify-between bg-white shadow-md p-8 ">
+        {hostServiceData.map((service, ind) => (
+          <div key={ind} className="border-r last:border-none pr-6">
+            <h2 className="text-2xl font-semibold">{service?.title}</h2>
+            <h2 className="mt-3">{service?.description}</h2>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+export default HostServiceFeatures;
