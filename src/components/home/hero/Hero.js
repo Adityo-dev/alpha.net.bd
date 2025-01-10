@@ -97,7 +97,7 @@ const heroData = [
 
 function Hero() {
   return (
-    <div className="mt-6">
+    <div>
       <HeroSlider sliderData={heroData} />
     </div>
   );
