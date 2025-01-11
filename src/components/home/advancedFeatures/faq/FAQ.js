@@ -14,7 +14,6 @@ const faqData = [
       "Domain Hosting provider provider with Reasonable price and Hosting plan",
       "Domain Hosting provider provider with Reasonable price and Hosting plan",
       "Domain Hosting provider provider with Reasonable price and Hosting plan",
-      "Domain Hosting provider provider with Reasonable price and Hosting plan",
     ],
   },
   {
@@ -51,15 +50,15 @@ const faqData = [
 
 function FAQ() {
   return (
-    <Accordion type="single" collapsible className="w-full">
+    <Accordion type="single" collapsible className="w-full" defaultValue="1">
       {faqData.map((faq, ind) => (
-        <AccordionItem key={ind} value={ind + 1}>
-          <AccordionTrigger className="bg-[#F5F5F5] mt-0.5 p-3">
+        <AccordionItem key={ind} value={(ind + 1).toString()}>
+          <AccordionTrigger className="bg-[#e9e9e9] mt-0.5 p-3">
             {faq?.title}
           </AccordionTrigger>
           <AccordionContent className="bg-[#fcfcfc] p-4 flex flex-col gap-4">
-            <span>{faq?.d}</span>
-            <span className="space-y-">
+            <span className="text-gray-500 ms-10 leading-6">{faq?.d}</span>
+            <span className="space-y-2">
               {faq?.info.map((inf, ind) => (
                 <li key={ind}>{inf}</li>
               ))}
