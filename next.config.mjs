@@ -8,6 +8,12 @@ const nextConfig = {
         port: "", // সাধারণত খালি রাখুন
         pathname: "/**", // সমস্ত পাথকে অনুমোদন দিন
       },
+      {
+        protocol: "https",
+        hostname: "www.dianahost.com", 
+        port: "", 
+        pathname: "/**", 
+      },
     ],
   },
 };
