@@ -41,7 +41,7 @@ function AboutUS() {
 
       {/* Carusel problem thik korte hobe */}
       <div className="container mx-auto max-w-[1140px] px-2">
-        <SwiperPage />
+        {/* <SwiperPage /> */}
         <HelpSection />
       </div>
 
