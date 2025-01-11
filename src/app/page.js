@@ -8,6 +8,7 @@ import HostingPlan from "@/components/home/hostingPlan/HostingPlan";
 import HostServiceFeatures from "@/components/home/hostServiceFeatures/HostServiceFeatures";
 import Company from "@/components/home/company/Company";
 import OurTeamMembers from "@/components/home/ourTeamMembers/OurTeamMembers";
+import FAQ from "@/components/home/advancedFeatures/faq/FAQ";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Company />
       <OurService />
       <OurTeamMembers />
+      <FAQ />
     </main>
   );
 }
