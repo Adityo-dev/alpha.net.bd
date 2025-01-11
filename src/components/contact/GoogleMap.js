@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const GoogleMap = () => {
-    return (
-        <>
-        
-        </>
-    );
+  return <></>;
 };
 
 export default GoogleMap;

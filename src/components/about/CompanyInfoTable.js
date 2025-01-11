@@ -1,31 +1,30 @@
-
 const CompanyInfoTable = () => {
-
   const companyData = {
     "Name Of Company": "DianaHost",
     "Year Established": "2014",
     "Type Of Company": "Private Company",
     "Business Function": "Web, Software Development & Marketing",
-    "Founder": "Md. Oliar Rahman Khan Liton",
-    "CEO": "Khan Mohammad Nakib",
-    "Corporate Address": "4th Floor, House # 6/20, Block # E, Lalmatia Housing State, Satmasjid Road, Dhanmondi, Dhaka-1207, Bangladesh.",
+    Founder: "Md. Oliar Rahman Khan Liton",
+    CEO: "Khan Mohammad Nakib",
+    "Corporate Address":
+      "4th Floor, House # 6/20, Block # E, Lalmatia Housing State, Satmasjid Road, Dhanmondi, Dhaka-1207, Bangladesh.",
     "Members Of": [
       "Asia-Pacific Network Information Centre",
       "Bangladesh Association of Software and Information Services (BASIS)",
       "e-Commerce Association of Bangladesh (e-CAB)",
       "Bangladesh Association of Contact Center & Outsourcing",
-      "Bangladesh Domain Hosting Provider Association (BDHPA)"
+      "Bangladesh Domain Hosting Provider Association (BDHPA)",
     ],
-    "Departments": [
+    Departments: [
       "Software Development",
       "Website Development",
       "Digital Marketing",
       "Ecommerce",
       "Business Development",
-      "Management"
+      "Management",
     ],
     "Web Address": "www.dianahost.com",
-    "Skype": "Litonphone",
+    Skype: "Litonphone",
     "Company Hotline": "+8809638 339900",
     "Company email": "support@dianahost.com.bd",
     "Area Of Expertise": [
@@ -35,12 +34,19 @@ const CompanyInfoTable = () => {
       "SMS Marketing",
       "Graphics Design",
       "Web Hosting",
-      "Domain Registration"
+      "Domain Registration",
     ],
     "Market Coverage": [
-      "Bangladesh", "USA", "UK", "Canada", "Australia", "Saudia Arabia", "Dubai", "India"
+      "Bangladesh",
+      "USA",
+      "UK",
+      "Canada",
+      "Australia",
+      "Saudia Arabia",
+      "Dubai",
+      "India",
     ],
-    "Motto": "Ultra Fast Web Hosting & IT Solutions"
+    Motto: "Ultra Fast Web Hosting & IT Solutions",
   };
 
   return (
