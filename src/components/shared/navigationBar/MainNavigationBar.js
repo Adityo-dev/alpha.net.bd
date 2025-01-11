@@ -9,16 +9,16 @@ const bottomNavData = [
     url: "/",
   },
   {
-    name: "hosting",
-    url: "#",
+    name: "About",
+    url: "/about-us",
   },
   {
-    name: "Email",
-    url: "#",
+    name: "Contact",
+    url: "/contact-us",
   },
   {
-    name: "SSL",
-    url: "#",
+    name: "Dedicated Server",
+    url: "/dedicated-server",
   },
   {
     name: "Web Design",
