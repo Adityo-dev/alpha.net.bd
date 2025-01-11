@@ -1,6 +1,5 @@
 import CompanyInfoTable from "@/components/about/CompanyInfoTable";
 import HelpSection from "@/components/about/HelpSection ";
-import SwiperPage from "@/components/about/SwiperPage";
 import VisionMission from "@/components/about/VisionMission ";
 import { Phone } from "lucide-react";
 import Image from "next/image";
@@ -31,7 +30,7 @@ function AboutUS() {
         <VisionMission />
 
       </div>
-      <div className="bg-[#F4F4F7]  py-10">
+      <div className="bg-[#F4F4F7] py-10 my-10">
         <div className="container mx-auto max-w-[1140px] px-2 flex flex-col md:flex-row items-center justify-between">
           <h1 className="text-4xl font-bold">HAVE ANY QUESTIONS?</h1>
           <p className="text-[#444444] text-sm">Do you want to take advantage of our <br /> special offers? Please call us today.</p>
@@ -41,7 +40,6 @@ function AboutUS() {
 
       {/* Carusel problem thik korte hobe */}
       <div className="container mx-auto max-w-[1140px] px-2">
-        {/* <SwiperPage /> */}
         <HelpSection />
       </div>
 
