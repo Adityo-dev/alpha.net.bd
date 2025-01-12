@@ -18,7 +18,7 @@ export default function Home() {
         <div className="w-full absolute">
           <Hero />
         </div>
-        <div className="relative pt-[62vh]">
+        <div className="relative pt-[565px]">
           <HostServiceFeatures />
         </div>
       </section>
