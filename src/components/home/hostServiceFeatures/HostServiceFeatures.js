@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const hostServiceData = [
   {
     title: "Free migrations",
@@ -27,7 +29,16 @@ function HostServiceFeatures() {
       <div className="flex items-center gap-6 justify-between bg-white shadow-md p-8 ">
         {hostServiceData.map((service, ind) => (
           <div key={ind} className="border-r last:border-none pr-6">
-            <h2 className="text-2xl font-semibold">{service?.title}</h2>
+            <div className="flex items-center gap-2">
+              <Image
+                src={"/check-mark.png"}
+                width={400}
+                height={400}
+                alt="check mark image ..."
+                className="w-5 h-5"
+              />
+              <h2 className="text-2xl font-semibold">{service?.title}</h2>
+            </div>
             <h2 className="mt-3">{service?.description}</h2>
           </div>
         ))}
