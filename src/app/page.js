@@ -9,6 +9,7 @@ import HostServiceFeatures from "@/components/home/hostServiceFeatures/HostServi
 import Company from "@/components/home/company/Company";
 import OurTeamMembers from "@/components/home/ourTeamMembers/OurTeamMembers";
 import AdvancedFeatures from "@/components/home/advancedFeatures/AdvancedFeatures";
+import TechnologySolutions from "@/components/home/technologySolutions/TechnologySolutions";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         </div>
       </section>
       <ServiceOfferings />
+      <TechnologySolutions />
       <HostingPlan />
       <AdvancedFeatures />
       <Company />

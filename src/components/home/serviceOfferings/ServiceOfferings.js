@@ -35,7 +35,7 @@ const serviceOfferingsData = [
       { name: "Windows Dedicated Server", url: "" },
       { name: "Linux Dedicated Server", url: "" },
     ],
-    color: "#5d21d2",
+    color: "#0E9AFF",
     url: "",
   },
   {
@@ -47,7 +47,7 @@ const serviceOfferingsData = [
       { name: "Windows Dedicated Server", url: "" },
       { name: "Linux Dedicated Server", url: "" },
     ],
-    color: "#5d21d2",
+    color: "#FF4949",
     url: "",
   },
   {
@@ -59,7 +59,7 @@ const serviceOfferingsData = [
       { name: "Windows Dedicated Server", url: "" },
       { name: "Linux Dedicated Server", url: "" },
     ],
-    color: "#5d21d2",
+    color: "#000094",
     url: "",
   },
   {
@@ -71,7 +71,7 @@ const serviceOfferingsData = [
       { name: "Windows Dedicated Server", url: "" },
       { name: "Linux Dedicated Server", url: "" },
     ],
-    color: "#5d21d2",
+    color: "#005D9A",
     url: "",
   },
   {
@@ -83,7 +83,7 @@ const serviceOfferingsData = [
       { name: "Windows Dedicated Server", url: "" },
       { name: "Linux Dedicated Server", url: "" },
     ],
-    color: "#5d21d2",
+    color: "#99C33D",
     url: "",
   },
   {
@@ -95,7 +95,7 @@ const serviceOfferingsData = [
       { name: "Windows Dedicated Server", url: "" },
       { name: "Linux Dedicated Server", url: "" },
     ],
-    color: "#5d21d2",
+    color: "#22C37D",
     url: "",
   },
 ];
