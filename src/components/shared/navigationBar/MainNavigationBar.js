@@ -9,20 +9,20 @@ const bottomNavData = [
     url: "/",
   },
   {
+    name: "Dedicated Server",
+    url: "/dedicated-server",
+  },
+  {
+    name: "SSD VPS",
+    url: "/ssd-vps",
+  },
+  {
     name: "About",
     url: "/about-us",
   },
   {
     name: "Contact",
     url: "/contact-us",
-  },
-  {
-    name: "Dedicated Server",
-    url: "/dedicated-server",
-  },
-  {
-    name: "Web Design",
-    url: "#",
   },
   {
     name: "VPS",
