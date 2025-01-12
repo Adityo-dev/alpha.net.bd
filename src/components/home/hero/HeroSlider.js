@@ -16,7 +16,7 @@ const customButtonStyles =
 function HeroSlider({ sliderData }) {
   return (
     <main className="bg-[#37449A] overflow-hidden">
-      <section className="container mx-auto px-6 w-full h-[70vh] overflow-hidden group">
+      <section className="container mx-auto px-6 w-full h-[638px] overflow-hidden group">
         {/* Custom Navigation Buttons */}
         <div
           className={`${customButtonStyles} custom-heroSlider-button-prev left-12`}
