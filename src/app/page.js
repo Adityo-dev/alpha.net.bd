@@ -13,8 +13,14 @@ import AdvancedFeatures from "@/components/home/advancedFeatures/AdvancedFeature
 export default function Home() {
   return (
     <main className="space-y-16">
-      <Hero />
-      <HostServiceFeatures />
+      <section className="relative">
+        <div className="w-full absolute">
+          <Hero />
+        </div>
+        <div className="relative pt-[62vh]">
+          <HostServiceFeatures />
+        </div>
+      </section>
       <ServiceOfferings />
       <HostingPlan />
       <AdvancedFeatures />
