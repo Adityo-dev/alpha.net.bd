@@ -8,7 +8,11 @@ function ServiceOfferingsCart({ serviceOfferingsData }) {
   return (
     <div className="flex flex-col gap-2 border border-[#DFDFDF] px-6 py-4 rounded-lg">
       <p
-        className={`w-20 h-20 flex items-center justify-center mx-auto mb-4 border rounded-full text-[${serviceOfferingsData?.color}] text-emerald-400`}
+        className={`w-20 h-20 flex items-center justify-center mx-auto mb-4 rounded-full  text-emerald-400`}
+        style={{
+          color: serviceOfferingsData?.color,
+          border: `1px solid ${serviceOfferingsData?.color}`,
+        }}
       >
         {serviceOfferingsData?.image}
       </p>
@@ -39,14 +43,15 @@ function ServiceOfferingsCart({ serviceOfferingsData }) {
             <DynamicButton1
               btnName={"View details"}
               btnUrl={"#"}
-              color={"#5D21D2"}
-              transparent={false}
+              color={serviceOfferingsData?.color}
+              transparent={true}
             />
+
             <DynamicButton1
               btnName={"View plans"}
               btnUrl={"#"}
-              color={"#5D21D2"}
-              transparent={true}
+              color={serviceOfferingsData?.color}
+              transparent={false}
             />
           </div>
         </div>
