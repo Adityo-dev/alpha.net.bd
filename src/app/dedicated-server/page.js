@@ -213,20 +213,20 @@ function DedicatedServer() {
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
-          className="w-full h-96 flex flex-col items-center justify-center text-white absolute top-0"
+          className="w-full lg:h-96 flex flex-col items-center justify-center text-white lg:absolute top-0 px-4 py-12 lg:py-0"
         >
-          <h2 className="text-5xl capitalize mb-3">
+          <h2 className="text-5xl leading-[55px] capitalize mb-3 text-center">
             Fully Managed <strong>Dedicated Servers</strong>
           </h2>
           <p className="opacity-70 text-center">
             Weve in house support team for 24/7 operation. They provide
-            onboarding help, <br /> free website transfer and ongoing assistance
-            at any time.
+            onboarding help, <br className="hidden md:block" /> free website
+            transfer and ongoing assistance at any time.
           </p>
         </div>
 
         <div className="space-y-16">
-          <div className="pt-72">
+          <div className="pt-0 lg:pt-72">
             <Processor processorData={processorData} />
           </div>
 

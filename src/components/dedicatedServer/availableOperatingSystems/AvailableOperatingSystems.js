@@ -2,14 +2,14 @@ import Image from "next/image";
 
 function AvailableOperatingSystems({ availableOperatingSystemsData }) {
   return (
-    <section className="container mx-auto px-4 lg:px-6 py-12">
+    <section className="container mx-auto px-3 lg:px-6">
       {/* Section Title */}
       <h3 className="text-3xl lg:text-4xl font-semibold text-center mb-12 text-[#1f2933]">
         Available Operating Systems
       </h3>
 
       {/* Grid Layout */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
         {availableOperatingSystemsData.map((data, ind) => (
           <div
             key={ind}

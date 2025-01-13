@@ -2,9 +2,9 @@ import Image from "next/image";
 
 function VirtualServers({ virtualServersData }) {
   return (
-    <section className="container mx-auto px-4 lg:px-6 py-12">
+    <section className="container mx-auto px-3 lg:px-6">
       {/* Section Title */}
-      <h3 className="text-3xl lg:text-4xl font-semibold text-center mb-12 text-[#1f2933]">
+      <h3 className="text-3xl md:text-4xl font-semibold text-center mb-12 text-[#1f2933]">
         All Virtual Servers Included
       </h3>
 

@@ -8,7 +8,7 @@ function ServiceOfferingsCart({ serviceOfferingsData }) {
   return (
     <div className="flex flex-col gap-2 border border-[#DFDFDF] px-6 py-4 rounded-lg">
       <p
-        className={`w-20 h-20 flex items-center justify-center mx-auto mb-4 rounded-full  text-emerald-400`}
+        className={`w-28 h-28 flex items-center justify-center mx-auto mb-4 rounded-full  text-emerald-400`}
         style={{
           color: serviceOfferingsData?.color,
           border: `1px solid ${serviceOfferingsData?.color}`,
@@ -17,7 +17,7 @@ function ServiceOfferingsCart({ serviceOfferingsData }) {
         {serviceOfferingsData?.image}
       </p>
       <div>
-        <h3 className="text-2xl font-semibold uppercase text-center">
+        <h3 className="text-2xl  font-semibold uppercase text-center tracking-wide">
           {serviceOfferingsData?.title}
         </h3>
 
@@ -26,7 +26,7 @@ function ServiceOfferingsCart({ serviceOfferingsData }) {
             <Link
               href={info?.url}
               key={ind}
-              className="flex items-center gap-2"
+              className="flex items-center gap-2 text-[#444]"
             >
               <span>
                 <Play
@@ -39,7 +39,7 @@ function ServiceOfferingsCart({ serviceOfferingsData }) {
             </Link>
           ))}
 
-          <div className="flex gap-4 mt-4">
+          <div className="max-w-80 w-full mx-auto flex gap-1 mt-4">
             <DynamicButton1
               btnName={"View details"}
               btnUrl={"#"}

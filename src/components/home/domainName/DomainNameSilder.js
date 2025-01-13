@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function SliderProduct({ domainNameData }) {
   return (
-    <main className="relative ps-12">
+    <main className="relative ps-4 md:ps-12">
       <Swiper
         loop={true}
         autoplay={{
@@ -19,21 +19,21 @@ export default function SliderProduct({ domainNameData }) {
             slidesPerView: 2,
             spaceBetween: 10,
           },
-          320: {
-            slidesPerView: 3,
-            spaceBetween: 10,
-          },
           640: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             spaceBetween: 20,
           },
           768: {
-            slidesPerView: 5,
-            spaceBetween: 25,
+            slidesPerView: 4,
+            spaceBetween: 20,
           },
           1024: {
-            slidesPerView: 8,
-            spaceBetween: 30,
+            slidesPerView: 5,
+            spaceBetween: 20,
+          },
+          1025: {
+            slidesPerView: 7,
+            spaceBetween: 20,
           },
         }}
         modules={[Navigation, Autoplay]}

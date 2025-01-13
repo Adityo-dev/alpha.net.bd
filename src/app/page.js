@@ -14,18 +14,18 @@ import TechnologySolutions from "@/components/home/technologySolutions/Technolog
 export default function Home() {
   return (
     <main className="space-y-16">
-      <section className="relative">
-        <div className="w-full absolute">
+      <section className="relative mt-14">
+        <div className="w-full relative md:absolute">
           <Hero />
         </div>
-        <div className="relative pt-[565px]">
+        <div className="relative pt-16 md:pt-[565px]">
           <HostServiceFeatures />
         </div>
       </section>
       <ServiceOfferings />
       <TechnologySolutions />
       <HostingPlan />
-      <AdvancedFeatures />
+      {/* <AdvancedFeatures /> */}
       <Company />
       <OurService />
       <OurTeamMembers />

@@ -4,11 +4,11 @@ import Image from "next/image";
 function Processor({ processorData }) {
   return (
     <section className="bg-[#F5F7FA]">
-      <div className="relative container mx-auto px-4 lg:px-6 py-16 space-y-3">
+      <div className="relative container mx-auto px-3 lg:px-6 py-16 space-y-3">
         {processorData.map((processor, ind) => (
           <div key={ind} className="bg-white shadow-md rounded-lg">
             {/* Header Section */}
-            <div className="px-6 lg:p-9 border-b">
+            <div className="p-6 lg:p-9 lg:border-b text-center lg:text-start">
               <h2 className="text-2xl lg:text-3xl font-semibold text-[#1e293b]">
                 {processor?.title}
               </h2>
@@ -24,7 +24,7 @@ function Processor({ processorData }) {
                 className="grid grid-cols-1 lg:grid-cols-12 items-center px-6 lg:px-9 py-6 border-b gap-y-6 lg:gap-4"
               >
                 {/* Image and Name */}
-                <div className="flex items-center gap-4 col-span-12 lg:col-span-3">
+                <div className="flex flex-col  lg:flex-row items-center text-center lg:text-start justify-center lg:justify-start gap-4  col-span-12 xl:col-span-3 border-b  lg:border-b-0 pb-5 lg:pb-0">
                   <Image
                     src={singleProcessor?.image}
                     width={400}
@@ -49,7 +49,7 @@ function Processor({ processorData }) {
                 </div>
 
                 {/* Specs Section */}
-                <div className="flex flex-wrap justify-between col-span-12 lg:col-span-6 gap-4">
+                <div className="flex flex-wrap justify-between col-span-12 lg:col-span-8 xl:col-span-6 gap-4">
                   <div className="flex items-center gap-3">
                     <MemoryStick size={28} color="#6b7781" strokeWidth={1.2} />
                     <div>
@@ -89,7 +89,7 @@ function Processor({ processorData }) {
                 </div>
 
                 {/* Price and Configure Button */}
-                <div className="flex flex-col lg:flex-row justify-end items-center col-span-12 lg:col-span-3 gap-4">
+                <div className="flex flex-col lg:flex-row justify-end items-center col-span-12 lg:col-span-4 xl:col-span-3 gap-4">
                   <p className="text-[#1e293b] text-2xl font-semibold">
                     Tk {singleProcessor?.tk}
                   </p>
