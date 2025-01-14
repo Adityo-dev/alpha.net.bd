@@ -126,7 +126,7 @@ const HostingPlan = () => {
   };
 
   return (
-    <section className="container mx-auto px-3 md:px-6 space-y-6">
+    <section className="container mx-auto px-3 lg:px-6 space-y-6">
       <div className="text-center">
         <h2 className="text-3xl font-semibold">
           Find the Hosting Plan thats Right for Your Business

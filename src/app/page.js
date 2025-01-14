@@ -25,7 +25,7 @@ export default function Home() {
       <ServiceOfferings />
       <TechnologySolutions />
       <HostingPlan />
-      {/* <AdvancedFeatures /> */}
+      <AdvancedFeatures />
       <Company />
       <OurService />
       <OurTeamMembers />

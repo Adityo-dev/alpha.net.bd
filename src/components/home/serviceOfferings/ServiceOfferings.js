@@ -102,7 +102,7 @@ const serviceOfferingsData = [
 
 function ServiceOfferings() {
   return (
-    <section className="container mx-auto px-3 md:px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4 gap-6">
+    <section className="container mx-auto px-3 lg:px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4 gap-6">
       {serviceOfferingsData.map((serviceOffer, ind) => (
         <ServiceOfferingsCart key={ind} serviceOfferingsData={serviceOffer} />
       ))}

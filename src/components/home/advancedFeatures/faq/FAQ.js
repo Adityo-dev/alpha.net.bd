@@ -14,6 +14,8 @@ const faqData = [
       "Domain Hosting provider provider with Reasonable price and Hosting plan",
       "Domain Hosting provider provider with Reasonable price and Hosting plan",
       "Domain Hosting provider provider with Reasonable price and Hosting plan",
+      "Domain Hosting provider provider with Reasonable price and Hosting plan",
+      "Domain Hosting provider provider with Reasonable price and Hosting plan",
     ],
   },
   {
