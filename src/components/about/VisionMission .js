@@ -5,18 +5,18 @@ const VisionMission = () => {
   return (
     <div className="container mx-auto py-8 space-y-12">
       {/* Vision Section */}
-      <div className="flex flex-col justify-center gap-5 md:flex-row items-center md:items-start space-y-6 md:space-y-0 ">
+      <div className="flex flex-col justify-center gap-6 md:flex-row items-center text-center sm:text-start space-y-6 md:space-y-0 ">
         <div className="flex-shrink-0">
           <Image
-            src="https://www.dianahost.com/wp-content/uploads/2023/03/about_image2-150x150-1.jpg"
-            alt="Vision Icon"
+            src="/about_image1.jpg"
+            alt="Mission Icon"
             width={150}
             height={150}
             className="rounded-lg shadow-md"
           />
         </div>
         <div>
-          <h2 className="text-3xl font-bold mb-4">DianaHost Vision</h2>
+          <h2 className="text-3xl font-semibold mb-4">DianaHost Vision</h2>
           <p className="text-gray-700 leading-relaxed">
             Our vision is simple and one that combines creativity with the
             latest research and development in the tech world. We are a very
@@ -31,18 +31,18 @@ const VisionMission = () => {
       </div>
 
       {/* Mission Section */}
-      <div className="flex flex-col gap-5 md:flex-row-reverse items-center md:items-start space-y-6 md:space-y-0 ">
+      <div className="flex flex-col gap-6 md:flex-row-reverse items-center text-center sm:text-start space-y-6 md:space-y-0 ">
         <div className="flex-shrink-0">
           <Image
-            src="https://www.dianahost.com/wp-content/uploads/2023/03/about_image1-150x150-1.jpg"
-            alt="Mission Icon"
+            src="/about_image2.jpg"
+            alt="Vision Icon"
             width={150}
             height={150}
             className="rounded-lg shadow-md"
           />
         </div>
         <div>
-          <h2 className="text-3xl font-bold my-4">DianaHost Mission</h2>
+          <h2 className="text-3xl font-semibold my-4">DianaHost Mission</h2>
           <p className="text-gray-700 leading-relaxed">
             Our mission is simple. To provide trouble-free, customer-focused,
             reliable, and affordable web hosting services. We aim to continue

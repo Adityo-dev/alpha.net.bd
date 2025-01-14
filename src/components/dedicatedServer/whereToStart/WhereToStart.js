@@ -32,10 +32,10 @@ const contactData = [
 function WhereToStart() {
   return (
     <section className="bg-[#02345C] text-white relative">
-      <div className="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-8">
+      <div className="container mx-auto px-3 lg:px-6 flex flex-col lg:flex-row items-center gap-8 pt-12 lg:p-14">
         {/* Text Section */}
-        <div className="lg:w-1/2">
-          <h2 className="text-4xl mb-3 font-semibold">
+        <div className="w-full lg:lg:w-1/2 text-center lg:text-start">
+          <h2 className="text-3xl sm:text-4xl mb-3 font-semibold">
             Not sure where to start?
           </h2>
           <p className="text-[#b3c2ce] leading-relaxed">
@@ -45,7 +45,7 @@ function WhereToStart() {
           </p>
 
           {/* Contact Options */}
-          <div className="flex flex-wrap gap-4 mt-10">
+          <div className="flex flex-wrap  items-center justify-center lg:justify-start gap-4 mt-10">
             {contactData.map((contact, ind) => (
               <Link
                 href={contact?.url}
@@ -63,7 +63,7 @@ function WhereToStart() {
         </div>
 
         {/* Image Section */}
-        <div className="lg:w-1/2 flex justify-center">
+        <div className="w-full  lg:w-1/2 flex justify-center relative lg:absolute right-12 bottom-0">
           <Image
             src="/commen-support-img.png"
             width={400}

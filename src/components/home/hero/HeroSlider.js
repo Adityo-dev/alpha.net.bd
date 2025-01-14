@@ -11,12 +11,12 @@ import "swiper/css/navigation";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const customButtonStyles =
-  "absolute w-[50px] h-[50px] border-none top-1/2 z-10 cursor-pointer text-white p-3 rounded-full shadow-[0px_20px_30px_-10px_rgba(38,57,77)] text-2xl";
+  "absolute w-[50px] h-[50px] border-none top-1/2 z-10 cursor-pointer text-white p-3 rounded-full shadow-[0px_20px_30px_-10px_rgba(38,57,77)] text-2xl hidden lg:block";
 
 function HeroSlider({ sliderData }) {
   return (
     <main className="bg-[#37449A] overflow-hidden">
-      <section className="container mx-auto px-6 w-full h-[638px] overflow-hidden group">
+      <section className="container mx-auto px-3 md:px-6 w-full h-[400px] sm:h-[638px]  overflow-hidden group">
         {/* Custom Navigation Buttons */}
         <div
           className={`${customButtonStyles} custom-heroSlider-button-prev left-12`}
@@ -47,20 +47,22 @@ function HeroSlider({ sliderData }) {
             <SwiperSlide key={ind} className="w-full flex ">
               <div className="flex w-full items-center mt-[3%] bg-[#37449A] ">
                 {/* Text Section */}
-                <div className="w-[65%] text-white">
+                <div className="w-full lg:w-[65%] text-white flex items-center flex-col sm:items-start py-16 sm:py-0">
                   <h1
-                    className="text-6xl font-semibold leading-[75px] tracking-tighter	uppercase"
+                    className="text-4xl sm:text-6xl font-semibold text-center sm:text-start leading-[50px] sm:leading-[75px] tracking-tighter	uppercase"
                     dangerouslySetInnerHTML={{ __html: data.title }}
                   />
-                  <p className="text-xl leading-8 my-6">{data?.description}</p>
+                  <p className="hidden sm:block text-xl leading-8 my-6">
+                    {data?.description}
+                  </p>
 
-                  <button className="bg-[#ff8c00] font-semibold px-6 py-3 ">
+                  <button className="bg-[#ff8c00] font-semibold px-6 py-3 mt-4 sm:mt-0 ">
                     View Details
                   </button>
                 </div>
 
                 {/* Image Section */}
-                <div className="w-[30%] flex justify-center">
+                <div className="w-[30%] hidden lg:flex justify-center">
                   <Image
                     src={data?.image}
                     width={600}

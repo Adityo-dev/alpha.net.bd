@@ -3,7 +3,7 @@ import ServiceOfferingsCart from "./ServiceOfferingsCart";
 
 const serviceOfferingsData = [
   {
-    image: <Database />,
+    image: <Database size={55} strokeWidth={1.2} />,
     title: "Dedicated Server",
     details: [
       { name: "Dedicated Server in BD", url: "" },
@@ -15,7 +15,7 @@ const serviceOfferingsData = [
     url: "",
   },
   {
-    image: <Database />,
+    image: <Database size={55} strokeWidth={1.2} />,
     title: "VPS",
     details: [
       { name: "Dedicated Server in BD", url: "" },
@@ -27,7 +27,7 @@ const serviceOfferingsData = [
     url: "",
   },
   {
-    image: <Database />,
+    image: <Database size={55} strokeWidth={1.2} />,
     title: "Web Design",
     details: [
       { name: "Dedicated Server in BD", url: "" },
@@ -39,7 +39,7 @@ const serviceOfferingsData = [
     url: "",
   },
   {
-    image: <Database />,
+    image: <Database size={55} strokeWidth={1.2} />,
     title: "Business Email",
     details: [
       { name: "Dedicated Server in BD", url: "" },
@@ -51,7 +51,7 @@ const serviceOfferingsData = [
     url: "",
   },
   {
-    image: <Database />,
+    image: <Database size={55} strokeWidth={1.2} />,
     title: "Domains & Hosting",
     details: [
       { name: "Dedicated Server in BD", url: "" },
@@ -63,7 +63,7 @@ const serviceOfferingsData = [
     url: "",
   },
   {
-    image: <Database />,
+    image: <Database size={55} strokeWidth={1.2} />,
     title: "Business Phone",
     details: [
       { name: "Dedicated Server in BD", url: "" },
@@ -75,7 +75,7 @@ const serviceOfferingsData = [
     url: "",
   },
   {
-    image: <Database />,
+    image: <Database size={55} strokeWidth={1.2} />,
     title: "SSL",
     details: [
       { name: "Dedicated Server in BD", url: "" },
@@ -87,7 +87,7 @@ const serviceOfferingsData = [
     url: "",
   },
   {
-    image: <Database />,
+    image: <Database size={55} strokeWidth={1.2} />,
     title: "Sms",
     details: [
       { name: "Dedicated Server in BD", url: "" },
@@ -102,7 +102,7 @@ const serviceOfferingsData = [
 
 function ServiceOfferings() {
   return (
-    <section className="container mx-auto px-6 grid grid-cols-4 gap-6">
+    <section className="container mx-auto px-3 md:px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4 gap-6">
       {serviceOfferingsData.map((serviceOffer, ind) => (
         <ServiceOfferingsCart key={ind} serviceOfferingsData={serviceOffer} />
       ))}

@@ -62,7 +62,7 @@ const ourServiceCart = [
 
 function OurService() {
   return (
-    <section className="container mx-auto px-6 grid grid-cols-4 gap-6">
+    <section className="container mx-auto px-3 md:px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4 gap-6">
       {ourServiceCart.map((service, ind) => (
         <div
           key={ind}

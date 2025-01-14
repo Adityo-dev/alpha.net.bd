@@ -31,7 +31,7 @@ function Company() {
         backgroundPosition: "center",
       }}
     >
-      <div className="container mx-auto p-6 h-full w-full grid grid-cols-9 gap-2">
+      <div className="container mx-auto p-3 md:p-6 h-full w-full grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 xl:grid-cols-9 gap-2">
         {companyData.map((company, ind) => (
           <div
             key={ind}

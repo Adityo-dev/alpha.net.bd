@@ -51,8 +51,8 @@ const CompanyInfoTable = () => {
 
   return (
     <div className="container mx-auto py-8">
-      <h1 className="text-3xl font-bold mb-6 text-center">At A Glance</h1>
-      <table className="min-w-full table-auto border-collapse  text-sm">
+      <h1 className="text-3xl font-semibold mb-6 text-center">At A Glance</h1>
+      <table className="min-w-full table-auto border-collapse text-sm">
         <tbody>
           {Object.entries(companyData).map(([key, value]) => (
             <tr key={key} className="border-b border-t border-gray-300">
