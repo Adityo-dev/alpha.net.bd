@@ -25,10 +25,13 @@ const hostServiceData = [
 
 function HostServiceFeatures() {
   return (
-    <section className="container mx-auto px-6 ">
-      <div className="flex items-center gap-6 justify-between bg-white shadow-md p-8 ">
+    <section className="container mx-auto px-3 md:px-6 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 bg-white shadow-md p-8 ">
         {hostServiceData.map((service, ind) => (
-          <div key={ind} className="border-r last:border-none pr-6">
+          <div
+            key={ind}
+            className="border-b sm:border-b-0 sm:border-r last:border-none pb-6 sm:pr-6 sm:pb-0"
+          >
             <div className="flex items-center gap-2">
               <Image
                 src={"/check-mark.png"}

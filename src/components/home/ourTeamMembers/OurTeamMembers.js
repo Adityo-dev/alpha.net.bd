@@ -53,15 +53,21 @@ const teamMembersData = [
 
 function OurTeamMembers() {
   return (
-    <section className="container mx-auto px-6">
+    <section className=" container mx-auto px-3 md:px-6 ">
       <h2 className="text-3xl text-[#0E9AFF] font-semibold text-center mb-6">
         Our Team Members
       </h2>
-      <div className="grid grid-cols-5 gap-6">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  xl:grid-cols-5 gap-4 sm:gap-6">
         {teamMembersData.map((member, ind) => (
           <div key={ind}>
             <div className="border border-b-2 border-b-[#0E9AFF] text-center pb-4">
-              <Image src={member?.image} width={400} height={400} alt="" />
+              <Image
+                src={member?.image}
+                width={400}
+                height={400}
+                alt=""
+                className="object-contain"
+              />
               <Link
                 href={member?.moreInfo}
                 className="text-[#0E9AFF] flex items-center justify-center gap-2"
@@ -71,9 +77,9 @@ function OurTeamMembers() {
             </div>
             <div className="space-y-3 mt-4">
               <p>{member?.companyName}</p>
-              <p>{member?.description}</p>
+              <p className="text-sm sm:text-base">{member?.description}</p>
               <p className="flex items-center space-x-2">
-                <span className="w-12 h-[1px] bg-red-500"></span>
+                <span className="w-8 sm:w-12 h-[1px] bg-red-500"></span>
                 <span className="font-semibold">{member?.companyName}</span>
               </p>
             </div>

@@ -3,7 +3,7 @@ import Image from "next/image";
 function MakesExonHost({ makesExonHostData }) {
   return (
     <section className="w-full h-full bg-[#02345C] text-white py-16">
-      <div className="container mx-auto px-4 lg:px-6">
+      <div className="container mx-auto px-3 lg:px-6">
         {/* Header Section */}
         <div className="text-center">
           <h2 className="text-3xl lg:text-4xl font-semibold text-center mb-4">
@@ -15,7 +15,7 @@ function MakesExonHost({ makesExonHostData }) {
         </div>
 
         {/* Feature Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 mt-10">
           {makesExonHostData.map((data, ind) => (
             <div
               key={ind}

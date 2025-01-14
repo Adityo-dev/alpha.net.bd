@@ -38,7 +38,7 @@ function AdvancedFeatures() {
           <h2 className="text-3xl font-semibold text-center my-8">
             Advanced Features
           </h2>
-          <div className="grid grid-cols-4 gap-4 bg-white shadow-md p-6 rounded-md">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 bg-white shadow-md p-6 rounded-md">
             {tableData.map((info, ind) => {
               const [firstWord, ...rest] = info.split(" ");
               return (
@@ -53,7 +53,7 @@ function AdvancedFeatures() {
           </div>
         </div>
       </section>
-      <section className="container mx-auto px-6 flex gap-8 mt-1">
+      <section className="container mx-auto px-3 md:px-6 flex flex-col lg:flex-row gap-5 md:gap-8 mt-1">
         <FAQ />
         <VideoTab />
       </section>

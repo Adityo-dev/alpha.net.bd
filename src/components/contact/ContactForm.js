@@ -4,7 +4,7 @@ import { MapPinPlusInside } from "lucide-react";
 
 export default function ContactForm() {
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="container mx-auto px-3 lg:px-6">
       <div className="grid grid-cols-12">
         {/* Contact Form Section */}
         <div className="col-span-8 rounded-lg  p-10 shadow-sm bg-[#FAFAFA]">

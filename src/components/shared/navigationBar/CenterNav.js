@@ -1,3 +1,4 @@
+import { Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -22,18 +23,18 @@ const centerData = [
 
 function CenterNav() {
   return (
-    <section className="container mx-auto px-6 flex items-center justify-between">
+    <section className="container mx-auto px-3 lg:px-6 flex items-center justify-between">
       <Link href={"/"}>
         <Image
           src="/brand-logo.svg"
           width={600}
           height={600}
           alt="Brand logo"
-          className="w-full h-full"
+          className="w-44 xl:w-full h-full"
         />
       </Link>
 
-      <div className="flex items-center gap-4">
+      <div className="hidden xl:flex items-center gap-4 ">
         <Link
           href={"#"}
           className="text-4xl font-semibold text-red-600 uppercase"
@@ -52,6 +53,10 @@ function CenterNav() {
             />
           </Link>
         ))}
+      </div>
+
+      <div className="block xl:hidden">
+        <Menu size={32} strokeWidth={2} />
       </div>
     </section>
   );

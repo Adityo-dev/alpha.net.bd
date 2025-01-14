@@ -11,10 +11,104 @@ const bottomNavData = [
   {
     name: "Dedicated Server",
     url: "/dedicated-server",
+    info: [
+      {
+        icon: "",
+        title: "ASP.NET Hosting",
+        name: "high-performance ASP.NET hosting platform",
+      },
+      {
+        icon: "",
+        title: "ASP.NET Hosting",
+        name: "high-performance ASP.NET hosting platform",
+      },
+      {
+        icon: "",
+        name: "MVC hosting",
+        title: "high-performance ASP.NET hosting platform",
+      },
+      {
+        icon: "",
+        name: "Linux cPanel Hosting",
+        title: "high-performance ASP.NET hosting platform",
+      },
+      {
+        icon: "",
+        name: "corporate web hosting",
+        title: "high-performance ASP.NET hosting platform",
+      },
+      {
+        icon: "",
+        name: "application Hosting",
+        title: "high-performance ASP.NET hosting platform",
+      },
+      {
+        icon: "",
+        name: "become a reseller",
+        title: "high-performance ASP.NET hosting platform",
+      },
+      {
+        icon: "",
+        name: "BDIX cPanel Hosting",
+        title: "high-performance ASP.NET hosting platform",
+      },
+      {
+        icon: "",
+        name: "BDIX windows Hosting",
+        title: "high-performance ASP.NET hosting platform",
+      },
+    ],
   },
   {
     name: "SSD VPS",
     url: "/ssd-vps",
+    info: [
+      {
+        icon: "",
+        title: "ASP.NET Hosting",
+        name: "high-performance ASP.NET hosting platform",
+      },
+      {
+        icon: "",
+        title: "ASP.NET Hosting",
+        name: "high-performance ASP.NET hosting platform",
+      },
+      {
+        icon: "",
+        name: "MVC hosting",
+        title: "high-performance ASP.NET hosting platform",
+      },
+      {
+        icon: "",
+        name: "Linux cPanel Hosting",
+        title: "high-performance ASP.NET hosting platform",
+      },
+      {
+        icon: "",
+        name: "corporate web hosting",
+        title: "high-performance ASP.NET hosting platform",
+      },
+      {
+        icon: "",
+        name: "application Hosting",
+        title: "high-performance ASP.NET hosting platform",
+      },
+      {
+        icon: "",
+        name: "become a reseller",
+        title: "high-performance ASP.NET hosting platform",
+      },
+      {
+        icon: "",
+        name: "BDIX cPanel Hosting",
+        title: "high-performance ASP.NET hosting platform",
+      },
+      {
+        icon: "",
+        name: "BDIX windows Hosting",
+        title: "high-performance ASP.NET hosting platform",
+      },
+    ],
   },
   {
     name: "About",

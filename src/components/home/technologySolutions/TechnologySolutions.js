@@ -27,18 +27,18 @@ const technologySolutionsData = [
 function TechnologySolutions() {
   return (
     <main className="w-full bg-[#F8F9FA] relative">
-      <section className="w-full container mx-auto px-6 py-16 pb-48 flex items-center gap-8 mb-36">
-        <div className="w-5/12">
+      <section className="w-full container mx-auto px-3 md:px-6 py-16 pb-48 flex flex-col xl:flex-row items-center gap-8 mb-36">
+        <div className="w-full xl:w-5/12">
           <Image
             src={"/sticky-brand.svg"}
             width={400}
             height={400}
             alt=""
-            className="max-w-[550px] max-h-[500px] w-full h-full"
+            className="max-w-[400px] xl:max-w-[550px] max-h-[500px] mx-auto w-full h-full"
           />
         </div>
-        <div className="w-3/5">
-          <h2 className="text-3xl uppercase font-semibold mb-5">
+        <div className="w-full xl:w-3/5">
+          <h2 className="text-3xl uppercase font-semibold mb-5 leading-10">
             <span className="text-[#1174bc]">Cloud & Technology</span> Solutions
             in Bangladesh
           </h2>

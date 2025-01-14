@@ -1,6 +1,6 @@
 export default function ContactInfo() {
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="container mx-auto px-3 lg:px-6">
       <div className="grid gap-6 md:grid-cols-3">
         {/* Mail Us Card */}
         <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
