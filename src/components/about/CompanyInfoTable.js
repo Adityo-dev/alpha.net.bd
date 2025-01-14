@@ -50,7 +50,7 @@ const CompanyInfoTable = () => {
   };
 
   return (
-    <div className="container mx-auto py-8">
+    <div className="container mx-auto px-3 lg:px-6">
       <h1 className="text-3xl font-semibold mb-6 text-center">At A Glance</h1>
       <table className="min-w-full table-auto border-collapse text-sm">
         <tbody>
