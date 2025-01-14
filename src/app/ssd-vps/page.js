@@ -105,15 +105,13 @@ function SsdVps() {
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
-          className="w-full h-96 flex flex-col items-center justify-center text-white absolute top-0"
+          className="w-full lg:h-96 flex flex-col items-center justify-center text-white lg:absolute top-0 px-4 py-28 lg:py-0"
         >
-          <h2 className="text-5xl font-semibold capitalize mb-3">SSD VPS</h2>
+          <h2 className="text-5xl font-semibold capitalize">SSD VPS</h2>
         </div>
 
-        <div className="space-y-16">
-          <div className="pt-72">
-            <VpsTable tableData={tableData} />
-          </div>
+        <div className="pt-0 lg:pt-72">
+          <VpsTable tableData={tableData} />
         </div>
       </section>
     </main>

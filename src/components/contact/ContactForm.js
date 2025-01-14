@@ -7,7 +7,7 @@ export default function ContactForm() {
     <div className="container mx-auto px-3 lg:px-6">
       <div className="grid grid-cols-12">
         {/* Contact Form Section */}
-        <div className="col-span-8 rounded-lg  p-10 shadow-sm bg-[#FAFAFA]">
+        <div className="col-span-12 lg:col-span-8 rounded-lg px-3 py-6 lg:p-10 shadow-sm bg-[#FAFAFA]">
           <h2 className="mb-6 text-2xl font-bold text-gray-900">
             Send Us a Message
           </h2>
@@ -16,26 +16,26 @@ export default function ContactForm() {
               <input
                 type="text"
                 placeholder="Enter Subject"
-                className="w-11/12 rounded-md border border-gray-300 px-4 py-2 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
+                className="w-full rounded-md border border-gray-300 px-4 py-3 focus:border-blue-500 outline-none transition-all duration-300 focus:ring-blue-500"
               />
             </div>
             <div>
               <input
                 type="email"
                 placeholder="Enter email"
-                className="w-11/12 rounded-md border border-gray-300 px-4 py-2 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
+                className="w-full rounded-md border border-gray-300 px-4 py-3 focus:border-blue-500 outline-none transition-all duration-300 focus:ring-blue-500"
               />
             </div>
             <div>
               <textarea
                 placeholder="Message"
                 rows={6}
-                className="w-11/12 rounded-md border border-gray-300 px-4 py-2 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
+                className="w-full rounded-md border border-gray-300 px-4 py-3 focus:border-blue-500 outline-none transition-all duration-300 focus:ring-blue-500"
               />
             </div>
             <button
               type="submit"
-              className="rounded-md bg-blue-600 px-6 py-2 text-white transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              className="rounded-md bg-blue-600 px-6 py-2 text-white transition-colors hover:bg-blue-700 outline-none  focus:ring-blue-500 focus:ring-offset-2"
             >
               Send Message
             </button>
@@ -43,8 +43,8 @@ export default function ContactForm() {
         </div>
 
         {/* Business Info Card */}
-        <div className="col-span-4  rounded-lg bg-[#0948B3] p-8 text-white shadow-lg">
-          <h2 className="mb-6 text-[27px] font-bold">
+        <div className="col-span-12 lg:col-span-4  rounded-lg bg-[#0948B3] p-8 text-white shadow-lg">
+          <h2 className="mb-6 text-2xl font-bold">
             Looking for a excellent Business idea?
           </h2>
           <p className="mb-8">
@@ -53,7 +53,7 @@ export default function ContactForm() {
           </p>
 
           <div className="space-y-6">
-            <div className="flex items-start space-x-4">
+            <div className="flex items-center space-x-4">
               <MapPinPlus size={28} />
               <div>
                 <h3 className="font-semibold">Company Location</h3>
@@ -64,8 +64,8 @@ export default function ContactForm() {
               </div>
             </div>
 
-            <div className="flex items-start space-x-4">
-              <Mail size={20} />
+            <div className="flex items-center space-x-4">
+              <Mail size={22} />
               <div>
                 <h3 className="font-semibold">Email Address</h3>
                 <p className="text-sm text-white/90">Support@SmartHostBD.com</p>
