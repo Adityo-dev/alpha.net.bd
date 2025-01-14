@@ -14,7 +14,7 @@ import TechnologySolutions from "@/components/home/technologySolutions/Technolog
 export default function Home() {
   return (
     <main className="space-y-16">
-      <section className="relative mt-14">
+      <section className="relative">
         <div className="w-full relative md:absolute">
           <Hero />
         </div>

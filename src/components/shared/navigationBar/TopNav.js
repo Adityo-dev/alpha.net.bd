@@ -23,7 +23,7 @@ const topData = [
 
 function TopNav() {
   return (
-    <div className="bg-[#004080]">
+    <div className="bg-[#004080] hidden xl:block">
       <div className="container mx-auto px-6 flex items-center justify-end gap-6 border-r border-[#4b698a]">
         {topData.map((info, ind) => (
           <Link

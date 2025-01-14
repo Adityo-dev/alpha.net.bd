@@ -11,7 +11,7 @@ const socialMedia = [
 function CopyRight() {
   return (
     <section className="bg-[#000000] text-gray-400">
-      <div className="container mx-auto px-6 py-3 flex items-center justify-between">
+      <div className="container mx-auto px-3 lg:px-6 py-3 flex gap-4 flex-col md:flex-row items-center justify-between">
         <p className="text-sm">
           Copyright © 2005 - 2025. All Right Reserved by ....
         </p>
