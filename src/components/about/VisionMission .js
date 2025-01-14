@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const VisionMission = () => {
   return (
-    <div className="container mx-auto py-8 space-y-12">
+    <div className="container mx-auto px-3 lg:px-6 py-8 space-y-12">
       {/* Vision Section */}
       <div className="flex flex-col justify-center gap-6 md:flex-row items-center text-center sm:text-start space-y-6 md:space-y-0 ">
         <div className="flex-shrink-0">

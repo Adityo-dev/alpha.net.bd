@@ -225,7 +225,7 @@ function DedicatedServer() {
           </p>
         </div>
 
-        <div className="space-y-16">
+        <div className="space-y-12">
           <div className="pt-0 lg:pt-72">
             <Processor processorData={processorData} />
           </div>

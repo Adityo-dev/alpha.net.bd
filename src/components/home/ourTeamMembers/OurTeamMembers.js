@@ -53,7 +53,7 @@ const teamMembersData = [
 
 function OurTeamMembers() {
   return (
-    <section className=" container mx-auto px-3 md:px-6 ">
+    <section className=" container mx-auto px-3 lg:px-6 ">
       <h2 className="text-3xl text-[#0E9AFF] font-semibold text-center mb-6">
         Our Team Members
       </h2>

@@ -108,17 +108,27 @@ const videoData = [
   },
 ];
 
+const tabsTriggerStyles =
+  "w-full h-full border border-r-white last:border-0 flex items-center justify-center text-sm font-medium text-gray-700 data-[state=active]:bg-white  data-[state=active]:text-black rounded-none  transition-all";
+
 function VideoTab() {
   return (
-    <Tabs defaultValue="hosting" className="w-full">
-      <TabsList className="grid w-full grid-cols-3 h-12">
-        <TabsTrigger value="hosting">Hosting</TabsTrigger>
-        <TabsTrigger value="domain">Domain</TabsTrigger>
-        <TabsTrigger value="webDevelopment">web Development</TabsTrigger>
+    <Tabs defaultValue="hosting" className="w-full border">
+      <TabsList className="grid w-full grid-cols-3 h-12 p-0 bg-[#e9e9e9] rounded-none overflow-hidden">
+        <TabsTrigger value="hosting" className={tabsTriggerStyles}>
+          Hosting
+        </TabsTrigger>
+        <TabsTrigger value="domain" className={tabsTriggerStyles}>
+          Domain
+        </TabsTrigger>
+        <TabsTrigger value="webDevelopment" className={tabsTriggerStyles}>
+          Web Development
+        </TabsTrigger>
       </TabsList>
+
       {videoData.map((video, ind) => (
         <div key={ind}>
-          <TabsContent value={video?.value} className="space-y-1.5">
+          <TabsContent value={video?.value} className="space-y-2 p-4">
             {video?.info.map((inf, ind) => (
               <div
                 key={ind}
