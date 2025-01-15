@@ -1,4 +1,5 @@
 // components
+import VpsSelector from "@/components/ssdVps/VpsSelector";
 import VpsTable from "@/components/ssdVps/VpsTable";
 
 const tableData = [
@@ -111,8 +112,10 @@ function SsdVps() {
         </div>
 
         <div className="pt-0 lg:pt-72">
-          <VpsTable tableData={tableData} />
+          <VpsSelector />
         </div>
+
+        <VpsTable tableData={tableData} />
       </section>
     </main>
   );
