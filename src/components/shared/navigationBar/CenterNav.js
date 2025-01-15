@@ -1,4 +1,4 @@
-import { Menu } from "lucide-react";
+import { Menu, PhoneCall, UserRound } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -55,7 +55,9 @@ function CenterNav() {
         ))}
       </div>
 
-      <div className="block xl:hidden">
+      <div className="flex gap-5 items-center xl:hidden">
+        <PhoneCall size={20} strokeWidth={2} />
+        <UserRound size={20} strokeWidth={2} />
         <Menu size={32} strokeWidth={2} />
       </div>
     </section>
