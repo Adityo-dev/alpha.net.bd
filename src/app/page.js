@@ -13,12 +13,12 @@ import TechnologySolutions from "@/components/home/technologySolutions/Technolog
 
 export default function Home() {
   return (
-    <main className="space-y-16">
+    <main className="space-y-12">
       <section className="relative">
         <div className="w-full relative md:absolute">
           <Hero />
         </div>
-        <div className="relative pt-16 md:pt-[565px]">
+        <div className="relative pt-16 md:pt-[565px] z-20">
           <HostServiceFeatures />
         </div>
       </section>
