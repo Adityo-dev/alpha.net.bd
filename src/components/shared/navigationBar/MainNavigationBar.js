@@ -111,6 +111,10 @@ const bottomNavData = [
     ],
   },
   {
+    name: "premium hosting",
+    url: "/premium-hosting",
+  },
+  {
     name: "About",
     url: "/about-us",
   },
@@ -128,10 +132,6 @@ const bottomNavData = [
   },
   {
     name: "Cloud",
-    url: "#",
-  },
-  {
-    name: "SMS",
     url: "#",
   },
   {
