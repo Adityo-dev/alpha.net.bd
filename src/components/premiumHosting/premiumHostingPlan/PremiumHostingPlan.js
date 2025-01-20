@@ -1,7 +1,6 @@
 import {
   ArrowRightFromLine,
   Clock7,
-  Cpu,
   HardDrive,
   MailOpen,
   Microchip,
@@ -18,6 +17,7 @@ function PremiumHostingPlan({ plans }) {
       <h2 className="text-3xl md:text-4xl font-semibold text-center mb-12 text-[#1f2933]">
         PREMIUM HOSTING PLAN
       </h2>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4 gap-6">
         {plans.map((plan, ind) => (
           <div key={ind}>
@@ -91,45 +91,50 @@ function PremiumHostingPlan({ plans }) {
                   </div>
                 )}
 
-                {plan?.powerful && (
+                {plan?.powerfulFeatures && (
                   <div className="space-y-2 p-6">
                     <p className="flex items-center gap-2 border-b pb-2.5">
                       <Microchip size={16} />
-                      <span>{plan?.features?.processor}</span>
+                      <span>{plan?.powerfulFeatures?.processor}</span>
                     </p>
                     <p className="flex items-center gap-2 border-b pb-2.5">
                       <Microchip size={16} />
-                      <span>{plan?.features?.ram}</span>
+                      <span>{plan?.powerfulFeatures?.ram}</span>
                     </p>
                     <p className="flex items-center gap-2 border-b pb-2.5">
                       <HardDrive size={16} />
-                      <span>{plan?.features?.storage}</span>
+                      <span>{plan?.powerfulFeatures?.storage}</span>
                     </p>
                     <p className="flex items-center gap-2 border-b pb-2.5">
                       <Wifi size={16} />
-                      <span>{plan?.features?.bandwidth}</span>
+                      <span>{plan?.powerfulFeatures?.bandwidth}</span>
                     </p>
                     <p className="flex items-center gap-2 border-b pb-2.5">
                       <Snowflake size={16} />
-                      <span>{plan?.features?.dedicatedIP}</span>
+                      <span>{plan?.powerfulFeatures?.dedicatedIP}</span>
                     </p>
                     <p className="flex items-center gap-2 border-b pb-2.5">
                       <Snowflake size={16} />
-                      <span>{plan?.features?.rootAccess}</span>
+                      <span>{plan?.powerfulFeatures?.rootAccess}</span>
                     </p>
                     <p className="flex items-center gap-2 border-b pb-2.5">
                       <MailOpen size={16} />
-                      <span>{plan?.features?.deliveryTime}</span>
+                      <span>{plan?.powerfulFeatures?.deliveryTime}</span>
                     </p>
                     <p className="flex items-center gap-2">
                       <ShieldX size={16} />
-                      <span>{plan?.features?.moneyback}</span>
+                      <span>{plan?.powerfulFeatures?.moneyback}</span>
                     </p>
                   </div>
                 )}
               </div>
             </div>
             <button className="w-full bg-[#8BC34A] uppercase text-white font-semibold py-4 border-s-8 border-[#F5F5F5]">
+              Order Now
+            </button>
+          </div>
+        ))}
+      </div>
     </main>
   );
 }
