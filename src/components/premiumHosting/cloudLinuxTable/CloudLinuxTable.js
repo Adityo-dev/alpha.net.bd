@@ -1,8 +1,8 @@
 function CloudLinuxTable() {
   return (
-    <section className="p-10 bg-gradient-to-r from-[#75b12c] to-[#00b159] text-white">
-      <div className="container mx-auto px-3 lg:px-6 flex items-center gap-6">
-        <div className="w-1/4">
+    <section className="py-10 bg-gradient-to-r from-[#75b12c] to-[#00b159] text-white">
+      <div className="container mx-auto px-3 lg:px-6 flex flex-col lg:flex-row items-center gap-6">
+        <div className="w-full lg:w-1/4">
           <h1 className="text-2xl font-semibold mb-4">
             CloudLinux (<span className="text-[#ffff00]">LVE Limits</span>)
           </h1>
@@ -14,15 +14,15 @@ function CloudLinuxTable() {
             individual customer.
           </p>
         </div>
-        <div className="overflow-x-auto w-3/4">
-          <table className="table-auto w-full border-collapse border">
+        <div className="overflow-x-auto  w-full lg:w-3/4">
+          <table className="table-auto w-full border-collapse border overflow-x-auto">
             <thead>
               <tr className="">
                 <th className="border px-4 py-2 text-left"></th>
-                <th className="border px-4 py-2">PREMIUM 50</th>
-                <th className="border px-4 py-2">PREMIUM 100</th>
-                <th className="border px-4 py-2">PREMIUM PRO</th>
-                <th className="border px-4 py-2">VPS</th>
+                <th className="border px-4 py-2 text-nowrap">PREMIUM 50</th>
+                <th className="border px-4 py-2 text-nowrap">PREMIUM 100</th>
+                <th className="border px-4 py-2 text-nowrap">PREMIUM PRO</th>
+                <th className="border px-4 py-2 text-nowrap">VPS</th>
               </tr>
             </thead>
             <tbody>
