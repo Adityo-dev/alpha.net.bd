@@ -7,11 +7,11 @@ function BottomNav({ navData }) {
   const pathname = usePathname();
   return (
     <nav>
-      <div className="relative container mx-auto px-3 lg:px-6 w-full hidden xl:flex items-center justify-center pt-4 transition-all">
+      <div className="relative container mx-auto px-3 lg:px-6 w-full hidden 2xl:flex items-center justify-center pt-4 transition-all">
         {navData.map((item, index) => (
           <div
             key={index}
-            className={` relative capitalize border px-6 py-2 group 
+            className={`relative capitalize border px-6 py-2 group 
              
             `}
           >

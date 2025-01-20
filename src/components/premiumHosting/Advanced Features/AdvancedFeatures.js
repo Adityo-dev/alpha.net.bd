@@ -12,44 +12,69 @@ const advancedFeaturesData = [
     title: "Server Location <span class='font-semibold'>USA/UK</span>",
   },
   {
-    title: "Softaculous Script Installer",
+    title: "<span class='font-semibold'>LiteSpeed</span> Web Server",
   },
   {
-    title: "Softaculous Script Installer",
+    title: "<span class='font-semibold'>PHP</span> Selector (5.4 – 8.x)",
   },
   {
-    title: "Softaculous Script Installer",
+    title: "<span class='font-semibold'>Python</span> Version Selector",
   },
   {
-    title: "Softaculous Script Installer",
+    title: "<span class='font-semibold'>Ruby</span> On Rails",
   },
   {
-    title: "Softaculous Script Installer",
+    title: "<span class='font-semibold'>Node.js</span> Version Selector",
   },
   {
-    title: "Softaculous Script Installer",
+    title: "<span class='font-semibold'>Imunify360</span> Security Firewall",
   },
   {
-    title: "Softaculous Script Installer",
+    title: "Server Location <span class='font-semibold'>USA/UK</span>",
   },
   {
-    title: "Softaculous Script Installer",
+    title: "Server Location <span class='font-semibold'>USA/UK</span>",
   },
   {
-    title: "Softaculous Script Installer",
+    title: "Server Location <span class='font-semibold'>USA/UK</span>",
   },
   {
-    title: "Softaculous Script Installer",
+    title: "<span class='font-semibold'>LiteSpeed</span> Web Server",
   },
   {
-    title: "Softaculous Script Installer",
+    title: "<span class='font-semibold'>Softaculous</span> Script Installer	",
   },
   {
-    title: "Softaculous Script Installer",
+    title: "<span class='font-semibold'>Imunify360</span> Security Firewall",
   },
   {
-    title: "Softaculous Script Installer",
+    title: "Server Location <span class='font-semibold'>USA/UK</span>",
   },
+  {
+    title: "<span class='font-semibold'>LiteSpeed</span> Web Server",
+  },
+  {
+    title: "<span class='font-semibold'>PHP</span> Selector (5.4 – 8.x)",
+  },
+  {
+    title: "<span class='font-semibold'>Python</span> Version Selector",
+  },
+  {
+    title: "<span class='font-semibold'>Ruby</span> On Rails",
+  },
+  {
+    title: "<span class='font-semibold'>Node.js</span> Version Selector",
+  },
+  {
+    title: "<span class='font-semibold'>Imunify360</span> Security Firewall",
+  },
+  {
+    title: "Server Location <span class='font-semibold'>USA/UK</span>",
+  },
+  {
+    title: "<span class='font-semibold'>LiteSpeed</span> Web Server",
+  },
+ 
 ];
 
 function AdvancedFeatures() {
@@ -59,7 +84,7 @@ function AdvancedFeatures() {
         Advanced Features
       </h2>
 
-      <section className="grid grid-cols-4">
+      <section className="grid grid-cols-2 lg:grid-cols-3  xl:grid-cols-4">
         {advancedFeaturesData.map((feature, ind) => (
           <div
             key={ind}
