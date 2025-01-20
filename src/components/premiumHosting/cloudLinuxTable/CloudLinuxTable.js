@@ -27,7 +27,7 @@ function CloudLinuxTable() {
             </thead>
             <tbody>
               <tr>
-                <td className="border border-white font-semibold text-black text-lg text-right px-4 py-2">
+                <td className="border border-white text-black text-lg text-right px-4 py-2">
                   CPU Cores
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
@@ -44,7 +44,7 @@ function CloudLinuxTable() {
                 </td>
               </tr>
               <tr>
-                <td className="border border-white font-semibold text-black text-lg text-right px-4 py-2">
+                <td className="border border-white text-black text-lg text-right px-4 py-2">
                   Memory (RAM)
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
@@ -61,7 +61,7 @@ function CloudLinuxTable() {
                 </td>
               </tr>
               <tr>
-                <td className="border border-white font-semibold text-black text-lg text-right px-4 py-2">
+                <td className="border border-white text-black text-lg text-right px-4 py-2">
                   I/O Usage
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
@@ -78,7 +78,7 @@ function CloudLinuxTable() {
                 </td>
               </tr>
               <tr>
-                <td className="border border-white font-semibold text-black text-lg text-right px-4 py-2">
+                <td className="border border-white text-black text-lg text-right px-4 py-2">
                   IOPS
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
@@ -95,7 +95,7 @@ function CloudLinuxTable() {
                 </td>
               </tr>
               <tr>
-                <td className="border border-white font-semibold text-black text-lg text-right px-4 py-2">
+                <td className="border border-white text-black text-lg text-right px-4 py-2">
                   Entry Processes
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
@@ -112,7 +112,7 @@ function CloudLinuxTable() {
                 </td>
               </tr>
               <tr>
-                <td className="border border-white font-semibold text-black text-lg text-right px-4 py-2">
+                <td className="border border-white text-black text-lg text-right px-4 py-2">
                   NPROC
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
