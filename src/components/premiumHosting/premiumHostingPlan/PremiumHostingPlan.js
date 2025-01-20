@@ -1,7 +1,6 @@
 import {
   ArrowRightFromLine,
   Clock7,
-  Cpu,
   HardDrive,
   MailOpen,
   Microchip,
@@ -91,39 +90,39 @@ function PremiumHostingPlan({ plans }) {
                   </div>
                 )}
 
-                {plan?.powerful && (
+                {plan?.powerfulFeatures && (
                   <div className="space-y-2 p-6">
                     <p className="flex items-center gap-2 border-b pb-2.5">
                       <Microchip size={16} />
-                      <span>{plan?.features?.processor}</span>
+                      <span>{plan?.powerfulFeatures?.processor}</span>
                     </p>
                     <p className="flex items-center gap-2 border-b pb-2.5">
                       <Microchip size={16} />
-                      <span>{plan?.features?.ram}</span>
+                      <span>{plan?.powerfulFeatures?.ram}</span>
                     </p>
                     <p className="flex items-center gap-2 border-b pb-2.5">
                       <HardDrive size={16} />
-                      <span>{plan?.features?.storage}</span>
+                      <span>{plan?.powerfulFeatures?.storage}</span>
                     </p>
                     <p className="flex items-center gap-2 border-b pb-2.5">
                       <Wifi size={16} />
-                      <span>{plan?.features?.bandwidth}</span>
+                      <span>{plan?.powerfulFeatures?.bandwidth}</span>
                     </p>
                     <p className="flex items-center gap-2 border-b pb-2.5">
                       <Snowflake size={16} />
-                      <span>{plan?.features?.dedicatedIP}</span>
+                      <span>{plan?.powerfulFeatures?.dedicatedIP}</span>
                     </p>
                     <p className="flex items-center gap-2 border-b pb-2.5">
                       <Snowflake size={16} />
-                      <span>{plan?.features?.rootAccess}</span>
+                      <span>{plan?.powerfulFeatures?.rootAccess}</span>
                     </p>
                     <p className="flex items-center gap-2 border-b pb-2.5">
                       <MailOpen size={16} />
-                      <span>{plan?.features?.deliveryTime}</span>
+                      <span>{plan?.powerfulFeatures?.deliveryTime}</span>
                     </p>
                     <p className="flex items-center gap-2">
                       <ShieldX size={16} />
-                      <span>{plan?.features?.moneyback}</span>
+                      <span>{plan?.powerfulFeatures?.moneyback}</span>
                     </p>
                   </div>
                 )}

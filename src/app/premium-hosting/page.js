@@ -56,7 +56,7 @@ const plans = [
     powerful: "Powerful Hosting",
     name: "Vps hosting",
     price: 3000,
-    features: {
+    powerfulFeatures: {
       processor: "3 Core Processor",
       ram: "6 GB RAM DDR4",
       storage: "100GB SSD Storage",
