@@ -76,7 +76,7 @@ const VpsSelector = () => {
 
   return (
     <main className="relative container mx-auto bg-gray-100 rounded-lg shadow-md">
-      <section className="">
+      <section className="py-10">
         <h1 className="text-2xl font-bold text-center mb-6">
           Choose Your VPS Package
         </h1>
@@ -96,9 +96,9 @@ const VpsSelector = () => {
           ></div>
         </div>
 
-        <div className="w-full flex gap-6 relative bg-[#EAEDF1] p-8 mt-24">
-          <div className="w-2/3 bg-white p-4 rounded-lg shadow-md text-center relative">
-            <div className="grid grid-cols-3 gap-6">
+        <div className="w-full flex flex-col-reverse lg:flex-row gap-6 relative bg-[#EAEDF1] px-3 py-8 lg:py-8 mt-24">
+          <div className="w-full lg:w-2/3 bg-white p-4 rounded-lg shadow-md text-center relative">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
               <div className="bg-white border flex items-center justify-between p-6 rounded-md">
                 <div className="flex items-center gap-3">
                   <Cpu size={30} strokeWidth={2} />
@@ -155,7 +155,7 @@ const VpsSelector = () => {
             </div>
           </div>
 
-          <div className="w-2/6 static -mt-28">
+          <div className="w-full lg:w-2/6 static -mt-28">
             <div className="w-full bg-white shadow-lg p-6">
               <p className="text-[#fd235d] border-b pb-6">Managed*</p>
               <div className="space-y-3 text-center border-b pt-6 pb-6">
