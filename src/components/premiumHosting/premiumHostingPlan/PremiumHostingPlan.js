@@ -17,6 +17,7 @@ function PremiumHostingPlan({ plans }) {
       <h2 className="text-3xl md:text-4xl font-semibold text-center mb-12 text-[#1f2933]">
         PREMIUM HOSTING PLAN
       </h2>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4 gap-6">
         {plans.map((plan, ind) => (
           <div key={ind}>
@@ -129,6 +130,11 @@ function PremiumHostingPlan({ plans }) {
               </div>
             </div>
             <button className="w-full bg-[#8BC34A] uppercase text-white font-semibold py-4 border-s-8 border-[#F5F5F5]">
+              Order Now
+            </button>
+          </div>
+        ))}
+      </div>
     </main>
   );
 }
