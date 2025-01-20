@@ -107,7 +107,7 @@ function PremiumHosting() {
         <Banner />
       </section>
       <AdvancedFeatures />
-      <PremiumHostingFeatures />
+      {/* <PremiumHostingFeatures /> */}
     </main>
   );
 }
