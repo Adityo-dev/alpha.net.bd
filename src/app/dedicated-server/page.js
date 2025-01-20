@@ -233,8 +233,8 @@ function DedicatedServer() {
           <AvailableOperatingSystems
             availableOperatingSystemsData={availableOperatingSystemsData}
           />
-          <VirtualServers virtualServersData={virtualServersData} />
           <MakesExonHost makesExonHostData={makesExonHostData} />
+          <VirtualServers virtualServersData={virtualServersData} />
           <WhereToStart />
         </div>
       </section>

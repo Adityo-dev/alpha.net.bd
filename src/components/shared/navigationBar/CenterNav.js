@@ -30,11 +30,11 @@ function CenterNav() {
           width={600}
           height={600}
           alt="Brand logo"
-          className="w-44 xl:w-full h-full"
+          className="w-44 2xl:w-full h-full"
         />
       </Link>
 
-      <div className="hidden xl:flex items-center gap-4 ">
+      <div className="hidden 2xl:flex items-center gap-4 ">
         <Link
           href={"#"}
           className="text-4xl font-semibold text-red-600 uppercase"
@@ -55,7 +55,7 @@ function CenterNav() {
         ))}
       </div>
 
-      <div className="flex gap-5 items-center xl:hidden">
+      <div className="flex gap-5 items-center 2xl:hidden">
         <PhoneCall size={20} strokeWidth={2} />
         <UserRound size={20} strokeWidth={2} />
         <Menu size={32} strokeWidth={2} />
