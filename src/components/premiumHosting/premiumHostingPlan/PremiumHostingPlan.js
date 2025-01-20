@@ -129,11 +129,6 @@ function PremiumHostingPlan({ plans }) {
               </div>
             </div>
             <button className="w-full bg-[#8BC34A] uppercase text-white font-semibold py-4 border-s-8 border-[#F5F5F5]">
-              Order Now
-            </button>
-          </div>
-        ))}
-      </div>
     </main>
   );
 }

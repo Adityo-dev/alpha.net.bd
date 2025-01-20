@@ -9,7 +9,6 @@ const premiumHostingFeaturesData = [
       "We use 100% Enterprise-Grade NVMe Samsung Drives with full RAID protection.",
   },
   {
-    image: "/ic3.png",
     title: "1-Click App Installs",
     description:
       "Easily install over 310 applications With our 1-click auto-installer. Keep Your Website Up-To-Date With One click.",
@@ -50,14 +49,49 @@ const premiumHostingFeaturesData = [
     description:
       "Free SSL Certificate, automated, and open certificate authority brought to you by the non-profit Internet Security",
   },
+  {
+    image: "/ic3.png",
+    title: "NVMe Up to 220% Faster",
+    description:
+      "We use 100% Enterprise-Grade NVMe Samsung Drives with full RAID protection.",
+  },
+  {
+    image: "/ic3.png",
+    title: "NVMe Up to 220% Faster",
+    description:
+      "We use 100% Enterprise-Grade NVMe Samsung Drives with full RAID protection.",
+  },
+  {
+    image: "/ic3.png",
+    title: "NVMe Up to 220% Faster",
+    description:
+      "We use 100% Enterprise-Grade NVMe Samsung Drives with full RAID protection.",
+  },
+  {
+    image: "/ic3.png",
+    title: "NVMe Up to 220% Faster",
+    description:
+      "We use 100% Enterprise-Grade NVMe Samsung Drives with full RAID protection.",
+  },
+  {
+    image: "/ic3.png",
+    title: "NVMe Up to 220% Faster",
+    description:
+      "We use 100% Enterprise-Grade NVMe Samsung Drives with full RAID protection.",
+  },
+  {
+    image: "/ic3.png",
+    title: "NVMe Up to 220% Faster",
+    description:
+      "We use 100% Enterprise-Grade NVMe Samsung Drives with full RAID protection.",
+  },
 ];
 function PremiumHostingFeatures() {
   return (
-    <section className="container mx-auto px-3 lg:px-6 ">
+    <section className="container mx-auto  px-3 lg:px-6">
       <h2 className="text-3xl md:text-4xl font-semibold text-center mb-12 text-[#1f2933]">
         Premium Hosting Features
       </h2>
-
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4 gap-6">
         {premiumHostingFeaturesData.map((features, ind) => (
           <div
@@ -70,6 +104,7 @@ function PremiumHostingFeatures() {
               height={400}
               alt=""
               className="max-w-40 w-full mx-auto"
+              className="w-48 mx-auto"
             />
             <h2 className="text-xl font-semibold">{features?.title}</h2>
             <h2 className="leading-8">{features?.description}</h2>

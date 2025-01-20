@@ -74,6 +74,7 @@ const advancedFeaturesData = [
   {
     title: "<span class='font-semibold'>LiteSpeed</span> Web Server",
   },
+ 
 ];
 
 function AdvancedFeatures() {
