@@ -11,7 +11,7 @@ const bottomNavData = [
   },
   {
     name: "domain",
-    url: "/dedicated-server",
+    url: "#",
   },
   {
     name: "hosting",
@@ -57,7 +57,7 @@ const bottomNavData = [
   },
   {
     name: "Vps",
-    url: "/premium-hosting",
+    url: "#",
   },
   {
     name: "dedicated server",
@@ -65,15 +65,15 @@ const bottomNavData = [
   },
   {
     name: "services",
-    url: "/services",
+    url: "#",
   },
   {
     name: "sms",
-    url: "/sms",
+    url: "#",
   },
   {
     name: "web design",
-    url: "/web-design",
+    url: "#",
   },
   {
     name: "about Us",
