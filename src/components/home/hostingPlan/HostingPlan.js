@@ -6,7 +6,7 @@ import Link from "next/link";
 const HostingPlan = () => {
   const hostingPlanData = [
     {
-      category: "Da Basic",
+      category: "Shared Hosting",
       monthsAndTk: [
         { months: "1", tk: "240" },
         { months: "2", tk: "470" },
@@ -26,7 +26,7 @@ const HostingPlan = () => {
       ],
     },
     {
-      category: "Da Plus",
+      category: "Reseller Hosting",
       monthsAndTk: [
         { months: "1", tk: "480" },
         { months: "2", tk: "940" },
@@ -47,7 +47,7 @@ const HostingPlan = () => {
       ],
     },
     {
-      category: "Da Pro",
+      category: "VPS",
       monthsAndTk: [
         { months: "1", tk: "1200" },
         { months: "2", tk: "2300" },
@@ -68,7 +68,7 @@ const HostingPlan = () => {
       ],
     },
     {
-      category: "Da Max",
+      category: "Dedicated Server",
       monthsAndTk: [
         { months: "1", tk: "2500" },
         { months: "2", tk: "4900" },

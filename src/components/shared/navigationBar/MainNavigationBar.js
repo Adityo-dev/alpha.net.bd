@@ -10,143 +10,80 @@ const bottomNavData = [
     url: "/",
   },
   {
-    name: "Dedicated Server",
+    name: "domain",
     url: "/dedicated-server",
+  },
+  {
+    name: "hosting",
+    url: "/premium-hosting",
     info: [
       {
         icon: <Lock size={20} />,
-        title: "ASP.NET Hosting",
-        name: "high-performance ASP.NET hosting platform",
+        title: "a",
+        name: "Linux Shared Hosting (BDIX)",
       },
       {
         icon: <Lock size={20} />,
-        title: "ASP.NET Hosting",
-        name: "high-performance ASP.NET hosting platform",
+        title: "b",
+        name: "Linux Shared Hosting (USA)",
       },
       {
         icon: <Lock size={20} />,
-        name: "MVC hosting",
-        title: "high-performance ASP.NET hosting platform",
+        name: "Linux Shared Hosting (Singapore)",
+        title: "c",
       },
       {
         icon: <Lock size={20} />,
-        name: "Linux cPanel Hosting",
-        title: "high-performance ASP.NET hosting platform",
+        name: "Windows Shared Hosting(USA)",
+        title: "d",
       },
       {
         icon: <Lock size={20} />,
-        name: "corporate web hosting",
-        title: "high-performance ASP.NET hosting platform",
+        name: "Reseller Hosting (BDIX)",
+        title: "e",
       },
       {
         icon: <Lock size={20} />,
-        name: "application Hosting",
-        title: "high-performance ASP.NET hosting platform",
+        name: "Reseller Hosting (USA)",
+        title: "f",
       },
       {
         icon: <Lock size={20} />,
-        name: "become a reseller",
-        title: "high-performance ASP.NET hosting platform",
+        name: "Reseller Hosting (Singapore)",
+        title: "g",
       },
-      {
-        icon: <Lock size={20} />,
-        name: "BDIX cPanel Hosting",
-        title: "high-performance ASP.NET hosting platform",
-      },
-      {
-        icon: <Lock size={20} />,
-        name: "BDIX windows Hosting",
-        title: "high-performance ASP.NET hosting platform",
-      },
+      
     ],
   },
   {
-    name: "SSD VPS",
-    url: "/ssd-vps",
-    info: [
-      {
-        icon: <Lock size={20} />,
-        title: "ASP.NET Hosting",
-        name: "high-performance ASP.NET hosting platform",
-      },
-      {
-        icon: <Lock size={20} />,
-        title: "ASP.NET Hosting",
-        name: "high-performance ASP.NET hosting platform",
-      },
-      {
-        icon: <Lock size={20} />,
-        name: "MVC hosting",
-        title: "high-performance ASP.NET hosting platform",
-      },
-      {
-        icon: <Lock size={20} />,
-        name: "Linux cPanel Hosting",
-        title: "high-performance ASP.NET hosting platform",
-      },
-      {
-        icon: <Lock size={20} />,
-        name: "corporate web hosting",
-        title: "high-performance ASP.NET hosting platform",
-      },
-      {
-        icon: <Lock size={20} />,
-        name: "application Hosting",
-        title: "high-performance ASP.NET hosting platform",
-      },
-      {
-        icon: <Lock size={20} />,
-        name: "become a reseller",
-        title: "high-performance ASP.NET hosting platform",
-      },
-      {
-        icon: <Lock size={20} />,
-        name: "BDIX cPanel Hosting",
-        title: "high-performance ASP.NET hosting platform",
-      },
-      {
-        icon: <Lock size={20} />,
-        name: "BDIX windows Hosting",
-        title: "high-performance ASP.NET hosting platform",
-      },
-    ],
-  },
-  {
-    name: "premium hosting",
+    name: "Vps",
     url: "/premium-hosting",
   },
   {
-    name: "About",
-    url: "/about-us",
+    name: "dedicated server",
+    url: "/dedicated-server",
+  },
+  {
+    name: "services",
+    url: "/services",
+  },
+  {
+    name: "sms",
+    url: "/sms",
+  },
+  {
+    name: "web design",
+    url: "/web-design",
+  },
+  {
+    name: "about Us",
+    url: "about-us",
   },
   {
     name: "Contact",
     url: "/contact-us",
   },
-  {
-    name: "VPS",
-    url: "#",
-  },
-  {
-    name: "Dedicated Server",
-    url: "#",
-  },
-  {
-    name: "Cloud",
-    url: "#",
-  },
-  {
-    name: "License",
-    url: "#",
-  },
-  {
-    name: "Data Center",
-    url: "#",
-  },
-  {
-    name: "Company",
-    url: "#",
-  },
+
 ];
 
 function MainNavigationBar() {

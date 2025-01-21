@@ -1,23 +1,25 @@
 import Link from "next/link";
 // icon
-import { LogOut, MapPin, Phone } from "lucide-react";
+import { LogOut, MapPin, Phone, Target } from "lucide-react";
 
 // data
 const topData = [
   {
     name: "office location",
     icon: <MapPin size={18} strokeWidth={1.5} />,
-    url: "",
+    target: "_blank",
+    url: "https://maps.app.goo.gl/mFaubb1Ztm5qcvB86",
+    
   },
   {
-    name: "+88096123456",
+    name: "+8801788800151",
     icon: <Phone size={18} strokeWidth={1.5} />,
-    url: "",
+    url: "tel:+8801788800151",
   },
   {
     name: "Login",
     icon: <LogOut size={18} strokeWidth={1.5} />,
-    url: "",
+    url: "https://login.dinihost.com/index.php?rp=/login",
   },
 ];
 
