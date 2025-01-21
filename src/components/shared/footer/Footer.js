@@ -54,7 +54,7 @@ function Footer() {
         <div className="space-y-8 col-span-1 sm:col-span-2 xl:col-span-1">
           <div>
             <Image
-              src="/brand-logo.svg"
+              src="/footer-logo.png"
               width={600}
               height={600}
               alt="Brand logo"
