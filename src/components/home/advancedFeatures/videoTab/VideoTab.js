@@ -27,7 +27,19 @@ const videoData = [
         url: "",
       },
       {
+        name: "How to Open email account from cpanel and login web mail?",
+        url: "",
+      },
+      {
+        name: "How Open support ticker from our client area?",
+        url: "",
+      },
+      {
         name: "How to Upload file in cPanel using File Manager?",
+        url: "",
+      },
+      {
+        name: "How to add Multiple user in cPanel?",
         url: "",
       },
       {
@@ -57,6 +69,14 @@ const videoData = [
       },
       {
         name: "How to Open email account from cpanel and login web mail?",
+        url: "",
+      },
+      {
+        name: "How to order only Domain from Web Host BD?",
+        url: "",
+      },
+      {
+        name: "How to add Multiple user in cPanel?",
         url: "",
       },
       {
@@ -128,7 +148,10 @@ function VideoTab() {
 
       {videoData.map((video, ind) => (
         <div key={ind}>
-          <TabsContent value={video?.value} className="space-y-2 p-4">
+          <TabsContent
+            value={video?.value}
+            className="space-y-2 p-4 max-h-[400px] h-full overflow-y-scroll"
+          >
             {video?.info.map((inf, ind) => (
               <div
                 key={ind}

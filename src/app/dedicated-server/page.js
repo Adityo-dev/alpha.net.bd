@@ -209,7 +209,7 @@ function DedicatedServer() {
         {/* Banner Section */}
         <div
           style={{
-            backgroundImage: `url('/dedicated-servers-banner.jpg')`,
+            backgroundImage: `url('/dedicated-servers-cover.jpeg')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

@@ -55,7 +55,7 @@ function FAQ() {
     <Accordion type="single" collapsible className="w-full" defaultValue="1">
       {faqData.map((faq, ind) => (
         <AccordionItem key={ind} value={(ind + 1).toString()}>
-          <AccordionTrigger className="bg-[#e9e9e9] mt-0.5 p-3">
+          <AccordionTrigger className="bg-[#e9e9e9] text-[#0E9AFF] mt-0.5 p-3">
             {faq?.title}
           </AccordionTrigger>
           <AccordionContent className="bg-[#fcfcfc] p-4 flex flex-col gap-4">

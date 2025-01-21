@@ -9,11 +9,6 @@ const premiumHostingFeaturesData = [
       "We use 100% Enterprise-Grade NVMe Samsung Drives with full RAID protection.",
   },
   {
-    title: "1-Click App Installs",
-    description:
-      "Easily install over 310 applications With our 1-click auto-installer. Keep Your Website Up-To-Date With One click.",
-  },
-  {
     image: "/cpp1.png",
     title: "cPanel Control Panel",
     description:
@@ -55,37 +50,8 @@ const premiumHostingFeaturesData = [
     description:
       "We use 100% Enterprise-Grade NVMe Samsung Drives with full RAID protection.",
   },
-  {
-    image: "/ic3.png",
-    title: "NVMe Up to 220% Faster",
-    description:
-      "We use 100% Enterprise-Grade NVMe Samsung Drives with full RAID protection.",
-  },
-  {
-    image: "/ic3.png",
-    title: "NVMe Up to 220% Faster",
-    description:
-      "We use 100% Enterprise-Grade NVMe Samsung Drives with full RAID protection.",
-  },
-  {
-    image: "/ic3.png",
-    title: "NVMe Up to 220% Faster",
-    description:
-      "We use 100% Enterprise-Grade NVMe Samsung Drives with full RAID protection.",
-  },
-  {
-    image: "/ic3.png",
-    title: "NVMe Up to 220% Faster",
-    description:
-      "We use 100% Enterprise-Grade NVMe Samsung Drives with full RAID protection.",
-  },
-  {
-    image: "/ic3.png",
-    title: "NVMe Up to 220% Faster",
-    description:
-      "We use 100% Enterprise-Grade NVMe Samsung Drives with full RAID protection.",
-  },
 ];
+
 function PremiumHostingFeatures() {
   return (
     <section className="container mx-auto  px-3 lg:px-6">
@@ -102,9 +68,8 @@ function PremiumHostingFeatures() {
               src={features?.image}
               width={400}
               height={400}
-              alt=""
+              alt={features?.title}
               className="max-w-40 w-full mx-auto"
-              className="w-48 mx-auto"
             />
             <h2 className="text-xl font-semibold">{features?.title}</h2>
             <h2 className="leading-8">{features?.description}</h2>
