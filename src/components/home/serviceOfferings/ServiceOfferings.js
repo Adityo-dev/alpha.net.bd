@@ -4,14 +4,14 @@ import ServiceOfferingsCart from "./ServiceOfferingsCart";
 const serviceOfferingsData = [
   {
     image: <Database size={55} strokeWidth={1.2} />,
-    title: "Dedicated Server",
+    title: "Domains & Hosting",
     details: [
       { name: "Dedicated Server in BD", url: "" },
       { name: "Dedicated Server in USA", url: "" },
       { name: "Windows Dedicated Server", url: "" },
       { name: "Linux Dedicated Server", url: "" },
     ],
-    color: "#5d21d2",
+    color: "#000094",
     url: "",
   },
   {
@@ -28,14 +28,14 @@ const serviceOfferingsData = [
   },
   {
     image: <Database size={55} strokeWidth={1.2} />,
-    title: "Web Design",
+    title: "Dedicated Server",
     details: [
       { name: "Dedicated Server in BD", url: "" },
       { name: "Dedicated Server in USA", url: "" },
       { name: "Windows Dedicated Server", url: "" },
       { name: "Linux Dedicated Server", url: "" },
     ],
-    color: "#0E9AFF",
+    color: "#5d21d2",
     url: "",
   },
   {
@@ -52,14 +52,14 @@ const serviceOfferingsData = [
   },
   {
     image: <Database size={55} strokeWidth={1.2} />,
-    title: "Domains & Hosting",
+    title: "Web Design",
     details: [
       { name: "Dedicated Server in BD", url: "" },
       { name: "Dedicated Server in USA", url: "" },
       { name: "Windows Dedicated Server", url: "" },
       { name: "Linux Dedicated Server", url: "" },
     ],
-    color: "#000094",
+    color: "#0E9AFF",
     url: "",
   },
   {
@@ -76,18 +76,6 @@ const serviceOfferingsData = [
   },
   {
     image: <Database size={55} strokeWidth={1.2} />,
-    title: "SSL",
-    details: [
-      { name: "Dedicated Server in BD", url: "" },
-      { name: "Dedicated Server in USA", url: "" },
-      { name: "Windows Dedicated Server", url: "" },
-      { name: "Linux Dedicated Server", url: "" },
-    ],
-    color: "#99C33D",
-    url: "",
-  },
-  {
-    image: <Database size={55} strokeWidth={1.2} />,
     title: "Sms",
     details: [
       { name: "Dedicated Server in BD", url: "" },
@@ -96,6 +84,18 @@ const serviceOfferingsData = [
       { name: "Linux Dedicated Server", url: "" },
     ],
     color: "#22C37D",
+    url: "",
+  },
+  {
+    image: <Database size={55} strokeWidth={1.2} />,
+    title: "Software",
+    details: [
+      { name: "Dedicated Server in BD", url: "" },
+      { name: "Dedicated Server in USA", url: "" },
+      { name: "Windows Dedicated Server", url: "" },
+      { name: "Linux Dedicated Server", url: "" },
+    ],
+    color: "#99C33D",
     url: "",
   },
 ];

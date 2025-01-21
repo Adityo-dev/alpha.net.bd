@@ -86,7 +86,7 @@ function OurService() {
           </div>
           <div className="px-6 py-6 mt-6">
             <h2 className="text-2xl font-semibold capitalize text-center">
-              {service?.title}
+              <Link href={"#"}>{service?.title}</Link>
             </h2>
             <p className="mt-6 text-center">
               {service?.description},

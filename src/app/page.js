@@ -10,6 +10,7 @@ import Company from "@/components/home/company/Company";
 import OurTeamMembers from "@/components/home/ourTeamMembers/OurTeamMembers";
 import AdvancedFeatures from "@/components/home/advancedFeatures/AdvancedFeatures";
 import TechnologySolutions from "@/components/home/technologySolutions/TechnologySolutions";
+import Testimonial from "@/components/home/testimonial/Testimonial";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       <Company />
       <OurService />
       <OurTeamMembers />
+      <Testimonial />
     </main>
   );
 }

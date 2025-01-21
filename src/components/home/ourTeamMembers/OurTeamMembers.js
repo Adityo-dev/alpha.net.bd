@@ -6,47 +6,22 @@ import { ChevronRight } from "lucide-react";
 const teamMembersData = [
   {
     image: "/avater.png",
-    companyName: "Tanmoysoft",
-    rating: "",
-    description:
-      "I have been using their domain & hosting services since 2018. I am fully satisfied, they will be providing you great support. 10/10 ",
-    name: "tanmoy Debnath",
     moreInfo: "#",
   },
   {
     image: "/avater.png",
-    companyName: "Tanmoysoft",
-    rating: "",
-    description:
-      "I have been using their domain & hosting services since 2018. I am fully satisfied, they will be providing you great support. 10/10 ",
-    name: "tanmoy Debnath",
     moreInfo: "#",
   },
   {
     image: "/avater.png",
-    companyName: "Tanmoysoft",
-    rating: "",
-    description:
-      "I have been using their domain & hosting services since 2018. I am fully satisfied, they will be providing you great support. 10/10 ",
-    name: "tanmoy Debnath",
     moreInfo: "#",
   },
   {
     image: "/avater.png",
-    companyName: "Tanmoysoft",
-    rating: "",
-    description:
-      "I have been using their domain & hosting services since 2018. I am fully satisfied, they will be providing you great support. 10/10 ",
-    name: "tanmoy Debnath",
     moreInfo: "#",
   },
   {
     image: "/avater.png",
-    companyName: "Tanmoysoft",
-    rating: "",
-    description:
-      "I have been using their domain & hosting services since 2018. I am fully satisfied, they will be providing you great support. 10/10 ",
-    name: "tanmoy Debnath",
     moreInfo: "#",
   },
 ];
@@ -74,14 +49,6 @@ function OurTeamMembers() {
               >
                 Get more info <ChevronRight size={18} strokeWidth={1.2} />
               </Link>
-            </div>
-            <div className="space-y-3 mt-4">
-              <p>{member?.companyName}</p>
-              <p className="text-sm sm:text-base">{member?.description}</p>
-              <p className="flex items-center space-x-2">
-                <span className="w-8 sm:w-12 h-[1px] bg-red-500"></span>
-                <span className="font-semibold">{member?.companyName}</span>
-              </p>
             </div>
           </div>
         ))}
