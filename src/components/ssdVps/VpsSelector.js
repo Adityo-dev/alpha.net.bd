@@ -1,6 +1,8 @@
 "use client";
 import { Cpu } from "lucide-react";
 import React, { useState } from "react";
+import Box from "@mui/material/Box";
+import Slider from "@mui/material/Slider";
 
 const VpsSelector = () => {
   const packages = [
@@ -8,60 +10,66 @@ const VpsSelector = () => {
       id: 1,
       ssd: "2G",
       cpu: 1,
-      ram: "2GB",
-      space: "25GB",
-      traffic: "1TB",
-      price: "2120",
+      ram: 2,
+      space: 25,
+      traffic: 1,
+      ip: 1,
+      price: 2120,
       location: "Los Angeles",
     },
     {
       id: 2,
       ssd: "4G",
       cpu: 4,
-      ram: "6GB",
-      space: "75GB",
-      traffic: "3TB",
-      price: "5830",
+      ram: 4,
+      space: 50,
+      traffic: 2,
+      ip: 1,
+      price: 3710,
       location: "Los Angeles",
     },
     {
       id: 3,
       ssd: "6G",
-      cpu: 8,
-      ram: "16GB",
-      space: "150GB",
-      traffic: "6TB",
-      price: "12650",
+      cpu: 4,
+      ram: 6,
+      space: 75,
+      traffic: 3,
+      ip: 1,
+      price: 5830,
       location: "Los Angeles",
     },
     {
       id: 4,
       ssd: "8G",
-      cpu: 12,
-      ram: "32GB",
-      space: "150GB",
-      traffic: "6TB",
-      price: "12650",
+      cpu: 6,
+      ram: 8,
+      space: 100,
+      traffic: 4,
+      ip: 1,
+      price: 1420,
       location: "Los Angeles",
     },
     {
       id: 5,
       ssd: "16G",
-      cpu: 12,
-      ram: "32GB",
-      space: "150GB",
-      traffic: "6TB",
-      price: "12650",
+      cpu: 8,
+      ram: 16,
+      space: 150,
+      traffic: 5,
+      ip: 1,
+      price: 1910,
       location: "Los Angeles",
     },
     {
       id: 6,
       ssd: "32G",
-      cpu: 12,
-      ram: "32GB",
-      space: "150GB",
-      traffic: "6TB",
-      price: "12650",
+      cpu: 8,
+      ram: 32,
+      space: 300,
+      traffic: 6,
+      ip: 1,
+      price: 11130,
       location: "Los Angeles",
     },
   ];
@@ -77,23 +85,58 @@ const VpsSelector = () => {
   return (
     <main className="relative container mx-auto bg-gray-100 rounded-lg shadow-md">
       <section className="py-10">
-        <h1 className="text-2xl font-bold text-center mb-6">
-          Choose Your VPS Package
-        </h1>
-
-        <div className="mb-6 relative">
-          <input
-            type="range"
-            min="1"
-            max={packages.length}
-            value={sliderValue}
-            className="w-full h-2 bg-gray-300 rounded-lg appearance-none cursor-pointer transition-all duration-300 ease-out"
-            onChange={(e) => handleSliderChange(e.target.value)}
-          />
-          <div
-            className="w-full bg-blue-300 h-2 rounded-lg mt-2 transition-all duration-300 ease-out absolute top-0"
-            style={{ width: `${(sliderValue / packages.length) * 100}%` }}
-          ></div>
+        {/* Slider Section */}
+        <div className="mb-6 w-[90%] sm:w-[80%] mx-auto">
+          <h1 className="text-2xl font-bold text-start mb-6">KVM VPS</h1>
+          <Box
+            sx={{
+              mx: "auto",
+              ".MuiSlider-root": {
+                color: "#0056B3",
+                height: 14,
+              },
+              ".MuiSlider-thumb": {
+                height: 28,
+                width: 28,
+                backgroundColor: "#FFA726",
+                border: "2px solid #fff",
+                "&:hover, &.Mui-focusVisible": {
+                  boxShadow: "0px 0px 0px 8px rgba(255, 167, 38, 0.16)",
+                },
+              },
+              ".MuiSlider-rail": {
+                color: "#E0E0E0",
+                opacity: 1,
+                height: 14,
+              },
+              ".MuiSlider-track": {
+                border: "none",
+              },
+              ".MuiSlider-mark": {
+                backgroundColor: "#ffffff",
+                height: 14,
+                width: 2,
+              },
+              ".MuiSlider-markLabel": {
+                fontSize: "0.875rem",
+                color: "#000000",
+                fontWeight: "bold",
+                marginTop: "12px",
+              },
+            }}
+          >
+            <Slider
+              value={sliderValue}
+              min={1}
+              max={packages.length}
+              step={1}
+              marks={packages.map((pkg, index) => ({
+                value: index + 1,
+                label: <span className="hidden sm:block">SSD {pkg.ssd}</span>,
+              }))}
+              onChange={(e, value) => handleSliderChange(value)}
+            />
+          </Box>
         </div>
 
         <div className="w-full flex flex-col-reverse lg:flex-row gap-6 relative bg-[#EAEDF1] px-3 py-8 lg:py-8 mt-24">
@@ -105,7 +148,8 @@ const VpsSelector = () => {
                   <p>CPU Cores</p>
                 </div>
                 <p>
-                  <span>{selectedPackage?.cpu}</span> <span>CPU</span>
+                  <span className="text-3xl">{selectedPackage?.cpu}</span>
+                  <span> CPU</span>
                 </p>
               </div>
 
@@ -115,7 +159,8 @@ const VpsSelector = () => {
                   <p>IP Addresses</p>
                 </div>
                 <p>
-                  <span>{selectedPackage?.cpu}</span> <span>IP</span>
+                  <span className="text-3xl">{selectedPackage?.ip}</span>
+                  <span> IP</span>
                 </p>
               </div>
 
@@ -125,7 +170,8 @@ const VpsSelector = () => {
                   <p>RAM</p>
                 </div>
                 <p>
-                  <span>{selectedPackage?.ram}</span>
+                  <span className="text-3xl">{selectedPackage?.ram}</span>
+                  <span> GB</span>
                 </p>
               </div>
 
@@ -135,7 +181,8 @@ const VpsSelector = () => {
                   <p>Traffic</p>
                 </div>
                 <p>
-                  <span>{selectedPackage?.traffic}</span>
+                  <span className="text-3xl">{selectedPackage?.traffic}</span>
+                  <span> TB</span>
                 </p>
               </div>
 
@@ -145,7 +192,8 @@ const VpsSelector = () => {
                   <p>SSD Space</p>
                 </div>
                 <p>
-                  <span>{selectedPackage?.ssd}</span> <span>SSD</span>
+                  <span className="text-3xl">{selectedPackage?.space}</span>
+                  <span>GB</span>
                 </p>
               </div>
 

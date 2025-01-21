@@ -75,21 +75,12 @@ function PremiumHosting() {
       <section className="bg-[#F5F5F5] space-y-12">
         <header
           style={{
-            backgroundImage: `url('/web-hosting-.png')`,
+            backgroundImage: `url('/Shared-Hosting.png')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         >
           <div className="container mx-auto px-3 lg:px-6  lg:h-96 flex flex-col gap-6 items-center justify-center text-white  py-12 lg:py-0">
-            <div>
-              <Image
-                src={"/server-dedicated.png"}
-                width={400}
-                height={400}
-                alt="server-dedicated"
-                className="w-full h-full object-cover"
-              />
-            </div>
             <div>
               <h2 className="text-5xl leading-[55px] capitalize mb-3 text-center">
                 Premium NVMe Performance Web Hosting
@@ -107,7 +98,7 @@ function PremiumHosting() {
         <Banner />
       </section>
       <AdvancedFeatures />
-      {/* <PremiumHostingFeatures /> */}
+      <PremiumHostingFeatures />
     </main>
   );
 }

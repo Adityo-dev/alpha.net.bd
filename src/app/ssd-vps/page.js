@@ -102,7 +102,7 @@ function SsdVps() {
         {/* Banner Section */}
         <div
           style={{
-            backgroundImage: `url('/dedicated-servers-banner.jpg')`,
+            backgroundImage: `url('/ssd-vps-cover.jpeg')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
