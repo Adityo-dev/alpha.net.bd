@@ -126,53 +126,6 @@ const bottomNavData = [
   {
     name: "VPS",
     url: "#",
-    info: [
-      {
-        icon: <Lock size={20} />,
-        title: "ASP.NET Hosting",
-        name: "high-performance ASP.NET hosting platform",
-      },
-      {
-        icon: <Lock size={20} />,
-        title: "ASP.NET Hosting",
-        name: "high-performance ASP.NET hosting platform",
-      },
-      {
-        icon: <Lock size={20} />,
-        name: "MVC hosting",
-        title: "high-performance ASP.NET hosting platform",
-      },
-      {
-        icon: <Lock size={20} />,
-        name: "Linux cPanel Hosting",
-        title: "high-performance ASP.NET hosting platform",
-      },
-      {
-        icon: <Lock size={20} />,
-        name: "corporate web hosting",
-        title: "high-performance ASP.NET hosting platform",
-      },
-      {
-        icon: <Lock size={20} />,
-        name: "application Hosting",
-        title: "high-performance ASP.NET hosting platform",
-      },
-      {
-        icon: <Lock size={20} />,
-        name: "become a reseller",
-        title: "high-performance ASP.NET hosting platform",
-      },
-      {
-        icon: <Lock size={20} />,
-        name: "BDIX cPanel Hosting",
-        title: "high-performance ASP.NET hosting platform",
-      },
-      {
-        icon: <Lock size={20} />,
-        name: "BDIX windows Hosting",
-        title: "high-performance ASP.NET hosting platform",
-      },
-    ],
   },
   {
     name: "Dedicated Server",
