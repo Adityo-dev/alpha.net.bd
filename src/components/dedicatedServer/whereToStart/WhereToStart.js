@@ -31,49 +31,50 @@ const contactData = [
 
 function WhereToStart() {
   return (
-    <section className="bg-[#02345C] text-white relative">
-      <div className="container mx-auto px-3 lg:px-6 flex flex-col lg:flex-row items-center gap-8 pt-12 lg:p-14">
-        {/* Text Section */}
-        <div className="w-full lg:lg:w-1/2 text-center lg:text-start">
-          <h2 className="text-3xl sm:text-4xl mb-3 font-semibold">
-            Not sure where to start?
-          </h2>
-          <p className="text-[#b3c2ce] leading-relaxed">
-            Talk to one of our hosting specialists who will review your needs
-            and propose a tailored hosting solution that matches your specific
-            business reality and requirements.
-          </p>
+    // <section className="bg-[#02345C] text-white relative">
+    //   <div className="container mx-auto px-3 lg:px-6 flex flex-col lg:flex-row items-center gap-8 pt-12 lg:p-14">
+    //     {/* Text Section */}
+    //     <div className="w-full lg:lg:w-1/2 text-center lg:text-start">
+    //       <h2 className="text-3xl sm:text-4xl mb-3 font-semibold">
+    //         Not sure where to start?
+    //       </h2>
+    //       <p className="text-[#b3c2ce] leading-relaxed">
+    //         Talk to one of our hosting specialists who will review your needs
+    //         and propose a tailored hosting solution that matches your specific
+    //         business reality and requirements.
+    //       </p>
 
-          {/* Contact Options */}
-          <div className="flex flex-wrap  items-center justify-center lg:justify-start gap-4 mt-10">
-            {contactData.map((contact, ind) => (
-              <Link
-                href={contact?.url}
-                key={ind}
-                className="w-40 h-28 rounded-lg flex flex-col items-center justify-center pt-4 gap-4 hover:opacity-85 transition-all duration-300"
-                style={{ backgroundColor: contact.color }}
-              >
-                <p>{contact.icon}</p>
-                <p className="bg-[#42424233] w-full h-12 flex items-center justify-center rounded-b-lg font-medium text-sm">
-                  {contact.name}
-                </p>
-              </Link>
-            ))}
-          </div>
-        </div>
+    //       {/* Contact Options */}
+    //       <div className="flex flex-wrap  items-center justify-center lg:justify-start gap-4 mt-10">
+    //         {contactData.map((contact, ind) => (
+    //           <Link
+    //             href={contact?.url}
+    //             key={ind}
+    //             className="w-40 h-28 rounded-lg flex flex-col items-center justify-center pt-4 gap-4 hover:opacity-85 transition-all duration-300"
+    //             style={{ backgroundColor: contact.color }}
+    //           >
+    //             <p>{contact.icon}</p>
+    //             <p className="bg-[#42424233] w-full h-12 flex items-center justify-center rounded-b-lg font-medium text-sm">
+    //               {contact.name}
+    //             </p>
+    //           </Link>
+    //         ))}
+    //       </div>
+    //     </div>
 
-        {/* Image Section */}
-        <div className="w-full  lg:w-1/2 flex justify-center relative lg:absolute right-12 bottom-0">
-          <Image
-            src="/commen-support-img.png"
-            width={400}
-            height={400}
-            alt="Support"
-            className="max-w-full w-auto h-auto"
-          />
-        </div>
-      </div>
-    </section>
+    //     {/* Image Section */}
+    //     <div className="w-full  lg:w-1/2 flex justify-center relative lg:absolute right-12 bottom-0">
+    //       <Image
+    //         src="/commen-support-img.png"
+    //         width={400}
+    //         height={400}
+    //         alt="Support"
+    //         className="max-w-full w-auto h-auto"
+    //       />
+    //     </div>
+    //   </div>
+    // </section>
+    <div></div>
   );
 }
 

@@ -129,14 +129,80 @@ const bottomNavData = [
   {
     name: "services",
     url: "#",
+    info: [
+      {
+        icon: <Lock size={20} />,
+        title: "a",
+        name: "RDP",
+      },
+      {
+        icon: <Lock size={20} />,
+        title: "b",
+        name: "VPS",
+      },
+      {
+        icon: <Lock size={20} />,
+        name: "SSL",
+        title: "c",
+      },
+      {
+        icon: <Lock size={20} />,
+        name: "Website design",
+        title: "d",
+      },
+      {
+        icon: <Lock size={20} />,
+        name: "Managed Dedicated Server (BDIX)",
+        title: "e",
+      },
+      {
+        icon: <Lock size={20} />,
+        name: "Managed Dedicated Server (Singapore)",
+        title: "f",
+      },
+    ],
   },
   {
-    name: "sms",
+    name: "SMS",
     url: "#",
+    info: [
+      {
+        icon: <Lock size={20} />,
+        title: "a",
+        name: "RDP",
+      },
+      {
+        icon: <Lock size={20} />,
+        title: "b",
+        name: "VPS",
+      },
+      {
+        icon: <Lock size={20} />,
+        name: "SSL",
+        title: "c",
+      },
+    ],
   },
   {
     name: "web design",
     url: "#",
+    info: [
+      {
+        icon: <Lock size={20} />,
+        title: "a",
+        name: "Software Development",
+      },
+      {
+        icon: <Lock size={20} />,
+        title: "b",
+        name: "Web Development",
+      },
+      {
+        icon: <Lock size={20} />,
+        name: "E-commerce",
+        title: "c",
+      },
+    ],
   },
   {
     name: "about Us",

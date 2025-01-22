@@ -90,7 +90,7 @@ function OurService() {
             </h2>
             <p className="mt-6 text-center">
               {service?.description},
-              <Link href={service?.utl}> click here for details</Link>
+              <Link href={service?.utl} className=" text " > click here for details</Link>
             </p>
           </div>
         </div>
