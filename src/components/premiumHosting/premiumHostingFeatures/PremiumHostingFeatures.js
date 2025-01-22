@@ -62,7 +62,7 @@ function PremiumHostingFeatures() {
         {premiumHostingFeaturesData.map((features, ind) => (
           <div
             key={ind}
-            className="border-y-4 border-r-8 border-[#8EC151] rounded-xl text-center space-y-3 p-2"
+            className="border-y-4 border-r-8 border-[#166195] rounded-xl text-center space-y-3 p-2"
           >
             <Image
               src={features?.image}

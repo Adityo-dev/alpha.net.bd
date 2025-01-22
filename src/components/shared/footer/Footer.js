@@ -25,22 +25,31 @@ const footerData = [
       { name: "Technical Support", url: "#" },
     ],
   },
-  
+  {
+    title: "Services",
+    info: [
+      { name: "Web Hosting", url: "#" },
+      { name: "Domain Registration", url: "#" },
+      { name: "Cloud Services", url: "#" },
+      { name: "Data Center", url: "#" },
+      { name: "Technical Support", url: "#" },
+    ],
+  },
 ];
 
-const payBill = {
-  title: "Pay bill through",
-  info: [
-    "/payment-1.png",
-    "/payment-2.png",
-    "/payment-3.png",
-    "/payment-4.png",
-    "/payment-5.png",
-    "/payment-6.png",
-    "/payment-7.png",
-    "/payment-8.png",
-  ],
-};
+// const payBill = {
+//   title: "Pay bill through",
+//   info: [
+//     "/payment-1.png",
+//     "/payment-2.png",
+//     "/payment-3.png",
+//     "/payment-4.png",
+//     "/payment-5.png",
+//     "/payment-6.png",
+//     "/payment-7.png",
+//     "/payment-8.png",
+//   ],
+// };
 
 function Footer() {
   return (
@@ -59,7 +68,7 @@ function Footer() {
               width={600}
               height={600}
               alt="Brand logo"
-              className="w-64"
+              className="w-32  h-full"
             />
             <p className="mt-4 text-sm">
               Complete online solutions and infrastructure service provider.
@@ -72,10 +81,17 @@ function Footer() {
             <span className="text-[#a0cf6d]">VAT/BLN ID:01234567890</span>
             <span> All prices are excluding 5% Govt.VAT</span>
           </p>
+          <Image
+            src="/SSLCommerz-Pay-With-logo-All-Size-03.png"
+            width={600}
+            height={600}
+            alt="Brand logo"
+            className="w-full object-cover"
+          />
         </div>
 
         {/* Links Section */}
-        <div className="flex flex-col sm:flex-row justify-start md:justify-around gap-6 sm:gap-12 md:gap-6 col-span-1 sm:col-span-2 md:col-span-1">
+        <div className="flex flex-col sm:flex-row justify-start md:justify-around gap-6 sm:gap-12 md:gap-6 col-span-1 sm:col-span-2">
           {footerData.map((section, index) => (
             <div key={index}>
               <h3 className="text-xl font-bold mb-4 uppercase">
@@ -95,7 +111,7 @@ function Footer() {
         </div>
 
         {/* Pay Bill Section */}
-        <div className="col-span-1 sm:col-span-2 md:col-span-1">
+        {/* <div className="col-span-1 sm:col-span-2 md:col-span-1">
           <h3 className="text-xl font-bold mb-4 uppercase">{payBill?.title}</h3>
           <div className="grid grid-cols-6 gap-2">
             {payBill.info.map((imageSrc, idx) => (
@@ -109,7 +125,7 @@ function Footer() {
               />
             ))}
           </div>
-        </div>
+        </div> */}
       </section>
       {/* Copy Right Section */}
       <section>

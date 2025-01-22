@@ -52,7 +52,6 @@ const bottomNavData = [
         name: "Reseller Hosting (Singapore)",
         title: "g",
       },
-      
     ],
   },
   {
@@ -83,7 +82,6 @@ const bottomNavData = [
     name: "Contact",
     url: "/contact-us",
   },
-
 ];
 
 function MainNavigationBar() {
