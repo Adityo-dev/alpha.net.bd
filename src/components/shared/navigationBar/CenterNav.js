@@ -41,22 +41,22 @@ function CenterNav({ navData }) {
     <section className="container mx-auto px-3 lg:px-6 flex items-center justify-between">
       <Link href={"/"}>
         <Image
-          src="/brand-logo.svg"
+          src="/logo.jpg"
           width={600}
           height={600}
           alt="Brand logo"
-          className="w-44 2xl:w-full h-full"
+          className="w-20 md:w-24 2xl:w-32  h-full"
         />
       </Link>
 
-      <div className="hidden 2xl:flex items-center gap-4 ">
+      <div className="hidden 2xl:flex items-center gap-4">
         <Link
           href={"#"}
           className="text-4xl font-semibold text-red-600 uppercase"
         >
           OFFER
         </Link>
-
+        {/* 
         {centerData.map((data, ind) => (
           <Link href={data.url} key={ind}>
             <Image
@@ -67,7 +67,7 @@ function CenterNav({ navData }) {
               className="w-24 h-full"
             />
           </Link>
-        ))}
+        ))} */}
       </div>
       {/* mobile nav bar */}
       <div className="flex gap-5 items-center 2xl:hidden">

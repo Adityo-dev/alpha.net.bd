@@ -4,7 +4,27 @@ import ServiceOfferingsCart from "./ServiceOfferingsCart";
 const serviceOfferingsData = [
   {
     image: <Database size={55} strokeWidth={1.2} />,
-    title: "Domains & Hosting",
+    title: "Domains",
+    form: (
+      <form
+        action="https://login.dinihost.com/cart.php?a=add&domain=register"
+        placeholder="Find your Domain"
+        method="post"
+      >
+        <span className="text-sm pb-2">Find your Domain:</span>
+        <input
+          type="text"
+          name="query"
+          size="20"
+          className="border mr-2 rounded-md outline-none transition-all duration-300 hover:border-[#000094] px-2"
+        />
+        <input
+          type="submit"
+          value="Go"
+          className="bg-[#000094] text-white px-3 rounded-md outline-none cursor-pointer"
+        />
+      </form>
+    ),
     details: [
       { name: "Dedicated Server in BD", url: "" },
       { name: "Dedicated Server in USA", url: "" },
@@ -12,6 +32,19 @@ const serviceOfferingsData = [
       { name: "Linux Dedicated Server", url: "" },
     ],
     color: "#000094",
+    url: "",
+  },
+
+  {
+    image: <Database size={55} strokeWidth={1.2} />,
+    title: "Hosting",
+    details: [
+      { name: "Dedicated Server in BD", url: "" },
+      { name: "Dedicated Server in USA", url: "" },
+      { name: "Windows Dedicated Server", url: "" },
+      { name: "Linux Dedicated Server", url: "" },
+    ],
+    color: "#5d21d2",
     url: "",
   },
   {
@@ -28,19 +61,7 @@ const serviceOfferingsData = [
   },
   {
     image: <Database size={55} strokeWidth={1.2} />,
-    title: "Dedicated Server",
-    details: [
-      { name: "Dedicated Server in BD", url: "" },
-      { name: "Dedicated Server in USA", url: "" },
-      { name: "Windows Dedicated Server", url: "" },
-      { name: "Linux Dedicated Server", url: "" },
-    ],
-    color: "#5d21d2",
-    url: "",
-  },
-  {
-    image: <Database size={55} strokeWidth={1.2} />,
-    title: "Business Email",
+    title: "Dedicatd Server",
     details: [
       { name: "Dedicated Server in BD", url: "" },
       { name: "Dedicated Server in USA", url: "" },
@@ -52,7 +73,7 @@ const serviceOfferingsData = [
   },
   {
     image: <Database size={55} strokeWidth={1.2} />,
-    title: "Web Design",
+    title: "Business Email",
     details: [
       { name: "Dedicated Server in BD", url: "" },
       { name: "Dedicated Server in USA", url: "" },
@@ -64,7 +85,7 @@ const serviceOfferingsData = [
   },
   {
     image: <Database size={55} strokeWidth={1.2} />,
-    title: "Business Phone",
+    title: "Website Design",
     details: [
       { name: "Dedicated Server in BD", url: "" },
       { name: "Dedicated Server in USA", url: "" },

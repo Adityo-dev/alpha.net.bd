@@ -25,24 +25,24 @@ function PremiumHostingPlan({ plans }) {
               <div>
                 {plan?.prm && (
                   <p className="flex items-center justify-center gap-6 uppercase mb-2">
-                    <span className="bg-[#00B159] text-white font-semibold px-2 ">
+                    <span className="bg-[#166195] text-white font-semibold px-2 ">
                       {plan?.prm}
                     </span>
                     <span className="text-[#ff0000]">1 YEARS</span>
-                    <span className="bg-[#00B159] text-white font-semibold px-2 ">
+                    <span className="bg-[#166195] text-white font-semibold px-2 ">
                       {plan?.price * 12}
                     </span>
                   </p>
                 )}
               </div>
               {plan?.powerful && (
-                <p className="w-3/5 mx-auto text-center bg-[#75B12C] text-white font-semibold py-1">
+                <p className="w-3/5 mx-auto text-center bg-[#2280c3] text-white font-semibold py-1">
                   {plan?.powerful}
                 </p>
               )}
             </div>
-            <div className="border-l-8 rounded-t-2xl border-[#75B12C]">
-              <div className="bg-[#92BF5A] text-white p-6 rounded-t-xl">
+            <div className="border-l-8 rounded-t-2xl border-[#166195]">
+              <div className="bg-[#166195] text-white p-6 rounded-t-xl">
                 <h2 className="text-3xl uppercase font-semibold text-center">
                   {plan.name}
                 </h2>
@@ -129,7 +129,7 @@ function PremiumHostingPlan({ plans }) {
                 )}
               </div>
             </div>
-            <button className="w-full bg-[#8BC34A] uppercase text-white font-semibold py-4 border-s-8 border-[#F5F5F5]">
+            <button className="w-full bg-[#2280c3] uppercase text-white font-semibold py-4 border-s-8 border-[#F5F5F5]">
               Order Now
             </button>
           </div>

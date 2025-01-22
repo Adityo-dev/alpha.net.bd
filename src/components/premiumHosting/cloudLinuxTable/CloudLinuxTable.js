@@ -1,6 +1,6 @@
 function CloudLinuxTable() {
   return (
-    <section className="py-10 bg-gradient-to-r from-[#75b12c] to-[#00b159] text-white">
+    <section className="py-10 bg-gradient-to-r from-[#166195] to-[#2280c3] text-white">
       <div className="container mx-auto px-3 lg:px-6 flex flex-col lg:flex-row items-center gap-6">
         <div className="w-full lg:w-1/4">
           <h1 className="text-2xl font-semibold mb-4">

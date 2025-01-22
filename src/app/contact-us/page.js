@@ -6,7 +6,15 @@ import GoogleMap from "@/components/contact/GoogleMap";
 function ContactUs() {
   return (
     <main className="space-y-12">
-      <div className="bg-[#014cda]">
+      <div
+        className="bg-[#014cda]"
+        style={{
+          backgroundImage: `url('https://dinisoftbd.com/wp-content/uploads/2023/09/tos.jpeg')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundBlendMode: "overlay",
+        }}
+      >
         <div className="container mx-auto px-3 lg:px-6 w-full h-64 md:h-80 flex flex-col items-center justify-center text-white text-center space-y-4 py-8">
           <h1 className="text-4xl font-bold">Contact Us</h1>
           <p className="text-base sm:text-lg w-full md:w-2/3 mx-auto ">

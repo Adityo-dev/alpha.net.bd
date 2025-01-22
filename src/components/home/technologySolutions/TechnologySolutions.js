@@ -58,7 +58,7 @@ function TechnologySolutions() {
 
         <div className="w-full xl:w-5/12">
           <Image
-            src={"/sticky-brand.svg"}
+            src={"/dinisoft-office.jpg"}
             width={400}
             height={400}
             alt=""
