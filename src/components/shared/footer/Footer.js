@@ -6,10 +6,10 @@ import HeedHelp from "./HeedHelp";
 
 const footerData = [
   {
-    title: "About xeonbd",
+    title: "About Dinisoft",
     info: [
       { name: "About Us", url: "#" },
-      { name: "Our Services", url: "#" },
+      { name: "Services", url: "#" },
       { name: "Terms & Conditions", url: "#" },
       { name: "Privacy Policy", url: "#" },
       { name: "FAQs", url: "#" },

@@ -7,9 +7,7 @@ const topData = [
   {
     name: "office location",
     icon: <MapPin size={18} strokeWidth={1.5} />,
-    target: "_blank",
     url: "https://maps.app.goo.gl/mFaubb1Ztm5qcvB86",
-    
   },
   {
     name: "+8801788800151",
@@ -31,6 +29,7 @@ function TopNav() {
           <Link
             href={info?.url}
             key={ind}
+            target={ind === 0 ? "_blank" : null}
             className="capitalize text-white border-s border-[#4b698a] ps-6 py-2 flex items-center gap-1 text-nowrap"
           >
             {info?.icon}
