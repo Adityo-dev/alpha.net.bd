@@ -1,9 +1,17 @@
 import { Database } from "lucide-react";
 import ServiceOfferingsCart from "./ServiceOfferingsCart";
+import Image from "next/image";
 
 const serviceOfferingsData = [
   {
-    image: <Database size={55} strokeWidth={1.2} />,
+    image: (
+      <Image
+        src="/services/domain.jpg" // Replace with the correct path in your public folder
+        alt="domain Icon"
+        width={55}
+        height={55}
+      />
+    ),
     title: "Domains",
     form: (
       <form
@@ -36,7 +44,14 @@ const serviceOfferingsData = [
   },
 
   {
-    image: <Database size={55} strokeWidth={1.2} />,
+    image: (
+      <Image
+        src="/services/hosting.jpg" // Replace with the correct path in your public folder
+        alt="hosting Icon"
+        width={55}
+        height={55}
+      />
+    ),
     title: "Hosting",
     details: [
       { name: "Dedicated Server in BD", url: "" },
@@ -48,7 +63,14 @@ const serviceOfferingsData = [
     url: "",
   },
   {
-    image: <Database size={55} strokeWidth={1.2} />,
+    image: (
+      <Image
+        src="/services/vps.png" // Replace with the correct path in your public folder
+        alt="vps Icon"
+        width={55}
+        height={55}
+      />
+    ),
     title: "VPS",
     details: [
       { name: "Dedicated Server in BD", url: "" },
@@ -60,7 +82,14 @@ const serviceOfferingsData = [
     url: "",
   },
   {
-    image: <Database size={55} strokeWidth={1.2} />,
+    image: (
+      <Image
+        src="/services/DedicatedServer.png" // Replace with the correct path in your public folder
+        alt="DedicatedServer"
+        width={55}
+        height={55}
+      />
+    ),
     title: "Dedicatd Server",
     details: [
       { name: "Dedicated Server in BD", url: "" },
@@ -72,7 +101,14 @@ const serviceOfferingsData = [
     url: "",
   },
   {
-    image: <Database size={55} strokeWidth={1.2} />,
+    image: (
+      <Image
+        src="/services/Businessemail.png" // Replace with the correct path in your public folder
+        alt="Businessemail Icon"
+        width={55}
+        height={55}
+      />
+    ),
     title: "Business Email",
     details: [
       { name: "Dedicated Server in BD", url: "" },
@@ -84,7 +120,14 @@ const serviceOfferingsData = [
     url: "",
   },
   {
-    image: <Database size={55} strokeWidth={1.2} />,
+    image: (
+      <Image
+        src="/services/Websitedesing.png" // Replace with the correct path in your public folder
+        alt="Websitedesing Icon"
+        width={55}
+        height={55}
+      />
+    ),
     title: "Website Design",
     details: [
       { name: "Dedicated Server in BD", url: "" },
@@ -96,7 +139,14 @@ const serviceOfferingsData = [
     url: "",
   },
   {
-    image: <Database size={55} strokeWidth={1.2} />,
+    image: (
+      <Image
+        src="/services/SMS.png" // Replace with the correct path in your public folder
+        alt="SMS Icon"
+        width={55}
+        height={55}
+      />
+    ),
     title: "Sms",
     details: [
       { name: "Dedicated Server in BD", url: "" },
@@ -108,7 +158,14 @@ const serviceOfferingsData = [
     url: "",
   },
   {
-    image: <Database size={55} strokeWidth={1.2} />,
+    image: (
+      <Image
+        src="/services/Software.png" // Replace with the correct path in your public folder
+        alt="Software Icon"
+        width={55}
+        height={55}
+      />
+    ),
     title: "Software",
     details: [
       { name: "Dedicated Server in BD", url: "" },

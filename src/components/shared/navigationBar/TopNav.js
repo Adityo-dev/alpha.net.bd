@@ -29,6 +29,7 @@ function TopNav() {
           <Link
             href={info?.url}
             key={ind}
+            target={ind === 0 ? "_blank" : null}
             className="capitalize text-white border-s border-[#4b698a] ps-6 py-2 flex items-center gap-1 text-nowrap"
           >
             {info?.icon}

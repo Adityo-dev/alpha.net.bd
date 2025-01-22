@@ -6,13 +6,23 @@ import HeedHelp from "./HeedHelp";
 
 const footerData = [
   {
-    title: "About xeonbd",
+    title: "About Dinisoft",
     info: [
       { name: "About Us", url: "#" },
-      { name: "Our Services", url: "#" },
+      { name: "Services", url: "#" },
       { name: "Terms & Conditions", url: "#" },
       { name: "Privacy Policy", url: "#" },
       { name: "FAQs", url: "#" },
+    ],
+  },
+  {
+    title: "Services",
+    info: [
+      { name: "Web Hosting", url: "#" },
+      { name: "Domain Registration", url: "#" },
+      { name: "Cloud Services", url: "#" },
+      { name: "Data Center", url: "#" },
+      { name: "Technical Support", url: "#" },
     ],
   },
   {
@@ -61,7 +71,7 @@ function Footer() {
       {/* Footer Data Info */}
       <section className="container mx-auto px-3 lg:px-6 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 pt-40 pb-10">
         {/* Logo & Description */}
-        <div className="space-y-8 col-span-1 sm:col-span-2 xl:col-span-1">
+        {/* <div className="space-y-8 col-span-1 sm:col-span-2 xl:col-span-1">
           <div>
             <Image
               src="/logo.jpg"
@@ -88,7 +98,7 @@ function Footer() {
             alt="Brand logo"
             className="w-full object-cover"
           />
-        </div>
+        </div> */}
 
         {/* Links Section */}
         <div className="flex flex-col sm:flex-row justify-start md:justify-around gap-6 sm:gap-12 md:gap-6 col-span-1 sm:col-span-2">
