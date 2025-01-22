@@ -151,7 +151,7 @@ function VideoTab() {
         <div key={ind}>
           <TabsContent
             value={video?.value}
-            className="space-y-2 p-4 max-h-[400px] h-full overflow-y-scroll"
+            className="space-y-2 p-4 max-h-[400px] h-full overflow-y-auto"
           >
             {video?.info.map((inf, ind) => (
               <div
