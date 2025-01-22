@@ -7,7 +7,7 @@ import DynamicButton1 from "@/components/buttonGroup/DynamicButton1";
 function ServiceOfferingsCart({ serviceOfferingsData }) {
   return (
     <div
-    className="flex flex-col gap-2 border border-[#DFDFDF] px-6 py-4 rounded-lg"
+    className="flex flex-col gap-2 border border-[#DFDFDF] px-6 py-4 rounded-lg justify-between"
     style={{
       boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
     }}
@@ -21,13 +21,15 @@ function ServiceOfferingsCart({ serviceOfferingsData }) {
     >
       {serviceOfferingsData?.image}
     </p>
-    <div>
-      <h3 className="text-2xl font-semibold uppercase text-center tracking-wide">
+    <h3 className="text-2xl font-semibold uppercase text-center tracking-wide">
         {serviceOfferingsData?.title}
       </h3>
-      <p className="text-center text-lg mt-2">{serviceOfferingsData?.form}</p>
-      <div className="flex flex-col gap-2 mt-4">
-        {serviceOfferingsData?.details.map((info, ind) => (
+
+      {serviceOfferingsData?.form ? (
+        <p className="text-center">{serviceOfferingsData?.form}</p>
+      ) : null}
+
+      {serviceOfferingsData?.details.map((info, ind) => (
           <Link
             href={info?.url}
             key={ind}
@@ -43,6 +45,11 @@ function ServiceOfferingsCart({ serviceOfferingsData }) {
             <span className="underline">{info?.name}</span>
           </Link>
         ))}
+    <div>
+      
+
+      <div className="flex flex-col gap-2 mt-4">
+
   
         <div className="max-w-80 w-full mx-auto flex gap-1 mt-4">
           <DynamicButton1
