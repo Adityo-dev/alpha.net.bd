@@ -12,10 +12,10 @@ function AnyQuestions() {
           today.
         </p>
         <a
-          href="tel:+88 01823 662233"
+          href="tel:+8801788800151"
           className="py-3 px-4 bg-[#8BC34A] rounded-lg text-white font-medium flex gap-2 items-center justify-center"
         >
-          <Phone size={16} /> +88 01823 662233
+          <Phone size={16} /> +8801788800151
         </a>
       </div>
     </div>
