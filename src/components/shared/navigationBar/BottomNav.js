@@ -31,7 +31,7 @@ function BottomNav({ navData }) {
               <div
                 className={`absolute left-0 top-full -mt-1.5 w-max bg-white shadow-lg p-4 rounded transition-all transform group-hover:translate-y-2 z-40 hidden group-hover:block`}
               >
-                <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-4">
                   {item.info.map((subItem, subIndex) => (
                     <Link
                       key={subIndex}
