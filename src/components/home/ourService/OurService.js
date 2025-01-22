@@ -85,9 +85,14 @@ function OurService() {
             />
           </div>
           <div className="px-6 py-6 mt-6">
-            <h2 className="text-2xl font-semibold capitalize text-center">
-              <Link href={"#"}>{service?.title}</Link>
-            </h2>
+          <h2 className="text-2xl font-semibold capitalize text-center">
+                <Link 
+                  href={"#"} 
+                  className="hover:text-blue-500 transition duration-300"
+                >
+                  {service?.title}
+                </Link>
+              </h2>
             <p className="mt-6 text-center">
               {service?.description},
               <Link href={service?.utl} className=" text " > click here for details</Link>
