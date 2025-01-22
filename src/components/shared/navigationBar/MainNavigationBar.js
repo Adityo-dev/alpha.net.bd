@@ -228,6 +228,14 @@ const bottomNavData = [
     url: "about-us",
   },
   {
+    name: "Colocation",
+    url: "#",
+  },
+  {
+    name: "Affiliate Program",
+    url: "#",
+  },
+  {
     name: "Contact",
     url: "/contact-us",
   },
