@@ -1,30 +1,43 @@
-import { Phone } from "lucide-react";
+import { BookUser, Mail, MessagesSquare, Phone } from "lucide-react";
 import Link from "next/link";
 
 const helpData = [
   {
     icon: <Phone size={20} strokeWidth={1} />,
     name: "Call us",
-    url: "#",
+    url: "tel:+8801788800151",
   },
   {
-    icon: <Phone size={20} strokeWidth={1} />,
+    icon: <MessagesSquare size={20} strokeWidth={1} />,
     name: "Live Chat",
     url: "#",
   },
   {
-    icon: <Phone size={20} strokeWidth={1} />,
-    name: "Call Back",
-    url: "#",
+    icon: <Mail size={20} strokeWidth={1} />,
+    name: "mail Us",
+    url: "mailto:sales@dinisoftbd.com",
   },
   {
-    icon: <Phone size={20} strokeWidth={1} />,
+    icon: <BookUser size={20} strokeWidth={1} />,
     name: "Open ticket",
-    url: "#",
+    url: "https://login.dinihost.com/contact.php",
   },
 ];
 
 function HeedHelp() {
+
+    const loadTawkTo = () => {
+    if (window.Tawk_API) return; // Avoid loading multiple times
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+    var s1 = document.createElement("script");
+    s1.async = true;
+    s1.src = "https://embed.tawk.to/55a81f9b84d307454c027a34/default";
+    s1.charset = "UTF-8";
+    s1.setAttribute("crossorigin", "*");
+    document.body.appendChild(s1);
+  };
+
   return (
     <section className="w-full">
       <div
@@ -50,6 +63,7 @@ function HeedHelp() {
               key={ind}
               href={help?.url}
               className="flex items-center gap-2 px-4 py-2 sm:py-3 rounded-md capitalize font-semibold bg-[#0E3C9E] text-white hover:bg-[#0b2e7e] transition duration-300 text-nowrap"
+
             >
               <span>{help?.icon}</span>
               <span>{help?.name}</span>
