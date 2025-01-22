@@ -1,3 +1,4 @@
+"use client";
 import { BookUser, Mail, MessagesSquare, Phone } from "lucide-react";
 import Link from "next/link";
 
@@ -25,8 +26,7 @@ const helpData = [
 ];
 
 function HeedHelp() {
-
-    const loadTawkTo = () => {
+  const loadTawkTo = () => {
     if (window.Tawk_API) return; // Avoid loading multiple times
     var Tawk_API = Tawk_API || {},
       Tawk_LoadStart = new Date();
@@ -57,18 +57,29 @@ function HeedHelp() {
           proposal that perfectly aligns with your company’s unique needs and
           realities.
         </p>
-        <div className="max-w-[700px] w-full mx-auto grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-4">
-          {helpData.map((help, ind) => (
-            <Link
-              key={ind}
-              href={help?.url}
-              className="flex items-center gap-2 px-4 py-2 sm:py-3 rounded-md capitalize font-semibold bg-[#0E3C9E] text-white hover:bg-[#0b2e7e] transition duration-300 text-nowrap"
 
-            >
-              <span>{help?.icon}</span>
-              <span>{help?.name}</span>
-            </Link>
-          ))}
+        <div className="max-w-[700px] w-full mx-auto grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-4">
+          {helpData.map((help, ind) =>
+            help?.name === "Live Chat" ? (
+              <button
+                key={ind}
+                onClick={loadTawkTo}
+                className="flex items-center gap-2 px-4 py-2 sm:py-3 rounded-md capitalize font-semibold bg-[#0E3C9E] text-white hover:bg-[#0b2e7e] transition duration-300 text-nowrap"
+              >
+                <span>{help?.icon}</span>
+                <span>{help?.name}</span>
+              </button>
+            ) : (
+              <Link
+                key={ind}
+                href={help?.url}
+                className="flex items-center gap-2 px-4 py-2 sm:py-3 rounded-md capitalize font-semibold bg-[#0E3C9E] text-white hover:bg-[#0b2e7e] transition duration-300 text-nowrap"
+              >
+                <span>{help?.icon}</span>
+                <span>{help?.name}</span>
+              </Link>
+            )
+          )}
         </div>
       </div>
     </section>
