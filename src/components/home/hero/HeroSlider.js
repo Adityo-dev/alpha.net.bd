@@ -15,7 +15,7 @@ const customButtonStyles =
 
 function HeroSlider({ sliderData }) {
   return (
-    <main className="bg-[#37449A] overflow-hidden">
+    <main className="bg-[#000F57] overflow-hidden">
       <section className="container mx-auto px-3 lg:px-6 w-full h-[400px] sm:h-[550px] lg:h-[638px]  overflow-hidden group">
         {/* Custom Navigation Buttons */}
         <div
@@ -46,7 +46,7 @@ function HeroSlider({ sliderData }) {
           {sliderData.map((data, ind) => (
             <SwiperSlide
               key={ind}
-              className="w-full h-full flex bg-[#37449A] z-10"
+              className="w-full h-full flex bg-[#000F57] z-10"
             >
               <div className="flex w-full items-center mt-[3%]  ">
                 {/* Text Section */}

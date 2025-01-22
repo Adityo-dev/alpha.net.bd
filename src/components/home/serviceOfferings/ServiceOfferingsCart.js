@@ -20,7 +20,7 @@ function ServiceOfferingsCart({ serviceOfferingsData }) {
         <h3 className="text-2xl  font-semibold uppercase text-center tracking-wide">
           {serviceOfferingsData?.title}
         </h3>
-
+        <p className="text-center text-lg mt-2">{serviceOfferingsData?.form}</p>
         <div className="flex flex-col gap-2 mt-4">
           {serviceOfferingsData?.details.map((info, ind) => (
             <Link

@@ -81,7 +81,7 @@ function PremiumHosting() {
           }}
         >
           <div className="container mx-auto px-3 lg:px-6  lg:h-96 flex flex-col gap-6 items-center justify-center text-white  py-12 lg:py-0">
-            <div>
+            {/* <div>
               <h2 className="text-5xl leading-[55px] capitalize mb-3 text-center">
                 Premium NVMe Performance Web Hosting
               </h2>
@@ -89,7 +89,7 @@ function PremiumHosting() {
                 Powerful cPanel Hosting designed for larger, more demanding
                 websites or e-commerce
               </p>
-            </div>
+            </div> */}
           </div>
         </header>
 

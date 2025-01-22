@@ -69,7 +69,20 @@ export default function TestimonialSlider({ testimonialData }) {
               <p className="text-sm sm:text-base">{data?.companyName}</p>
               <p className="text-sm sm:text-base">{data?.description}</p>
               <p className="flex items-center space-x-2">
-                <span className="w-8 sm:w-12 h-[1px] bg-red-500"></span>
+              <span className="flex items-center justify-center w-8 sm:w-12 h-[1px] gap-1">
+                {[...Array(5)].map((_, index) => (
+                  <svg
+                    key={index}
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-6 h-6 sm:w-7 sm:h-7 text-yellow-400"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M12 .587l3.668 7.431 8.2 1.192-5.933 5.784 1.4 8.171L12 18.896l-7.335 3.869 1.4-8.171L.133 9.21l8.2-1.192z" />
+                  </svg>
+                ))}
+              </span>
+
                 <span className="font-semibold">{data?.name}</span>
               </p>
             </div>
