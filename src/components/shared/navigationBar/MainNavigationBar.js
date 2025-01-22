@@ -57,10 +57,74 @@ const bottomNavData = [
   {
     name: "Vps",
     url: "#",
+    info: [
+      {
+        icon: <Lock size={20} />,
+        title: "a",
+        name: "VPS (USA)",
+      },
+      {
+        icon: <Lock size={20} />,
+        title: "b",
+        name: "VPS (BDIX)",
+      },
+      {
+        icon: <Lock size={20} />,
+        name: "VPS (Singapore)",
+        title: "c",
+      },
+      {
+        icon: <Lock size={20} />,
+        name: "Managed VPS (USA)",
+        title: "d",
+      },
+      {
+        icon: <Lock size={20} />,
+        name: "Managed VPS (BDIX)",
+        title: "e",
+      },
+      {
+        icon: <Lock size={20} />,
+        name: "Managed VPS (Singapore)",
+        title: "f",
+      },
+    ],
   },
   {
     name: "dedicated server",
     url: "/dedicated-server",
+    info: [
+      {
+        icon: <Lock size={20} />,
+        title: "a",
+        name: "Dedicated Server(USA)",
+      },
+      {
+        icon: <Lock size={20} />,
+        title: "b",
+        name: "Dedicated Server(BDIX)",
+      },
+      {
+        icon: <Lock size={20} />,
+        name: "Dedicated Server(Singapore)",
+        title: "c",
+      },
+      {
+        icon: <Lock size={20} />,
+        name: "Managed Dedicated Server (USA)",
+        title: "d",
+      },
+      {
+        icon: <Lock size={20} />,
+        name: "Managed Dedicated Server (BDIX)",
+        title: "e",
+      },
+      {
+        icon: <Lock size={20} />,
+        name: "Managed Dedicated Server (Singapore)",
+        title: "f",
+      },
+    ],
   },
   {
     name: "services",

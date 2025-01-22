@@ -24,11 +24,11 @@ function AboutUS() {
         <div className="relative">
           <div className="absolute inset-0 h-full w-full bg-black bg-opacity-65 transition-all duration-300"></div>
           <Image
-            src={"/about-us-bg.jpg"}
+            src={"/dinisoft-office.jpg"}
             alt="about_us_Bg"
             width={2000}
             height={2000}
-            className="w-full h-64 md:h-80 object-cover"
+            className="w-full h-64 md:h-80 object-fill"
           />
         </div>
         <div className="container mx-auto px-3 lg:px-6">
