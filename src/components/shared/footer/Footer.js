@@ -128,22 +128,23 @@ function Footer() {
       </section>
 
       {/* Logo & Description */}
-      <section className="container mx-auto px-3 lg:px-6 flex flex-wrap gap-3 items-center mb-8">
-        <Image
-          src="/logo.jpg"
-          width={600}
-          height={600}
-          alt="Brand logo"
-          className="w-32  h-full"
-        />
-        <Image
-          src="/SSLCommerz-Pay-With-logo-All-Size-03.png"
-          width={1200}
-          height={1200}
-          alt="Brand logo"
-          className="w-full md:w-3/4 object-cover"
-        />
-      </section>
+      <section className="container mx-auto px-3 lg:px-6 flex flex-wrap gap-3 items-center justify-center mb-8">
+          {/* <Image
+            src="/logo.jpg"
+            width={600}
+            height={600}
+            alt="Brand logo"
+            className="w-32 h-full"
+          /> */}
+          <Image
+            src="/SSLCommerz-Pay-With-logo-All-Size-03.png"
+            width={1200}
+            height={1200}
+            alt="Brand logo"
+            className="w-full md:w-3/4 object-cover mx-auto"
+          />
+        </section>
+
       {/* Copy Right Section */}
       <section>
         <CopyRight />

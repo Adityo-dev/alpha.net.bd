@@ -38,7 +38,7 @@ const centerData = [
 
 function CenterNav({ navData }) {
   return (
-    <section className="max-w-7xl mx-auto px-3 lg:px-6 flex items-center justify-between">
+    <section className="container mx-auto px-3 lg:px-6 flex items-center justify-between">
       <Link href={"/"}>
         <Image
           src="/logo.jpg"
@@ -105,8 +105,9 @@ function CenterNav({ navData }) {
                             key={subInd}
                             className="flex items-center gap-2 border-b py-3 last:border-none text-white ms-4"
                           >
-                            {subNav?.icon}
-                            {subNav?.title}
+                            <Link href={subNav?.url}>
+                            <SheetClose className="flex item-center gap-2 ">{subNav?.icon} {nav?.name}</SheetClose>
+                            </Link>
                           </SheetDescription>
                         ))}
                       </AccordionContent>
