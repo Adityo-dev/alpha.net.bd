@@ -17,7 +17,7 @@ const HelpSection = () => {
       </p>
       <div className="flex flex-wrap justify-center gap-4">
         <a
-          href="tel:+88 01823 662233"
+          href="tel:+8801788800151"
           className="flex items-center gap-2 bg-blue-800 px-6 py-3 rounded-lg hover:bg-blue-700 transition"
         >
           <Phone size={16} /> Call US

@@ -1,6 +1,7 @@
 // components
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Video } from "lucide-react";
+import Link from "next/link";
 // data
 const videoData = [
   {
@@ -8,43 +9,43 @@ const videoData = [
     info: [
       {
         name: "How to Order Domain Hosting Using Bkash, Nagad Rocket?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to order only Domain from Web Host BD?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to order only hosting from Web Host BD?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to Open email account from cpanel and login web mail?",
-        url: "",
+        url: "#",
       },
       {
         name: "How Open support ticker from our client area?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to Open email account from cpanel and login web mail?",
-        url: "",
+        url: "#",
       },
       {
         name: "How Open support ticker from our client area?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to Upload file in cPanel using File Manager?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to add Multiple user in cPanel?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to add Multiple user in cPanel?",
-        url: "",
+        url: "#",
       },
     ],
   },
@@ -53,39 +54,39 @@ const videoData = [
     info: [
       {
         name: "How to Order Domain Hosting Using Bkash, Nagad Rocket?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to Upload file in cPanel using File Manager?",
-        url: "",
+        url: "#",
       },
       {
         name: "How Open support ticker from our client area?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to order only hosting from Web Host BD?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to Open email account from cpanel and login web mail?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to order only Domain from Web Host BD?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to add Multiple user in cPanel?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to order only Domain from Web Host BD?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to add Multiple user in cPanel?",
-        url: "",
+        url: "#",
       },
     ],
   },
@@ -94,35 +95,35 @@ const videoData = [
     info: [
       {
         name: "How to Order Domain Hosting Using Bkash, Nagad Rocket?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to Order Domain Hosting Using Bkash, Nagad Rocket?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to Order Domain Hosting Using Bkash, Nagad Rocket?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to Order Domain Hosting Using Bkash, Nagad Rocket?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to Order Domain Hosting Using Bkash, Nagad Rocket?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to Order Domain Hosting Using Bkash, Nagad Rocket?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to Order Domain Hosting Using Bkash, Nagad Rocket?",
-        url: "",
+        url: "#",
       },
       {
         name: "How to Order Domain Hosting Using Bkash, Nagad Rocket?",
-        url: "",
+        url: "#",
       },
     ],
   },
@@ -168,9 +169,9 @@ function VideoTab() {
                   </span>
                   <span>{inf?.name}</span>
                 </p>
-                <button className="border px-4 py-1 bg-[#0E9AFF] text-white rounded-md">
+                <Link href={inf?.url} className="border px-4 py-1 bg-[#0E9AFF] text-white rounded-md">
                   Video
-                </button>
+                </Link>
               </div>
             ))}
           </TabsContent>
