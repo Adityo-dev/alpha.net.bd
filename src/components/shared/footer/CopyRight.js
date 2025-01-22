@@ -13,7 +13,7 @@ function CopyRight() {
     <section className="bg-[#000000] text-gray-400">
       <div className="container mx-auto px-3 lg:px-6 py-3 flex gap-4 flex-col md:flex-row items-center justify-between">
         <p className="text-sm">
-          Copyright © 2005 - 2025. All Right Reserved by ....
+          Copyright 2007 – 2025 Dinisoft. All Rights Reserved
         </p>
 
         <div className="flex items-center gap-4">

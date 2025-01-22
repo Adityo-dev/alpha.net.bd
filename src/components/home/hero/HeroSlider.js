@@ -46,9 +46,9 @@ function HeroSlider({ sliderData }) {
           {sliderData.map((data, ind) => (
             <SwiperSlide
               key={ind}
-              className="w-full h-full flex bg-[#000F57] z-10"
+              className="w-full h-full flex bg-[#000F57] z-50"
             >
-              <div className="flex w-full items-center mt-[3%]  ">
+              <div className="flex w-full items-center mt-[3%]">
                 {/* Text Section */}
                 <div className="w-full xl:w-[65%] text-white flex items-center flex-col lg:items-start py-16 sm:py-16  xl:py-8">
                   <h1
@@ -59,7 +59,7 @@ function HeroSlider({ sliderData }) {
                     {data?.description}
                   </p>
 
-                  <button className="bg-[#ff8c00] font-semibold px-6 py-3 mt-4 sm:mt-0 ">
+                  <button className="bg-[#ff8c00] font-semibold px-6 py-3 mt-4 sm:mt-0">
                     View Details
                   </button>
                 </div>

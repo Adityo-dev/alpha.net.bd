@@ -6,9 +6,23 @@ const serviceOfferingsData = [
     image: <Database size={55} strokeWidth={1.2} />,
     title: "Domains",
     form: (
-      <form action="https://login.dinihost.com/cart.php?a=add&domain=register" placeholder="Find your Domain" method="post">
-        Find your Domain: <input type="text" name="query" size="20" />
-        <input type="submit" value="Go" />
+      <form
+        action="https://login.dinihost.com/cart.php?a=add&domain=register"
+        placeholder="Find your Domain"
+        method="post"
+      >
+        <span className="text-sm pb-2">Find your Domain:</span>
+        <input
+          type="text"
+          name="query"
+          size="20"
+          className="border mr-2 rounded-md outline-none transition-all duration-300 hover:border-[#000094] px-2"
+        />
+        <input
+          type="submit"
+          value="Go"
+          className="bg-[#000094] text-white px-3 rounded-md outline-none cursor-pointer"
+        />
       </form>
     ),
     details: [
@@ -20,7 +34,7 @@ const serviceOfferingsData = [
     color: "#000094",
     url: "",
   },
-  
+
   {
     image: <Database size={55} strokeWidth={1.2} />,
     title: "Hosting",

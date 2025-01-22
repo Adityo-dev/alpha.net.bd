@@ -8,22 +8,23 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import Image from "next/image";
+import Link from "next/link";
 
 const customButtonStyles =
   " xl:absolute w-9 h-9 text-base text-xl bg-[#bbbbbb] text-white flex items-center justify-center border-none top-1/2 transform -translate-y-1/2 z-10 cursor-pointer rounded-full xl:opacity-0 visibility-hidden group-hover:opacity-100 group-hover:visible transition-all duration-300 shadow-lg";
 
-export default function TestimonialSlider({ testimonialData }) {
+export default function OurTeamMembersSlider({ ourTeamMembersData }) {
   return (
     <main className="relative container mx-auto px-3 lg:px-6 group">
       {/* Custom Navigation Buttons */}
       <div className="hidden xl:block">
         <div
-          className={`${customButtonStyles} custom-productSlider-button-prev left-0 group-hover:opacity-1`}
+          className={`${customButtonStyles} custom-teamMembers-button-prev left-0 group-hover:opacity-1`}
         >
           <ChevronLeft strokeWidth={1.5} />
         </div>
         <div
-          className={`${customButtonStyles} custom-productSlider-button-next right-0 group-hover:opacity-1`}
+          className={`${customButtonStyles} custom-teamMembers-button-next right-0 group-hover:opacity-1`}
         >
           <ChevronRight strokeWidth={1.5} />
         </div>
@@ -35,8 +36,8 @@ export default function TestimonialSlider({ testimonialData }) {
           disableOnInteraction: false,
         }}
         navigation={{
-          nextEl: ".custom-productSlider-button-next",
-          prevEl: ".custom-productSlider-button-prev",
+          nextEl: ".custom-teamMembers-button-next",
+          prevEl: ".custom-teamMembers-button-prev",
         }}
         breakpoints={{
           0: {
@@ -45,10 +46,10 @@ export default function TestimonialSlider({ testimonialData }) {
           },
           320: {
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 10,
           },
           640: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 20,
           },
           1024: {
@@ -63,28 +64,22 @@ export default function TestimonialSlider({ testimonialData }) {
         modules={[Navigation, Autoplay]}
         className="w-full h-full"
       >
-        {testimonialData.map((data, ind) => (
+        {ourTeamMembersData.map((member, ind) => (
           <SwiperSlide key={ind}>
-            <div className="space-y-3">
-              <p className="text-sm sm:text-base">{data?.companyName}</p>
-              <p className="text-sm sm:text-base">{data?.description}</p>
-              <p className="flex items-center space-x-2">
-                <span className="flex items-center justify-center gap-1">
-                  {[...Array(data?.rating)].map((_, index) => (
-                    <svg
-                      key={index}
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="w-4 h-4 text-yellow-400"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 .587l3.668 7.431 8.2 1.192-5.933 5.784 1.4 8.171L12 18.896l-7.335 3.869 1.4-8.171L.133 9.21l8.2-1.192z" />
-                    </svg>
-                  ))}
-                </span>
-
-                <span className="font-semibold">{data?.name}</span>
-              </p>
+            <div className="border border-b-2 border-b-[#0E9AFF] text-center pb-4">
+              <Image
+                src={member?.image}
+                width={400}
+                height={400}
+                alt=""
+                className="object-contain"
+              />
+              <Link
+                href={member?.moreInfo}
+                className="text-[#0E9AFF] flex items-center justify-center gap-2"
+              >
+                Get more info <ChevronRight size={18} strokeWidth={1.2} />
+              </Link>
             </div>
           </SwiperSlide>
         ))}

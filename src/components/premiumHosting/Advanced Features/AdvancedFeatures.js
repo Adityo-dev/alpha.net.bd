@@ -74,7 +74,6 @@ const advancedFeaturesData = [
   {
     title: "<span class='font-semibold'>LiteSpeed</span> Web Server",
   },
- 
 ];
 
 function AdvancedFeatures() {
@@ -88,7 +87,7 @@ function AdvancedFeatures() {
         {advancedFeaturesData.map((feature, ind) => (
           <div
             key={ind}
-            className="flex items-center gap-1 border border-[#8EC151] rounded-lg p-4"
+            className="flex items-center gap-1 border border-[#166195] rounded-lg p-4"
           >
             <Image
               src={"/check-mark.png"}
