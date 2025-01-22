@@ -6,7 +6,7 @@ const serviceOfferingsData = [
   {
     image: (
       <Image
-        src="/services/domain.jpg" // Replace with the correct path in your public folder
+        src="/services/doamin.png" // Replace with the correct path in your public folder
         alt="domain Icon"
         width={55}
         height={55}
@@ -46,7 +46,7 @@ const serviceOfferingsData = [
   {
     image: (
       <Image
-        src="/services/hosting.jpg" // Replace with the correct path in your public folder
+        src="/services/hosting.png" // Replace with the correct path in your public folder
         alt="hosting Icon"
         width={55}
         height={55}

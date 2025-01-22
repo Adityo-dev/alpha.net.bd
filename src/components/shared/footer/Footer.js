@@ -3,6 +3,7 @@ import Link from "next/link";
 // Components
 import CopyRight from "./CopyRight";
 import HeedHelp from "./HeedHelp";
+import { Check, Mail, MapPin, PhoneCall } from "lucide-react";
 
 const footerData = [
   {
@@ -36,13 +37,28 @@ const footerData = [
     ],
   },
   {
-    title: "Services",
+    title: "Mailing Address",
     info: [
-      { name: "Web Hosting", url: "#" },
-      { name: "Domain Registration", url: "#" },
-      { name: "Cloud Services", url: "#" },
-      { name: "Data Center", url: "#" },
-      { name: "Technical Support", url: "#" },
+      {
+        name: "Web Hosting",
+        icon: <MapPin size={20} />,
+        url: "#",
+      },
+      {
+        name: "Domain Registration",
+        icon: <PhoneCall size={20} />,
+        url: "#",
+      },
+      {
+        name: "Cloud Services",
+        icon: <Mail size={20} />,
+        url: "#",
+      },
+      {
+        name: "Technical Support",
+        icon: <Check size={20} />,
+        url: "#",
+      },
     ],
   },
 ];
@@ -70,46 +86,19 @@ function Footer() {
       </section>
       {/* Footer Data Info */}
       <section className="container mx-auto px-3 lg:px-6 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 pt-40 pb-10">
-        {/* Logo & Description */}
-        {/* <div className="space-y-8 col-span-1 sm:col-span-2 xl:col-span-1">
-          <div>
-            <Image
-              src="/logo.jpg"
-              width={600}
-              height={600}
-              alt="Brand logo"
-              className="w-32  h-full"
-            />
-            <p className="mt-4 text-sm">
-              Complete online solutions and infrastructure service provider.
-              Owning Tier III standard data centers in Bangladesh, and
-              colocation centers in the USA and Europe!
-            </p>
-          </div>
-
-          <p className="text-sm border-t border-gray-600 pt-8">
-            <span className="text-[#a0cf6d]">VAT/BLN ID:01234567890</span>
-            <span> All prices are excluding 5% Govt.VAT</span>
-          </p>
-          <Image
-            src="/SSLCommerz-Pay-With-logo-All-Size-03.png"
-            width={600}
-            height={600}
-            alt="Brand logo"
-            className="w-full object-cover"
-          />
-        </div> */}
-
         {/* Links Section */}
-        <div className="flex flex-col sm:flex-row justify-start md:justify-around gap-6 sm:gap-12 md:gap-6 col-span-1 sm:col-span-2">
+        <div className="flex flex-col sm:flex-row justify-start md:justify-around gap-6 sm:gap-12 md:gap-6 col-span-1 sm:col-span-2 lg:col-span-4">
           {footerData.map((section, index) => (
             <div key={index}>
               <h3 className="text-xl font-bold mb-4 uppercase">
                 {section?.title}
               </h3>
-              <ul className="space-y-1.5">
+              <ul className="space-y-4">
                 {section.info.map((item, idx) => (
-                  <li key={idx}>
+                  <li key={idx} className="flex items-center gap-2">
+                    {item?.icon && (
+                      <span className="text-base">{item.icon}</span>
+                    )}
                     <Link href={item?.url} className="text-sm hover:underline">
                       {item?.name}
                     </Link>
@@ -136,6 +125,24 @@ function Footer() {
             ))}
           </div>
         </div> */}
+      </section>
+
+      {/* Logo & Description */}
+      <section className="container mx-auto px-3 lg:px-6 flex flex-wrap gap-3 items-center mb-8">
+        <Image
+          src="/logo.jpg"
+          width={600}
+          height={600}
+          alt="Brand logo"
+          className="w-32  h-full"
+        />
+        <Image
+          src="/SSLCommerz-Pay-With-logo-All-Size-03.png"
+          width={1200}
+          height={1200}
+          alt="Brand logo"
+          className="w-full md:w-3/4 object-cover"
+        />
       </section>
       {/* Copy Right Section */}
       <section>
