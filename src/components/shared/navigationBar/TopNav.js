@@ -7,9 +7,7 @@ const topData = [
   {
     name: "office location",
     icon: <MapPin size={18} strokeWidth={1.5} />,
-    target: "_blank",
     url: "https://maps.app.goo.gl/mFaubb1Ztm5qcvB86",
-    
   },
   {
     name: "+8801788800151",
