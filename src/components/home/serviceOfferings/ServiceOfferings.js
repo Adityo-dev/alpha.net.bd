@@ -8,8 +8,8 @@ const serviceOfferingsData = [
       <Image
         src="/services/doamin.png" // Replace with the correct path in your public folder
         alt="domain Icon"
-        width={55}
-        height={55}
+        width={400}
+        height={400}
       />
     ),
     title: "Domains",
@@ -48,8 +48,8 @@ const serviceOfferingsData = [
       <Image
         src="/services/hosting.png" // Replace with the correct path in your public folder
         alt="hosting Icon"
-        width={55}
-        height={55}
+        width={400}
+        height={400}
       />
     ),
     title: "Hosting",
@@ -67,8 +67,8 @@ const serviceOfferingsData = [
       <Image
         src="/services/vps.png" // Replace with the correct path in your public folder
         alt="vps Icon"
-        width={55}
-        height={55}
+        width={400}
+        height={400}
       />
     ),
     title: "VPS",
@@ -86,8 +86,8 @@ const serviceOfferingsData = [
       <Image
         src="/services/DedicatedServer.png" // Replace with the correct path in your public folder
         alt="DedicatedServer"
-        width={55}
-        height={55}
+        width={400}
+        height={400}
       />
     ),
     title: "Dedicatd Server",
@@ -105,8 +105,8 @@ const serviceOfferingsData = [
       <Image
         src="/services/Businessemail.png" // Replace with the correct path in your public folder
         alt="Businessemail Icon"
-        width={55}
-        height={55}
+        width={400}
+        height={400}
       />
     ),
     title: "Business Email",
@@ -124,8 +124,8 @@ const serviceOfferingsData = [
       <Image
         src="/services/Websitedesing.png" // Replace with the correct path in your public folder
         alt="Websitedesing Icon"
-        width={55}
-        height={55}
+        width={400}
+        height={400}
       />
     ),
     title: "Website Design",
@@ -143,8 +143,8 @@ const serviceOfferingsData = [
       <Image
         src="/services/SMS.png" // Replace with the correct path in your public folder
         alt="SMS Icon"
-        width={55}
-        height={55}
+        width={400}
+        height={400}
       />
     ),
     title: "Sms",
@@ -162,8 +162,8 @@ const serviceOfferingsData = [
       <Image
         src="/services/Software.png" // Replace with the correct path in your public folder
         alt="Software Icon"
-        width={55}
-        height={55}
+        width={400}
+        height={400}
       />
     ),
     title: "Software",
