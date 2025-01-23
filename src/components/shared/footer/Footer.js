@@ -40,24 +40,24 @@ const footerData = [
     title: "Mailing Address",
     info: [
       {
-        name: "Web Hosting",
+        name: "Modern Moor, (Mutual Trust Bank Market), Ghashiapara Road, Dinajpur, Banglaedesh",
         icon: <MapPin size={20} />,
         url: "#",
       },
       {
-        name: "Domain Registration",
+        name: "Phone Number",
         icon: <PhoneCall size={20} />,
-        url: "#",
+        url: "tel:+8801788800151",
       },
       {
-        name: "Cloud Services",
+        name: "sales@dinisoftbd.com",
         icon: <Mail size={20} />,
-        url: "#",
+        url: "mailto:sales@dinisoftbd.com",
       },
       {
-        name: "Technical Support",
+        name: "Contact Us",
         icon: <Check size={20} />,
-        url: "#",
+        url: "/contact-us",
       },
     ],
   },
