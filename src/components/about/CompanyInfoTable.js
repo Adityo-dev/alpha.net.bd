@@ -1,6 +1,6 @@
 const CompanyInfoTable = () => {
   const companyData = {
-    "Name Of Company": "DianaHost",
+    "Name Of Company": "Dinisoft Limited Ltd.",
     "Year Established": "2014",
     "Type Of Company": "Private Company",
     "Business Function": "Web, Software Development & Marketing",
@@ -25,8 +25,8 @@ const CompanyInfoTable = () => {
     ],
     "Web Address": "www.dianahost.com",
     Skype: "Litonphone",
-    "Company Hotline": "+8809638 339900",
-    "Company email": "support@dianahost.com.bd",
+    "Company Hotline": "+8801788800151",
+    "Company email": "sales@dinisoftbd.com",
     "Area Of Expertise": [
       "Website Development",
       "Software Development",
