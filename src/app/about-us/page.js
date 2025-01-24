@@ -35,27 +35,11 @@ function AboutUS() {
           <div className="pt-6">
             <p className="py-2 flex flex-col text-sm text-[#444444]">
               <span className="mb-4">
-                Our Company has 99.9% SLA Up time and 24/7 non-stop customer
-                service department. All of our hosting plans included with 30
-                days money back guarantee.
+              Dinisoft BD was founded on Feb 01, 2007. Dinisoft BD is the world class best web hosting company in Bangladesh. We provide domain, hosting, reseller hosting, vps, rdp, vpn, dedicated server, live streaming server, resell all kinds of dedicated server, web design and software development services in Bangladesh and other countries.
               </span>
 
               <span className="mb-4">
-                Currently we are proudly serving 30+ countries around the world.
-                As a rapidly growth and trusted company, you can depend on us to
-                serve continuous reliable web hosting.Our fully automated system
-                and 300+ Auto scripts Launch your Website Within Minutes!
-              </span>
-
-              <span className="mb-4">
-                We offer Premium Web Hosting , Reseller Hosting and Virtual
-                Private Server solutions brought to you by premium hardware. Our
-                main intentions is delivering enterprise level solutions at
-                affordable prices. If you’re thinking of moving from another
-                host to us and find it hard to transfer all your files over, no
-                worries, as we’ll do this for you free! All you have to do is
-                sit back, relax and wait for your site to be up while our
-                technicians do the transfers – We care for all our clients.
+              We manage our servers from USA, UK, Germany, India, Singapore, and Bangladesh(BDIX Network) in various award-winning and top-rated data centers. Our servers are SSD RAID/NVMe to ensure data protection and the best quality hosting services. We don’t have any hidden facts or costs. Always maintain the highest level of hosting server quality with data loss protection and the latest security shield.
               </span>
             </p>
           </div>

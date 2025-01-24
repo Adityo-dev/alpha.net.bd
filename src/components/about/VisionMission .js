@@ -16,22 +16,15 @@ const VisionMission = () => {
           />
         </div>
         <div>
-          <h2 className="text-3xl font-semibold mb-4">DianaHost Vision</h2>
+          <h2 className="text-3xl font-semibold mb-4">Our Mission</h2>
           <p className="text-gray-700 leading-relaxed">
-            Our vision is simple and one that combines creativity with the
-            latest research and development in the tech world. We are a very
-            customer-oriented company, putting our customers first and always
-            focusing on gaining and deserving the trust of every single one of
-            our customers. So, we listen to our customers, stay at the cutting
-            edge of the latest trends in tech research, and constantly develop
-            better web hosting products and services which enable us to fulfill
-            this vision better and better every day.
+          It is Hostmights mission to deliver excellence in all levels of services to our clients. To work hard everyday because we love what we do with a passion. To be a global leader in providing world class facilities with the highest level of uptime. To have the highest level of integrity and work ethic. We are passionate about bringing you the latest innovations and technology. We aim to always update our software, servers, platforms and systems to help you stay ahead of the competition.   
           </p>
         </div>
       </div>
 
       {/* Mission Section */}
-      <div className="flex flex-col gap-6 md:flex-row-reverse items-center text-center sm:text-start space-y-6 md:space-y-0 ">
+      {/* <div className="flex flex-col gap-6 md:flex-row-reverse items-center text-center sm:text-start space-y-6 md:space-y-0 ">
         <div className="flex-shrink-0">
           <Image
             src="/about_image2.jpg"
@@ -54,7 +47,7 @@ const VisionMission = () => {
             our customers’ business needs.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

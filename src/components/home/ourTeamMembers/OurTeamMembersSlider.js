@@ -1,17 +1,12 @@
 "use client";
-// import lucide icons
 import { ChevronLeft, ChevronRight } from "lucide-react";
-// Import Swiper React components
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination";
 import Image from "next/image";
-import Link from "next/link";
 
 const customButtonStyles =
-  " xl:absolute w-9 h-9 text-base text-xl bg-[#bbbbbb] text-white flex items-center justify-center border-none top-1/2 transform -translate-y-1/2 z-10 cursor-pointer rounded-full xl:opacity-0 visibility-hidden group-hover:opacity-100 group-hover:visible transition-all duration-300 shadow-lg";
+  "xl:absolute w-9 h-9 text-base text-xl bg-[#bbbbbb] text-white flex items-center justify-center border-none top-1/2 transform -translate-y-1/2 z-10 cursor-pointer rounded-full xl:opacity-0 visibility-hidden group-hover:opacity-100 group-hover:visible transition-all duration-300 shadow-lg";
 
 export default function OurTeamMembersSlider({ ourTeamMembersData }) {
   return (
@@ -40,26 +35,11 @@ export default function OurTeamMembersSlider({ ourTeamMembersData }) {
           prevEl: ".custom-teamMembers-button-prev",
         }}
         breakpoints={{
-          0: {
-            slidesPerView: 1,
-            spaceBetween: 10,
-          },
-          320: {
-            slidesPerView: 2,
-            spaceBetween: 10,
-          },
-          640: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 30,
-          },
-          1280: {
-            slidesPerView: 5,
-            spaceBetween: 30,
-          },
+          0: { slidesPerView: 1, spaceBetween: 10 },
+          320: { slidesPerView: 2, spaceBetween: 10 },
+          640: { slidesPerView: 3, spaceBetween: 20 },
+          1024: { slidesPerView: 4, spaceBetween: 30 },
+          1280: { slidesPerView: 5, spaceBetween: 30 },
         }}
         modules={[Navigation, Autoplay]}
         className="w-full h-full"
@@ -68,18 +48,14 @@ export default function OurTeamMembersSlider({ ourTeamMembersData }) {
           <SwiperSlide key={ind}>
             <div className="border border-b-2 border-b-[#0E9AFF] text-center pb-4">
               <Image
-                src={member?.image}
-                width={400}
-                height={400}
-                alt=""
-                className="object-contain"
+                src={member.image}
+                alt={member.name}
+                className="mx-auto mb-4 w-24 h-24 object-cover rounded-full"
+                width={180}
+                height={180}
               />
-              <Link
-                href={member?.moreInfo}
-                className="text-[#0E9AFF] flex items-center justify-center gap-2"
-              >
-                Get more info <ChevronRight size={18} strokeWidth={1.2} />
-              </Link>
+              <h3 className="text-lg font-bold text-gray-800">{member.name}</h3>
+              <p className="text-sm text-gray-600">{member.designation}</p>
             </div>
           </SwiperSlide>
         ))}

@@ -12,7 +12,7 @@ const premiumHostingFeaturesData = [
     image: "/cpp1.png",
     title: "cPanel Control Panel",
     description:
-      "Familiar with cPanel, but want the option of failover and scalability? Introducing the first cPanel failover solution",
+      "World famous control panel name cPanel, You will find there user friendly.",
   },
   {
     image: "/jetbackup1.png",
@@ -30,7 +30,7 @@ const premiumHostingFeaturesData = [
     image: "/migration.png",
     title: "Free Migration Service",
     description:
-      "CloudLinux is used to provide each cPanel with a virtual “caged” environment, delivering both security, reliability and performance.",
+      "If you have any website to different server, Will try to migrate this website from other server to our server.",
   },
   {
     image: "/cloudlinux.png",
@@ -46,9 +46,9 @@ const premiumHostingFeaturesData = [
   },
   {
     image: "/ic3.png",
-    title: "NVMe Up to 220% Faster",
+    title: "Advance security system",
     description:
-      "We use 100% Enterprise-Grade NVMe Samsung Drives with full RAID protection.",
+      "Our security expert real time monitor each website for security reason.",
   },
 ];
 

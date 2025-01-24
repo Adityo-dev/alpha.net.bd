@@ -9,43 +9,36 @@ import {
 const faqData = [
   {
     title: "Why you choose us?",
-    d: "we have been providing domain hosting since 2012, so we have 13 years of experience as a domain hosting provider in bangladesh. web host BD is the best domain hosting provider in Bangladesh. You van Get your right domain name and hosting plan here",
+    d: "We understand the uptime importance. We pledge to deliver in excess of 99.9% uptime, each and every month. We have 30 Days moneyback guarantee, so you can try our service without any risk. We'll refund you if you're not satisfied. Our customer support is 24x7x365. With your hosting package you also gain 24x7 accesses to our expert support team.",
     info: [
-      "Domain Hosting provider provider with Reasonable price and Hosting plan",
-      "Domain Hosting provider provider with Reasonable price and Hosting plan",
-      "Domain Hosting provider provider with Reasonable price and Hosting plan",
-      "Domain Hosting provider provider with Reasonable price and Hosting plan",
-      "Domain Hosting provider provider with Reasonable price and Hosting plan",
+      "We guarantee an uptime of over 99.9% every month, ensuring your website remains accessible and reliable at all times",
+      "Yes, we offer a 30-day money-back guarantee. If you're not satisfied with our service, we'll refund your payment without any hassle.",
+      "Absolutely! Our expert support team is available 24x7x365 to assist you with any issues or questions.",
     ],
   },
   {
     title: "Need any help?",
-    d: "we have been providing domain hosting since 2012, so we have 13 years of experience as a domain hosting provider in bangladesh. web host BD is the best domain hosting provider in Bangladesh. You van Get your right domain name and hosting plan here",
+    d: "Our customer support is 24x7x365. With your hosting package you also gain 24x7 accesses to our expert support team.",
     info: [
-      "Domain Hosting provider provider with Reasonable price and Hosting plan",
-      "Domain Hosting provider provider with Reasonable price and Hosting plan",
-      "Domain Hosting provider provider with Reasonable price and Hosting plan",
-      "Domain Hosting provider provider with Reasonable price and Hosting plan",
+      "Our expert support team is available 24x7x365. You can reach us via email, live chat, or our support hotline anytime you need assistance.",
+      "Yes, all hosting packages come with 24x7 access to our expert support team at no additional cost.",
+      "Our support team is equipped to assist you with technical issues, account inquiries, or any challenges you may face with your hosting services.",
     ],
   },
   {
     title: "How can i pay you?",
-    d: "we have been providing domain hosting since 2012, so we have 13 years of experience as a domain hosting provider in bangladesh. web host BD is the best domain hosting provider in Bangladesh. You van Get your right domain name and hosting plan here",
+    d: "Scan this QR and fill the form and pay.",
     info: [
-      "Domain Hosting provider provider with Reasonable price and Hosting plan",
-      "Domain Hosting provider provider with Reasonable price and Hosting plan",
-      "Domain Hosting provider provider with Reasonable price and Hosting plan",
-      "Domain Hosting provider provider with Reasonable price and Hosting plan",
+      "We have been providing reliable domain hosting services since 2012, with over 13 years of experience in Bangladesh's hosting industry.",
+      "DiniSoft BD is known as the best domain hosting provider in Bangladesh. We offer the perfect domain names and hosting plans tailored to your needs, backed by years of expertise.",
     ],
   },
   {
-    title: "Does Web Host BD allow office visit?",
-    d: "we have been providing domain hosting since 2012, so we have 13 years of experience as a domain hosting provider in bangladesh. web host BD is the best domain hosting provider in Bangladesh. You van Get your right domain name and hosting plan here",
+    title: "What's your current offer",
+    d: "Office is coming",
     info: [
-      "Domain Hosting provider provider with Reasonable price and Hosting plan",
-      "Domain Hosting provider provider with Reasonable price and Hosting plan",
-      "Domain Hosting provider provider with Reasonable price and Hosting plan",
-      "Domain Hosting provider provider with Reasonable price and Hosting plan",
+      "Yes, we have exciting offers coming soon! Stay tuned for updates on our latest deals and discounts.",
+      "Our new offer is on the way! Keep an eye on our website or announcements for the official launch.",
     ],
   },
 ];

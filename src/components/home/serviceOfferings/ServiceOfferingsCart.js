@@ -48,19 +48,15 @@ function ServiceOfferingsCart({ serviceOfferingsData }) {
       <div>
         <div className="flex flex-col gap-2 mt-4">
           <div className="max-w-80 w-full mx-auto flex gap-1 mt-4">
-            <DynamicButton1
-              btnName={"View details"}
-              btnUrl={"#"}
-              color={serviceOfferingsData?.color}
-              transparent={true}
-            />
-
-            <DynamicButton1
-              btnName={"View plans"}
-              btnUrl={"#"}
-              color={serviceOfferingsData?.color}
-              transparent={false}
-            />
+            {serviceOfferingsData?.buttons?.map((button, ind) => (
+              <DynamicButton1
+                key={ind}
+                btnName={button.name}
+                btnUrl={button.url}
+                color={serviceOfferingsData?.color}
+                transparent={button.transparent}
+              />
+            ))}
           </div>
         </div>
       </div>
