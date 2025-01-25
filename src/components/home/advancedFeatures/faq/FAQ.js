@@ -5,6 +5,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Image from "next/image";
 
 const faqData = [
   {
@@ -28,6 +29,7 @@ const faqData = [
   {
     title: "How can i pay you?",
     d: "Scan this QR and fill the form and pay.",
+    image: "/com.png",
     info: [
       "We have been providing reliable domain hosting services since 2012, with over 13 years of experience in Bangladesh's hosting industry.",
       "DiniSoft BD is known as the best domain hosting provider in Bangladesh. We offer the perfect domain names and hosting plans tailored to your needs, backed by years of expertise.",
@@ -52,7 +54,20 @@ function FAQ() {
             {faq?.title}
           </AccordionTrigger>
           <AccordionContent className="bg-[#fcfcfc] p-4 flex flex-col gap-4">
-            <span className="text-gray-500 ms-10 leading-6">{faq?.d}</span>
+            <div>
+              <p className="text-gray-500 ms-10 leading-6">{faq?.d}</p>
+              {faq?.image && (
+                <div>
+                  <Image
+                    src={faq.image}
+                    alt="FAQ Image"
+                    width={300}
+                    height={300}
+                    className="w-14 h-14"
+                  />
+                </div>
+              )}
+            </div>
             <span className="space-y-2">
               {faq?.info.map((inf, ind) => (
                 <li key={ind}>{inf}</li>
