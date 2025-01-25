@@ -3,43 +3,7 @@ import VpsSelector from "@/components/ssdVps/VpsSelector";
 import VpsTable from "@/components/ssdVps/VpsTable";
 
 const tableData = [
-  {
-    title: "OpenVZ VPS",
-    info: [
-      {
-        planName: "OpenVZ SSD 2G",
-        speed: "2 x 2.2 GHz",
-        memory: "2 GB Dedicated",
-        diskSpace: "40 GB SSD",
-        bandwidth: "1 TB",
-        price: "1,374",
-      },
-      {
-        planName: "OpenVZ SSD 4G",
-        speed: "4 x 2.2 GHz",
-        memory: "4 GB Dedicated",
-        diskSpace: "80 GB SSD",
-        bandwidth: "2 TB",
-        price: "2,649",
-      },
-      {
-        planName: "OpenVZ SSD 6G",
-        speed: "4 x 2.2 GHz",
-        memory: "6 GB Dedicated",
-        diskSpace: "100 GB SSD",
-        bandwidth: "3 TB",
-        price: "3,709",
-      },
-      {
-        planName: "OpenVZ SSD 8G",
-        speed: "6 x 2.2 GHz",
-        memory: "8 GB Dedicated",
-        diskSpace: "160 GB SSD",
-        bandwidth: "4 TB",
-        price: "4,769",
-      },
-    ],
-  },
+
   {
     title: "BDIX KVM VPS",
     info: [
@@ -50,6 +14,7 @@ const tableData = [
         diskSpace: "25 GB SSD",
         bandwidth: "1 TB",
         price: "2,500",
+        url: "#",
       },
       {
         planName: "BDIX SSD 4G",
@@ -58,6 +23,7 @@ const tableData = [
         diskSpace: "50 GB SSD",
         bandwidth: "2 TB",
         price: "5,000",
+        url: "#",
       },
       {
         planName: "BDIX SSD 6G",
@@ -66,6 +32,7 @@ const tableData = [
         diskSpace: "75 GB SSD",
         bandwidth: "3 TB",
         price: "7,500",
+        url: "#",
       },
       {
         planName: "BDIX SSD 8G",
@@ -74,6 +41,7 @@ const tableData = [
         diskSpace: "100 GB SSD",
         bandwidth: "4 TB",
         price: "10,000",
+        url: "https://billing.xeonbd.com/cart.php?a=add&pid=1",
       },
       {
         planName: "BDIX SSD 16G",
@@ -82,6 +50,7 @@ const tableData = [
         diskSpace: "150 GB SSD",
         bandwidth: "4 TB",
         price: "15,000",
+        url: "#",
       },
       {
         planName: "BDIX SSD 32G",
@@ -90,6 +59,7 @@ const tableData = [
         diskSpace: "300 GB SSD",
         bandwidth: "6 TB",
         price: "22,500",
+        url: "",
       },
     ],
   },
@@ -99,7 +69,6 @@ function SsdVps() {
   return (
     <main>
       <section className="relative w-full h-full">
-        {/* Banner Section */}
         <div
           style={{
             backgroundImage: `url('/ssd-vps-cover.jpeg')`,

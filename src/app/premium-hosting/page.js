@@ -9,7 +9,7 @@ import Image from "next/image";
 const plans = [
   {
     prm: "Prm50",
-    name: "Premium 50",
+    name: "Basic",
     price: 500,
     features: {
       hosting: "5 Website Hosted",
@@ -24,7 +24,7 @@ const plans = [
   },
   {
     prm: "Prm100",
-    name: "Premium 100",
+    name: "Standard ",
     price: 800,
     features: {
       hosting: "5 Website Hosted",
@@ -39,8 +39,8 @@ const plans = [
   },
   {
     prm: "Prm pro",
-    name: "Premium pro",
-    price: 1500,
+    name: "Business",
+    price: 2500,
     features: {
       hosting: "5 Website Hosted",
       storage: "50GB NVMe Storage",
@@ -54,17 +54,17 @@ const plans = [
   },
   {
     powerful: "Powerful Hosting",
-    name: "Vps hosting",
-    price: 3000,
+    name: "Premium",
+    price: 4000,
     powerfulFeatures: {
-      processor: "3 Core Processor",
-      ram: "6 GB RAM DDR4",
-      storage: "100GB SSD Storage",
-      bandwidth: "4TB Bandwidth",
-      dedicatedIP: "1 Dedicated IP",
-      rootAccess: "Full Root Access",
-      deliveryTime: "Delivery Time up to 24 hours",
-      moneyback: "No Moneyback available",
+      processor: "5 Website Hosted",
+      ram: "20 GB NVMe Storage",
+      storage: "200GB Bandwidth",
+      bandwidth: "Unlimited Sub Domain",
+      dedicatedIP: "Unlimited Email Accounts",
+      rootAccess: "Shell (SSH) Access",
+      deliveryTime: "Backup For 3 Days",
+      moneyback: "Priority Ticket Support",
     },
   },
 ];

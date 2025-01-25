@@ -1,107 +1,48 @@
-import Image from "next/image";
-
-// data
-const advancedFeaturesData = [
-  {
-    title: "<span class='font-semibold'>Softaculous</span> Script Installer	",
-  },
-  {
-    title: "<span class='font-semibold'>Imunify360</span> Security Firewall",
-  },
-  {
-    title: "Server Location <span class='font-semibold'>USA/UK</span>",
-  },
-  {
-    title: "<span class='font-semibold'>LiteSpeed</span> Web Server",
-  },
-  {
-    title: "<span class='font-semibold'>PHP</span> Selector (5.4 – 8.x)",
-  },
-  {
-    title: "<span class='font-semibold'>Python</span> Version Selector",
-  },
-  {
-    title: "<span class='font-semibold'>Ruby</span> On Rails",
-  },
-  {
-    title: "<span class='font-semibold'>Node.js</span> Version Selector",
-  },
-  {
-    title: "<span class='font-semibold'>Imunify360</span> Security Firewall",
-  },
-  {
-    title: "Server Location <span class='font-semibold'>USA/UK</span>",
-  },
-  {
-    title: "Server Location <span class='font-semibold'>USA/UK</span>",
-  },
-  {
-    title: "Server Location <span class='font-semibold'>USA/UK</span>",
-  },
-  {
-    title: "<span class='font-semibold'>LiteSpeed</span> Web Server",
-  },
-  {
-    title: "<span class='font-semibold'>Softaculous</span> Script Installer	",
-  },
-  {
-    title: "<span class='font-semibold'>Imunify360</span> Security Firewall",
-  },
-  {
-    title: "Server Location <span class='font-semibold'>USA/UK</span>",
-  },
-  {
-    title: "<span class='font-semibold'>LiteSpeed</span> Web Server",
-  },
-  {
-    title: "<span class='font-semibold'>PHP</span> Selector (5.4 – 8.x)",
-  },
-  {
-    title: "<span class='font-semibold'>Python</span> Version Selector",
-  },
-  {
-    title: "<span class='font-semibold'>Ruby</span> On Rails",
-  },
-  {
-    title: "<span class='font-semibold'>Node.js</span> Version Selector",
-  },
-  {
-    title: "<span class='font-semibold'>Imunify360</span> Security Firewall",
-  },
-  {
-    title: "Server Location <span class='font-semibold'>USA/UK</span>",
-  },
-  {
-    title: "<span class='font-semibold'>LiteSpeed</span> Web Server",
-  },
-];
-
-function AdvancedFeatures() {
+function AdvancedFeaturesTable() {
   return (
-    <main className="container mx-auto px-3 lg:px-6">
-      <h2 className="text-3xl md:text-4xl font-semibold text-center mb-12 text-[#1f2933]">
+    <div className="container mx-auto px-4 lg:px-8 py-8">
+      <h2 className="text-3xl md:text-4xl font-semibold text-center mb-8 text-gray-800">
         Advanced Features
       </h2>
 
-      <section className="grid grid-cols-2 lg:grid-cols-3  xl:grid-cols-4">
-        {advancedFeaturesData.map((feature, ind) => (
-          <div
-            key={ind}
-            className="flex items-center gap-1 border border-[#166195] rounded-lg p-4"
-          >
-            <Image
-              src={"/check-mark.png"}
-              width={400}
-              height={400}
-              alt=""
-              className="w-5 h-5"
-            />
-            <p dangerouslySetInnerHTML={{ __html: feature?.title }} />
-          </div>
-        ))}
-      </section>
-    </main>
+      <div className="overflow-x-auto">
+        <table className="min-w-full bg-white border-2 border-gray-400 rounded-lg shadow-lg">
+          <thead>
+            <tr className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+              <th className="px-6 py-3 text-left font-semibold rounded-tl-lg border-2 border-gray-400">
+                cPanel
+              </th>
+              <th className="px-6 py-3 text-left font-semibold border-2 border-gray-400">Litespeed</th>
+              <th className="px-6 py-3 text-left font-semibold border-2 border-gray-400">CloudLinux</th>
+              <th className="px-6 py-3 text-left font-semibold rounded-tr-lg border-2 border-gray-400">
+                Softaculous
+              </th>
+            </tr>
+          </thead>
+          <tbody className="text-gray-700">
+            <tr className="border-t-2 border-gray-400 hover:bg-blue-50 transition-all duration-200">
+              <td className="px-6 py-4 border-2 border-gray-400">PHP Selector</td>
+              <td className="px-6 py-4 border-2 border-gray-400">Imunify360</td>
+              <td className="px-6 py-4 border-2 border-gray-400">Python Version Selector</td>
+              <td className="px-6 py-4 border-2 border-gray-400">Ruby on Rails</td>
+            </tr>
+            <tr className="bg-gray-50 border-t-2 border-gray-400 hover:bg-blue-50 transition-all duration-200">
+              <td className="px-6 py-4 border-2 border-gray-400">Node.js Version Selector</td>
+              <td className="px-6 py-4 border-2 border-gray-400">Imunify360 Security Firewall</td>
+              <td className="px-6 py-4 border-2 border-gray-400">One Click Installer</td>
+              <td className="px-6 py-4 border-2 border-gray-400">cP Terminal</td>
+            </tr>
+            <tr className="border-t-2 border-gray-400 hover:bg-blue-50 transition-all duration-200">
+              <td className="px-6 py-4 border-2 border-gray-400">Modern Email Feature</td>
+              <td className="px-6 py-4 border-2 border-gray-400">Live Code Feature</td>
+              <td className="px-6 py-4 border-2 border-gray-400">Daily Backup</td>
+              <td className="px-6 py-4 border-2 border-gray-400">24 x 7 Support</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   );
 }
 
-export default AdvancedFeatures;
+export default AdvancedFeaturesTable;

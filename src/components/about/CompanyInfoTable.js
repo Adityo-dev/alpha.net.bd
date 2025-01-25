@@ -1,19 +1,18 @@
 const CompanyInfoTable = () => {
   const companyData = {
-    "Name Of Company": "Dinisoft Limited Ltd.",
-    "Year Established": "2014",
+    "Name Of Company": "Dinisoft BD.",
+    "Year Established": "2007",
     "Type Of Company": "Private Company",
-    "Business Function": "Web, Software Development & Marketing",
-    Founder: "Md. Oliar Rahman Khan Liton",
-    CEO: "Khan Mohammad Nakib",
+    "Business Function": "Web Hosting, Software Development & Marketing",
+    Founder: "Monju Ara",
+    CEO: "Monju Ara",
     "Corporate Address":
-      "4th Floor, House # 6/20, Block # E, Lalmatia Housing State, Satmasjid Road, Dhanmondi, Dhaka-1207, Bangladesh.",
+      "Modern Moor (MTB Bank Market) Ghashipara Road, Dinajpur, Bangladesh.",
     "Members Of": [
-      "Asia-Pacific Network Information Centre",
+     " Chamber of commerce & industries", 
       "Bangladesh Association of Software and Information Services (BASIS)",
-      "e-Commerce Association of Bangladesh (e-CAB)",
-      "Bangladesh Association of Contact Center & Outsourcing",
       "Bangladesh Domain Hosting Provider Association (BDHPA)",
+
     ],
     Departments: [
       "Software Development",
@@ -23,8 +22,8 @@ const CompanyInfoTable = () => {
       "Business Development",
       "Management",
     ],
-    "Web Address": "www.dianahost.com",
-    Skype: "Litonphone",
+    "Web Address": "www.dinisoftbd.com",
+    Skype: "dinisoft",
     "Company Hotline": "+8801788800151",
     "Company email": "sales@dinisoftbd.com",
     "Area Of Expertise": [
@@ -47,6 +46,9 @@ const CompanyInfoTable = () => {
       "India",
     ],
     Motto: "Ultra Fast Web Hosting & IT Solutions",
+    DataCenter: "Bangladesh (BDIX), India, USA, UK, Germany & Singapore",
+
+
   };
 
   return (

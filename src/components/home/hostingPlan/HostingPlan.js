@@ -8,11 +8,11 @@ const HostingPlan = () => {
     {
       category: "Shared Hosting",
       monthsAndTk: [
-        { months: "1", tk: "240" },
-        { months: "2", tk: "470" },
+        { months: "1", tk: "1500" },
+        { months: "2", tk: "2500" },
       ],
       detailsInfo: [
-        { icon: <Database />, info: "3 GB SSD space" },
+        { icon: <Database />, info: "5 GB SSD space" },
         { icon: <Database />, info: "100 GB traffic/month" },
         { icon: <Database />, info: "1 CPU core limit" },
         { icon: <Database />, info: "512 MB RAM" },
@@ -28,20 +28,19 @@ const HostingPlan = () => {
     {
       category: "Reseller Hosting",
       monthsAndTk: [
-        { months: "1", tk: "480" },
-        { months: "2", tk: "940" },
-        { months: "3", tk: "1380" },
+        { months: "1", tk: "550" },
+        { months: "2", tk: "6000" },
       ],
       detailsInfo: [
         { icon: <Database />, info: "10 GB SSD space" },
-        { icon: <Database />, info: "Unlimited traffic/month" },
-        { icon: <Database />, info: "2 CPU cores" },
-        { icon: <Database />, info: "2 GB RAM" },
-        { icon: <Database />, info: "50 EP & 200 NP" },
-        { icon: <Database />, info: "30 MB/s I/O" },
-        { icon: <Database />, info: "Enhanced email features" },
-        { icon: <Database />, info: "50/hr email limit" },
-        { icon: <Database />, info: "LiteSpeed Web Server" },
+        { icon: <Database />, info: "100 GB traffic/month" },
+        { icon: <Database />, info: "20 cPanel" },
+        { icon: <Database />, info: "cPanel/WHM" },
+        { icon: <Database />, info: "Litespeed Server" },
+        { icon: <Database />, info: "CloudLinux OS" },
+        { icon: <Database />, info: "Basic email features" },
+        { icon: <Database />, info: "25/hr email limit" },
+        { icon: <Database />, info: "Softaculous" },
         { icon: <Database />, info: "Bangladesh data center" },
         { icon: <Database />, info: "24/7 Online support" },
       ],
@@ -49,45 +48,43 @@ const HostingPlan = () => {
     {
       category: "VPS",
       monthsAndTk: [
-        { months: "1", tk: "1200" },
-        { months: "2", tk: "2300" },
-        { months: "3", tk: "3400" },
+        { months: "1", tk: "2500" },
+        { months: "3", tk: "7500" },
+        { months: "6", tk: "15000" },
       ],
       detailsInfo: [
-        { icon: <Database />, info: "30 GB SSD space" },
-        { icon: <Database />, info: "Unlimited traffic/month" },
-        { icon: <Database />, info: "4 CPU cores" },
-        { icon: <Database />, info: "4 GB RAM" },
-        { icon: <Database />, info: "100 EP & 400 NP" },
-        { icon: <Database />, info: "50 MB/s I/O" },
-        { icon: <Database />, info: "Advanced email features" },
-        { icon: <Database />, info: "100/hr email limit" },
-        { icon: <Database />, info: "LiteSpeed Enterprise Server" },
-        { icon: <Database />, info: "Global data centers" },
-        { icon: <Database />, info: "Priority 24/7 Support" },
+        { icon: <Database />, info: "CPU: 8 vCore" },
+        { icon: <Database />, info: "RAM: 16 GB RAM" },
+        { icon: <Database />, info: "Bandwidth: 1TB" },
+        { icon: <Database />, info: "Storage: 100GB NVME" },
+        { icon: <Database />, info: "1 Snapshot" },
+        { icon: <Database />, info: "Full Root Access" },
+        { icon: <Database />, info: "ISO Base OS" },
+        { icon: <Database />, info: "One Click Reinstall" },
+        { icon: <Database />, info: "Unmanaged" },
+        { icon: <Database />, info: "1 IP" },
+        { icon: <Database />, info: "Different Location" },
       ],
     },
     {
       category: "Dedicated Server",
       monthsAndTk: [
-        { months: "1", tk: "2500" },
-        { months: "2", tk: "4900" },
-        { months: "3", tk: "7200" },
-        { months: "4", tk: "9500" },
-        { months: "5", tk: "11700" },
+        { months: "1", tk: "8500" },
+        { months: "3", tk: "25000" },
+        { months: "6", tk: "50000" },
       ],
       detailsInfo: [
-        { icon: <Database />, info: "100 GB SSD space" },
-        { icon: <Database />, info: "Unlimited traffic/month" },
-        { icon: <Database />, info: "8 CPU cores" },
-        { icon: <Database />, info: "16 GB RAM" },
-        { icon: <Database />, info: "200 EP & 800 NP" },
-        { icon: <Database />, info: "100 MB/s I/O" },
-        { icon: <Database />, info: "Enterprise-grade email features" },
-        { icon: <Database />, info: "Unlimited email accounts" },
-        { icon: <Database />, info: "LiteSpeed Enterprise Server" },
-        { icon: <Database />, info: "Global data centers" },
-        { icon: <Database />, info: "Dedicated 24/7 Support" },
+        { icon: <Database />, info: "CPU: Intel 8 Core" },
+        { icon: <Database />, info: "RAM: 16 GB RAM" },
+        { icon: <Database />, info: "Bandwidth: 10TB" },
+        { icon: <Database />, info: "Storage: 500GB NVME" },
+        { icon: <Database />, info: "Standard Backup" },
+        { icon: <Database />, info: "Full Root Access" },
+        { icon: <Database />, info: "Basic OS" },
+        { icon: <Database />, info: "Unmanaged" },
+        { icon: <Database />, info: "1 IP" },
+        { icon: <Database />, info: "Different Location" },
+        { icon: <Database />, info: "24x7 Support" },
       ],
     },
   ];
@@ -129,7 +126,7 @@ const HostingPlan = () => {
     <section className="container mx-auto px-3 lg:px-6 space-y-6">
       <div className="text-center">
         <h2 className="text-3xl font-semibold">
-          Find the Hosting Plan thats Right for Your Business
+           Find the Best Service Right for Your Business
         </h2>
         <p className="text-lg sm:text-xl mt-3">
           We Have the Features and service you deserve!.

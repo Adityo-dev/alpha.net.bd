@@ -1,5 +1,5 @@
 "use client";
-import { Cpu } from "lucide-react";
+import { ChartSpline, Clock, Cpu, HardDrive, Microchip } from "lucide-react";
 import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
@@ -8,14 +8,15 @@ const VpsSelector = () => {
   const packages = [
     {
       id: 1,
-      ssd: "2G",
+      ssd: "1G",
       cpu: 1,
       ram: 2,
       space: 25,
       traffic: 1,
       ip: 1,
-      price: 2120,
+      price: 800,
       location: "Los Angeles",
+      link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-starter-vps", // Add link for the package
     },
     {
       id: 2,
@@ -27,6 +28,7 @@ const VpsSelector = () => {
       ip: 1,
       price: 3710,
       location: "Los Angeles",
+      link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-standard-vps", // Add link for the package
     },
     {
       id: 3,
@@ -38,6 +40,7 @@ const VpsSelector = () => {
       ip: 1,
       price: 5830,
       location: "Los Angeles",
+      link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-business-vps", // Add link for the package
     },
     {
       id: 4,
@@ -49,6 +52,7 @@ const VpsSelector = () => {
       ip: 1,
       price: 1420,
       location: "Los Angeles",
+      link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-advanced-vps", // Add link for the package
     },
     {
       id: 5,
@@ -60,18 +64,9 @@ const VpsSelector = () => {
       ip: 1,
       price: 1910,
       location: "Los Angeles",
+      link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-premium-vps", // Add link for the package
     },
-    {
-      id: 6,
-      ssd: "32G",
-      cpu: 8,
-      ram: 32,
-      space: 300,
-      traffic: 6,
-      ip: 1,
-      price: 11130,
-      location: "Los Angeles",
-    },
+  
   ];
 
   const [selectedPackage, setSelectedPackage] = useState(packages[0]);
@@ -85,6 +80,7 @@ const VpsSelector = () => {
   return (
     <main className="relative container mx-auto bg-gray-100 rounded-lg shadow-md">
       <section className="py-10">
+
         {/* Slider Section */}
         <div className="mb-6 w-[90%] sm:w-[80%] mx-auto">
           <h1 className="text-2xl font-bold text-start mb-6">KVM VPS</h1>
@@ -142,6 +138,7 @@ const VpsSelector = () => {
         <div className="w-full flex flex-col-reverse lg:flex-row gap-6 relative bg-[#EAEDF1] px-3 py-8 lg:py-8 mt-24">
           <div className="w-full lg:w-2/3 bg-white p-4 rounded-lg shadow-md text-center relative">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
+              {/* Other package details sections */}
               <div className="bg-white border flex items-center justify-between p-6 rounded-md">
                 <div className="flex items-center gap-3">
                   <Cpu size={30} strokeWidth={2} />
@@ -155,51 +152,49 @@ const VpsSelector = () => {
 
               <div className="bg-white border flex items-center justify-between p-6 rounded-md">
                 <div className="flex items-center gap-3">
-                  <Cpu size={30} strokeWidth={2} />
-                  <p>IP Addresses</p>
+                  <ChartSpline size={30} strokeWidth={2} />
+                  <p>IP Address</p>
                 </div>
                 <p>
-                  <span className="text-3xl">{selectedPackage?.ip}</span>
-                  <span> IP</span>
+                  <span className="text-3xl">{selectedPackage?.cpu}</span>
+                  <span>IP</span>
                 </p>
               </div>
 
               <div className="bg-white border flex items-center justify-between p-6 rounded-md">
                 <div className="flex items-center gap-3">
-                  <Cpu size={30} strokeWidth={2} />
-                  <p>RAM</p>
+                  <Microchip size={30} strokeWidth={2} />
+                  <p>Ram</p>
                 </div>
                 <p>
-                  <span className="text-3xl">{selectedPackage?.ram}</span>
-                  <span> GB</span>
+                  <span className="text-3xl">{selectedPackage?.cpu}</span>
+                  <span>GB</span>
                 </p>
               </div>
-
+              
               <div className="bg-white border flex items-center justify-between p-6 rounded-md">
                 <div className="flex items-center gap-3">
-                  <Cpu size={30} strokeWidth={2} />
+                  <Clock size={30} strokeWidth={2} />
                   <p>Traffic</p>
                 </div>
                 <p>
-                  <span className="text-3xl">{selectedPackage?.traffic}</span>
-                  <span> TB</span>
+                  <span className="text-3xl">{selectedPackage?.cpu}</span>
+                  <span>TB</span>
                 </p>
               </div>
 
-              <div className="bg-white border flex items-center justify-between p-4">
+              <div className="bg-white border flex items-center justify-between p-6 rounded-md">
                 <div className="flex items-center gap-3">
-                  <Cpu size={28} strokeWidth={2.25} />
+                  <HardDrive size={30} strokeWidth={2} />
                   <p>SSD Space</p>
                 </div>
                 <p>
-                  <span className="text-3xl">{selectedPackage?.space}</span>
+                  <span className="text-3xl">{selectedPackage?.cpu}</span>
                   <span>GB</span>
                 </p>
               </div>
 
-              <div className="text-start">
-                <p>KVM Virtualization</p>
-              </div>
+              {/* Additional details */}
             </div>
           </div>
 
@@ -209,11 +204,15 @@ const VpsSelector = () => {
               <div className="space-y-3 text-center border-b pt-6 pb-6">
                 <p className="font-semibold">
                   <span className="text-5xl ">TK {selectedPackage?.price}</span>
-                  <span className="text-2xl"> /mo</span>
+                  <span className="text-2xl"> /month</span>
                 </p>
-                <button className="bg-green-500 hover:bg-green-600 transition uppercase text-white text-nowrap px-4 py-2 rounded text-lg font-semibold">
-                  Order now
-                </button>
+                {/* Use the dynamic link for the button */}
+                <a
+                  href={selectedPackage?.link}
+                  className="bg-green-500 hover:bg-green-600 transition uppercase text-white text-nowrap px-4 py-2 rounded text-lg font-semibold"
+                >
+                  Order Now
+                </a>
               </div>
 
               <p className="pt-6">

@@ -19,10 +19,10 @@ function CloudLinuxTable() {
             <thead>
               <tr className="">
                 <th className="border px-4 py-2 text-left"></th>
-                <th className="border px-4 py-2 text-nowrap">PREMIUM 50</th>
-                <th className="border px-4 py-2 text-nowrap">PREMIUM 100</th>
-                <th className="border px-4 py-2 text-nowrap">PREMIUM PRO</th>
-                <th className="border px-4 py-2 text-nowrap">VPS</th>
+                <th className="border px-4 py-2 text-nowrap">Basic</th>
+                <th className="border px-4 py-2 text-nowrap">Standard</th>
+                <th className="border px-4 py-2 text-nowrap">Business</th>
+                <th className="border px-4 py-2 text-nowrap">Premium</th>
               </tr>
             </thead>
             <tbody>
@@ -31,16 +31,16 @@ function CloudLinuxTable() {
                   CPU Cores
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
-                  3 vCPU
+                  1 vCPU
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
-                  4 vCPU
+                  1 vCPU
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
-                  6 vCPU
+                  2 vCPU
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
-                  3 vCPU
+                  2 vCPU
                 </td>
               </tr>
               <tr>
@@ -48,16 +48,16 @@ function CloudLinuxTable() {
                   Memory (RAM)
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
-                  3 GB
+                  1 GB
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
-                  4 GB
+                  1 GB
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
-                  6 GB
+                  2 GB
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
-                  6 GB
+                  2 GB
                 </td>
               </tr>
               <tr>
@@ -82,13 +82,13 @@ function CloudLinuxTable() {
                   IOPS
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
+                  1024
+                </td>
+                <td className="border border-white px-4 py-2 text-center">
+                  1024
+                </td>
+                <td className="border border-white px-4 py-2 text-center">
                   2024
-                </td>
-                <td className="border border-white px-4 py-2 text-center">
-                  3024
-                </td>
-                <td className="border border-white px-4 py-2 text-center">
-                  4024
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
                   NO LIMIT
@@ -102,10 +102,10 @@ function CloudLinuxTable() {
                   50
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
-                  100
+                  50
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
-                  150
+                100
                 </td>
                 <td className="border border-white px-4 py-2 text-center">
                   NO LIMIT

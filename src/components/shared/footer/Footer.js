@@ -9,8 +9,8 @@ const footerData = [
   {
     title: "About Dinisoft",
     info: [
-      { name: "About Us", url: "#" },
-      { name: "Services", url: "#" },
+      { name: "About Us", url: "/about-us" },
+      { name: "Services", url: "/services" },
       { name: "Terms & Conditions", url: "#" },
       { name: "Privacy Policy", url: "#" },
       { name: "FAQs", url: "#" },
@@ -40,12 +40,17 @@ const footerData = [
     title: "Mailing Address",
     info: [
       {
-        name: "Modern Moor, (Mutual Trust Bank Market), Ghashiapara Road, Dinajpur, Banglaedesh",
+        name: (
+          <>
+            Modern Moor, (Mutual Trust Bank Market), <br />
+            Ghashiapara Road, Dinajpur, Bangladesh
+          </>
+        ),
         icon: <MapPin size={20} />,
         url: "#",
       },
       {
-        name: "Phone Number",
+        name: "+8801788800151",
         icon: <PhoneCall size={20} />,
         url: "tel:+8801788800151",
       },
