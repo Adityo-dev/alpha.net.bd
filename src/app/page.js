@@ -14,14 +14,10 @@ import Testimonial from "@/components/home/testimonial/Testimonial";
 
 export default function Home() {
   return (
-    <main className="space-y-12">
-      <section className="relative">
-        <div className="w-full relative md:absolute">
-          <Hero />
-        </div>
-        <div className="relative pt-16 md:pt-[565px] z-10">
-          <HostServiceFeatures />
-        </div>
+    <main className="space-y-6 sm:space-y-12">
+      <Hero />
+      <section className="block sm:hidden">
+        <HostServiceFeatures />
       </section>
       <ServiceOfferings />
       <TechnologySolutions />
