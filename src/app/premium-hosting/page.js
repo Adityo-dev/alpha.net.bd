@@ -71,7 +71,7 @@ const plans = [
 
 function PremiumHosting() {
   return (
-    <main className="relative w-full space-y-12">
+    <main className="relative w-full space-y-6 sm:space-y-12">
       <section className="bg-[#F5F5F5] space-y-12">
         <header
           style={{

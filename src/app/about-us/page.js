@@ -19,7 +19,7 @@ const companyData = [
 
 function AboutUS() {
   return (
-    <main className="space-y-12">
+    <main className="space-y-6 sm:space-y-12">
       <section>
         <div className="relative">
           <div className="absolute inset-0 h-full w-full bg-black bg-opacity-65 transition-all duration-300"></div>
@@ -35,11 +35,22 @@ function AboutUS() {
           <div className="pt-6">
             <p className="py-2 flex flex-col text-sm text-[#444444]">
               <span className="mb-4">
-              Dinisoft BD was founded on Feb 01, 2007. Dinisoft BD is the world class best web hosting company in Bangladesh. We provide domain, hosting, reseller hosting, vps, rdp, vpn, dedicated server, live streaming server, resell all kinds of dedicated server, web design and software development services in Bangladesh and other countries.
+                Dinisoft BD was founded on Feb 01, 2007. Dinisoft BD is the
+                world class best web hosting company in Bangladesh. We provide
+                domain, hosting, reseller hosting, vps, rdp, vpn, dedicated
+                server, live streaming server, resell all kinds of dedicated
+                server, web design and software development services in
+                Bangladesh and other countries.
               </span>
 
               <span className="mb-4">
-              We manage our servers from USA, UK, Germany, India, Singapore, and Bangladesh(BDIX Network) in various award-winning and top-rated data centers. Our servers are SSD RAID/NVMe to ensure data protection and the best quality hosting services. We don’t have any hidden facts or costs. Always maintain the highest level of hosting server quality with data loss protection and the latest security shield.
+                We manage our servers from USA, UK, Germany, India, Singapore,
+                and Bangladesh(BDIX Network) in various award-winning and
+                top-rated data centers. Our servers are SSD RAID/NVMe to ensure
+                data protection and the best quality hosting services. We don’t
+                have any hidden facts or costs. Always maintain the highest
+                level of hosting server quality with data loss protection and
+                the latest security shield.
               </span>
             </p>
           </div>
