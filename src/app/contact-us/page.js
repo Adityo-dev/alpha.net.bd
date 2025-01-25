@@ -5,7 +5,7 @@ import GoogleMap from "@/components/contact/GoogleMap";
 
 function ContactUs() {
   return (
-    <main className="space-y-12">
+    <main className="space-y-6 sm:space-y-12">
       <div
         className="bg-[#014cda]"
         style={{

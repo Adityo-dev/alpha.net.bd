@@ -3,7 +3,6 @@ import VpsSelector from "@/components/ssdVps/VpsSelector";
 import VpsTable from "@/components/ssdVps/VpsTable";
 
 const tableData = [
-
   {
     title: "BDIX KVM VPS",
     info: [
