@@ -48,8 +48,8 @@ function VpsTable({ tableData }) {
                       <td className={tdStyles}>{item?.speed}</td>
                       <td className={tdStyles}>{item?.memory}</td>
                       <td className={tdStyles}>{item?.diskSpace}</td>
+                      <td className={tdStyles}>{item?.ip}</td>
                       <td className={tdStyles}>{item?.bandwidth}</td>
-                      <td className={tdStyles}>Tk{item?.price}</td>
                       <td className={tdStyles}>Tk{item?.price}</td>
                       <td className="border px-6 py-4">
                         {item?.url ? (

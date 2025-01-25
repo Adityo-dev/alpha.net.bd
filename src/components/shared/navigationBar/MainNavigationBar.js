@@ -105,7 +105,7 @@ const bottomNavData = [
   },
   {
     name: "dedicated server",
-    url: "#",
+    url: "/dedicated-server",
     info: [
       {
         icon: <CircleArrowRight size={20} />,
