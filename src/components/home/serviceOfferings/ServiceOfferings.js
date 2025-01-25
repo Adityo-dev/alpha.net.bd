@@ -1,12 +1,11 @@
-import { Database } from "lucide-react";
-import ServiceOfferingsCart from "./ServiceOfferingsCart";
 import Image from "next/image";
+import ServiceOfferingsCart from "./ServiceOfferingsCart";
 
 const serviceOfferingsData = [
   {
     image: (
       <Image
-        src="/services/doamin.png" // Replace with the correct path in your public folder
+        src="/services/doamin.png"
         alt="domain Icon"
         width={400}
         height={400}
@@ -34,19 +33,25 @@ const serviceOfferingsData = [
       </form>
     ),
     details: [
-      { name: "Dedicated Server in BD", url: "" },
-      { name: "Dedicated Server in USA", url: "" },
-      { name: "Windows Dedicated Server", url: "" },
-      { name: "Linux Dedicated Server", url: "" },
+      { name: "Purchase Domain", url: "" },
+      { name: "Transfer Domain", url: "" },
+      { name: "Renew Domain", url: "" },
+      { name: "Register .bd domain", url: "" },
+    ],
+    buttons: [
+      { name: "Domain Price", url: "https://www.dinisoftbd.com/domain", transparent: true },
+      {
+        name: "Domain Login CP",
+        url: "https://login.dinihost.com/index.php?rp=/login",
+        transparent: false,
+      },
     ],
     color: "#000094",
-    url: "",
   },
-
   {
     image: (
       <Image
-        src="/services/hosting.png" // Replace with the correct path in your public folder
+        src="/services/hosting.png"
         alt="hosting Icon"
         width={400}
         height={400}
@@ -54,18 +59,25 @@ const serviceOfferingsData = [
     ),
     title: "Hosting",
     details: [
-      { name: "Dedicated Server in BD", url: "" },
-      { name: "Dedicated Server in USA", url: "" },
-      { name: "Windows Dedicated Server", url: "" },
-      { name: "Linux Dedicated Server", url: "" },
+      { name: "Shared Hosting (BDIX)", url: "" },
+      { name: "Shared Hosting (Singapore)", url: "" },
+      { name: "Shared Hosting (USA)", url: "" },
+      { name: "Reseller Hosting (BDIX)", url: "" },
+    ],
+    buttons: [
+      { name: "Order Now", url: "#", transparent: true },
+      {
+        name: "View Detail",
+        url: "#",
+        transparent: false,
+      },
     ],
     color: "#5d21d2",
-    url: "",
   },
   {
     image: (
       <Image
-        src="/services/vps.png" // Replace with the correct path in your public folder
+        src="/services/vps.png"
         alt="vps Icon"
         width={400}
         height={400}
@@ -73,37 +85,51 @@ const serviceOfferingsData = [
     ),
     title: "VPS",
     details: [
-      { name: "Dedicated Server in BD", url: "" },
-      { name: "Dedicated Server in USA", url: "" },
-      { name: "Windows Dedicated Server", url: "" },
-      { name: "Linux Dedicated Server", url: "" },
+      { name: "Unmanaged VPS", url: "" },
+      { name: "Managed VPS", url: "" },
+      { name: "Storage VPS", url: "" },
+      { name: "Backup VPS", url: "" },
+    ],
+    buttons: [
+      { name: "Order Now", url: "#", transparent: true },
+      {
+        name: "View Detail",
+        url: "#",
+        transparent: false,
+      },
     ],
     color: "#5d21d2",
-    url: "",
   },
   {
     image: (
       <Image
-        src="/services/DedicatedServer.png" // Replace with the correct path in your public folder
-        alt="DedicatedServer"
+        src="/services/DedicatedServer.png"
+        alt="DedicatedServer Icon"
         width={400}
         height={400}
       />
     ),
-    title: "Dedicatd Server",
+    title: "Dedicated Server",
     details: [
-      { name: "Dedicated Server in BD", url: "" },
-      { name: "Dedicated Server in USA", url: "" },
-      { name: "Windows Dedicated Server", url: "" },
-      { name: "Linux Dedicated Server", url: "" },
+      { name: "Unmanaged Dedicated Server", url: "" },
+      { name: "Managed Dedicated Server", url: "" },
+      { name: "High Performance Dedicated Server", url: "" },
+      { name: "Resell Dedicated Server", url: "" },
+    ],
+    buttons: [
+      { name: "Order Now", url: "#", transparent: true },
+      {
+        name: "View Detail",
+        url: "#",
+        transparent: false,
+      },
     ],
     color: "#FF4949",
-    url: "",
   },
   {
     image: (
       <Image
-        src="/services/Businessemail.png" // Replace with the correct path in your public folder
+        src="/services/Businessemail.png"
         alt="Businessemail Icon"
         width={400}
         height={400}
@@ -111,18 +137,25 @@ const serviceOfferingsData = [
     ),
     title: "Business Email",
     details: [
-      { name: "Dedicated Server in BD", url: "" },
-      { name: "Dedicated Server in USA", url: "" },
-      { name: "Windows Dedicated Server", url: "" },
-      { name: "Linux Dedicated Server", url: "" },
+      { name: "Business Email", url: "" },
+      { name: "Zimbra Email", url: "" },
+      { name: "Enterprise Email", url: "" },
+      { name: "Google Email (Gsuite)", url: "" },
+    ],
+    buttons: [
+      { name: "Order Now", url: "#", transparent: true },
+      {
+        name: "View Detail",
+        url: "#",
+        transparent: false,
+      },
     ],
     color: "#0E9AFF",
-    url: "",
   },
   {
     image: (
       <Image
-        src="/services/Websitedesing.png" // Replace with the correct path in your public folder
+        src="/services/Websitedesing.png"
         alt="Websitedesing Icon"
         width={400}
         height={400}
@@ -130,37 +163,51 @@ const serviceOfferingsData = [
     ),
     title: "Website Design",
     details: [
-      { name: "Dedicated Server in BD", url: "" },
-      { name: "Dedicated Server in USA", url: "" },
-      { name: "Windows Dedicated Server", url: "" },
-      { name: "Linux Dedicated Server", url: "" },
+      { name: "Basic Website Design", url: "" },
+      { name: "Advance Website Design", url: "" },
+      { name: "Company Website Design", url: "" },
+      { name: "News Paper Website Design", url: "" },
+    ],
+    buttons: [
+      { name: "Order Now", url: "#", transparent: true },
+      {
+        name: "View Detail",
+        url: "#",
+        transparent: false,
+      },
     ],
     color: "#005D9A",
-    url: "",
   },
   {
     image: (
       <Image
-        src="/services/SMS.png" // Replace with the correct path in your public folder
+        src="/services/SMS.png"
         alt="SMS Icon"
         width={400}
         height={400}
       />
     ),
-    title: "Sms",
+    title: "SMS",
     details: [
-      { name: "Dedicated Server in BD", url: "" },
-      { name: "Dedicated Server in USA", url: "" },
-      { name: "Windows Dedicated Server", url: "" },
-      { name: "Linux Dedicated Server", url: "" },
+      { name: "Non Masking SMS", url: "" },
+      { name: "Masking SMS", url: "" },
+      { name: "Voice SMS", url: "" },
+      { name: "OTP SMS", url: "" },
+    ],
+    buttons: [
+      { name: "Order Now", url: "#", transparent: true },
+      {
+        name: "View Detail",
+        url: "#",
+        transparent: false,
+      },
     ],
     color: "#22C37D",
-    url: "",
   },
   {
     image: (
       <Image
-        src="/services/Software.png" // Replace with the correct path in your public folder
+        src="/services/Software.png"
         alt="Software Icon"
         width={400}
         height={400}
@@ -168,19 +215,26 @@ const serviceOfferingsData = [
     ),
     title: "Software",
     details: [
-      { name: "Dedicated Server in BD", url: "" },
-      { name: "Dedicated Server in USA", url: "" },
-      { name: "Windows Dedicated Server", url: "" },
-      { name: "Linux Dedicated Server", url: "" },
+      { name: "School Management Software", url: "" },
+      { name: "Shop Management Software", url: "" },
+      { name: "Hospital Management Software", url: "" },
+      { name: "ERP", url: "" },
+    ],
+    buttons: [
+      { name: "Order Now", url: "#", transparent: true },
+      {
+        name: "View Detail",
+        url: "#",
+        transparent: false,
+      },
     ],
     color: "#99C33D",
-    url: "",
   },
 ];
 
 function ServiceOfferings() {
   return (
-    <section className="container mx-auto px-3 lg:px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4 gap-6">
+    <section className="container mx-auto px-3 lg:px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
       {serviceOfferingsData.map((serviceOffer, ind) => (
         <ServiceOfferingsCart key={ind} serviceOfferingsData={serviceOffer} />
       ))}

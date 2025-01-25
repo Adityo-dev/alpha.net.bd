@@ -2,38 +2,44 @@ import OurTeamMembersSlider from "./OurTeamMembersSlider";
 
 const teamMembersData = [
   {
+    name: "Monju Ara",
+    designation: "Founder & CEO",
     image: "/avater.png",
-    moreInfo: "#",
   },
   {
+    name: "Md Shahajahan Ali",
+    designation: "Senior System Admin",
     image: "/avater.png",
-    moreInfo: "#",
   },
   {
+    name: "Ruma Hasda",
+    designation: "Support Executive",
     image: "/avater.png",
-    moreInfo: "#",
   },
   {
+    name: "Md Juwel Hossain",
+    designation: "Programmer",
     image: "/avater.png",
-    moreInfo: "#",
   },
   {
+    name: "Mst Sadia Jahan Monisha",
+    designation: "Sales Executive",
     image: "/avater.png",
-    moreInfo: "#",
   },
   {
+    name: "Md Robiul Islam",
+    designation: "Accounts Officer",
     image: "/avater.png",
-    moreInfo: "#",
   },
 ];
 
 function OurTeamMembers() {
   return (
-    <section className=" container mx-auto px-3 lg:px-6 ">
+    <section className="container mx-auto px-3 lg:px-6">
       <h2 className="text-3xl text-[#0E9AFF] font-semibold text-center mb-6">
         Our Team Members
       </h2>
-      <div>{<OurTeamMembersSlider ourTeamMembersData={teamMembersData} />}</div>
+      <OurTeamMembersSlider ourTeamMembersData={teamMembersData} />
     </section>
   );
 }

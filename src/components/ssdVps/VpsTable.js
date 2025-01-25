@@ -50,9 +50,21 @@ function VpsTable({ tableData }) {
                       <td className={tdStyles}>{item?.bandwidth}</td>
                       <td className={tdStyles}>Tk{item?.price}</td>
                       <td className="border px-6 py-4">
-                        <button className="bg-green-500 hover:bg-green-600 transition uppercase text-white text-nowrap px-4 py-2 rounded text-sm">
-                          Order now
-                        </button>
+                        {item?.url ? (
+                          <a
+                            href={item.url}
+                            className="bg-green-500 hover:bg-green-600 transition uppercase text-white text-nowrap px-4 py-2 rounded text-sm"
+                          >
+                            Order now
+                          </a>
+                        ) : (
+                          <button
+                            disabled
+                            className="bg-gray-400 text-white uppercase px-4 py-2 rounded text-sm"
+                          >
+                            Not available
+                          </button>
+                        )}
                       </td>
                     </tr>
                   ))}
