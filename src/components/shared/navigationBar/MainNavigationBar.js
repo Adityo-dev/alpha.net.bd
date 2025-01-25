@@ -63,7 +63,7 @@ const bottomNavData = [
   },
   {
     name: "Vps",
-    url: "#",
+    url: "/ssd-vps",
     info: [
       {
         icon: <CircleArrowRight size={20} />,
