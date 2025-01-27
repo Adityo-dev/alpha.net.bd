@@ -29,7 +29,7 @@ const HostingPlan = () => {
     
     {
       category: "Reseller Hosting",
-      url: "/reseller-hosting",
+      url: "https://login.dinihost.com/index.php?rp=/store/ssd-reseller-hosting/10gb-reseller-hosting-pure-ssd",
       monthsAndTk: [
         { months: "12", tk: "550" },
         { months: "24", tk: "6000" },
@@ -50,6 +50,7 @@ const HostingPlan = () => {
     },
     {
       category: "VPS",
+      ulr: "/ssd-vps",
       monthsAndTk: [
         { months: "1", tk: "2500" },
         { months: "3", tk: "7500" },
@@ -71,6 +72,7 @@ const HostingPlan = () => {
     },
     {
       category: "Dedicated Server",
+      ulr: "/dedicated-server",
       monthsAndTk: [
         { months: "1", tk: "8500" },
         { months: "3", tk: "25000" },
