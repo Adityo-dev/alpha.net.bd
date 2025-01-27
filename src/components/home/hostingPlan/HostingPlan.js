@@ -50,7 +50,7 @@ const HostingPlan = () => {
     },
     {
       category: "VPS",
-      ulr: "/ssd-vps",
+      url: "/ssd-vps",
       monthsAndTk: [
         { months: "1", tk: "2500" },
         { months: "3", tk: "7500" },
@@ -72,7 +72,7 @@ const HostingPlan = () => {
     },
     {
       category: "Dedicated Server",
-      ulr: "/dedicated-server",
+      url: "/dedicated-server",
       monthsAndTk: [
         { months: "1", tk: "8500" },
         { months: "3", tk: "25000" },
