@@ -3,60 +3,60 @@ import Link from "next/link";
 
 const ourServiceCart = [
   {
-    image: "https://imgur.com/XI3ITw4.png",
+    image: "/services/Basics-of-Web-Design.png",
     icon: "https://imgur.com/wJHnLPr.png",
     title: "web design",
     description: "our web design package starts from 10000Tk",
-    utl: "#",
+    url: "https://login.dinihost.com/index.php?rp=/store/website-design",
   },
   {
     image: "https://imgur.com/7s3fnsP.png",
     icon: "https://imgur.com/MGHJDI9.png",
     title: "Software development",
     description: "our Software development package starts from 10000Tk",
-    utl: "#",
+    url: "https://login.dinihost.com/index.php?rp=/store/software-development",
   },
   {
     image: "https://imgur.com/XI3ITw4.png",
     icon: "https://imgur.com/a7xmxiP.png",
     title: "SEO service",
     description: "our SEO service package starts from 10000Tk",
-    utl: "#",
+    url: "#",
   },
   {
-    image: "https://imgur.com/XI3ITw4.png",
-    icon: "https://imgur.com/a7xmxiP.png",
-    title: "SEO service",
-    description: "our SEO service package starts from 10000Tk",
-    utl: "#",
+    image: "/services/email-marketing.png",
+    icon: "/services/emailiconBusiness.png",
+    title: "Business Email",
+    description: "Email for Small Medium Business",
+    url: "https://login.dinihost.com/index.php?rp=/store/email-services",
   },
   {
     image: "https://imgur.com/rY8y2MP.png",
     icon: "https://imgur.com/UeOGXm7.png",
     title: "Domain and hosting",
     description: "our Domain and hosting package starts from 10000Tk",
-    utl: "#",
+    url: "https://login.dinihost.com/",
   },
   {
     image: "https://imgur.com/RGa7eKz.png",
     icon: "https://imgur.com/e9scoiH.png",
     title: "Social media marketing",
     description: "our Social media marketing package starts from 10000Tk",
-    utl: "#",
+    url: "#",
   },
   {
-    image: "https://imgur.com/XI3ITw4.png",
-    icon: "https://imgur.com/e3ghkan.png",
-    title: "graphics design",
-    description: "our graphics design package starts from 10000Tk",
-    utl: "#",
+    image: "/services/exchange-mail.png",
+    icon: "/services/icon.jpeg",
+    title: "Enterprise Email",
+    description: "Enterprise Level Email Service",
+    url: "https://login.dinihost.com/index.php?rp=/store/email-services/enterprise-email",
   },
   {
-    image: "https://imgur.com/gvMlClq.png",
-    icon: "https://imgur.com/e3ghkan.png",
-    title: "Graphics design",
-    description: "our Graphics design package starts from 10000Tk",
-    utl: "#",
+    image: "/services/masking-and-non-masking.png",
+    icon: "/services/sms-msg.png",
+    title: "Non Masking SMS",
+    description: "SMS from Fixt Number",
+    url: "https://login.dinihost.com/index.php?rp=/store/bulk-sms",
   },
 ];
 
@@ -87,7 +87,7 @@ function OurService() {
           <div className="px-6 py-6 mt-6">
             <h2 className="text-2xl font-semibold capitalize text-center">
               <Link
-                href={"#"}
+                href={service?.url}
                 className="hover:text-blue-500 transition duration-300"
               >
                 {service?.title}
@@ -95,7 +95,7 @@ function OurService() {
             </h2>
             <p className="mt-6 text-center">
               {service?.description},
-              <Link href={service?.utl} className=" text ">
+              <Link href={service?.url} className=" text ">
                 {" "}
                 click here for details
               </Link>

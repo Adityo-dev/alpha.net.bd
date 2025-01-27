@@ -204,7 +204,7 @@ const VpsSelector = () => {
               <div className="space-y-3 text-center border-b pt-6 pb-6">
                 <p className="font-semibold">
                   <span className="text-5xl ">TK {selectedPackage?.price}</span>
-                  <span className="text-2xl"> /month</span>
+                  <span className="text-2xl"> /mo</span>
                 </p>
                 {/* Use the dynamic link for the button */}
                 <a

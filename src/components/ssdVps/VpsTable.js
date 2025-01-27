@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const tableHeader = [
   "Package",
   "CPU",
@@ -72,10 +74,25 @@ function VpsTable({ tableData }) {
                   ))}
                 </tbody>
               </table>
+              <p className="p-4 text-sm text-gray-600 bg-gray-100 text-center">
+              For managed VPS 2500/- Will be added & USA Location 20% less or Singapore Location will be same
+              </p>
             </div>
           </div>
         ))}
+
+        {/* Image */}
+              <div>
+                  <Image
+                   src={"/opareting-image.jpg"}
+                   width={1000}
+                   height={1000}
+                   alt={"VPS"}
+                   className="w-full h-full object-cover"
+                  />
+             </div>
       </section>
+      
     </main>
   );
 }
