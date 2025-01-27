@@ -48,7 +48,6 @@ const termsofServices = () => {
           <li>Sale of any controlled substance without prior proof of appropriate permit(s)</li>
           <li>Prime Banks Programs</li>
           <li>Lottery Sites</li>
-          <li></li>
           <li>MUDs/RPGs/PBBGs</li>
           <li>Hateful/Racist/Harassment oriented sites</li>
           <li>Hacker focused sites/archives/programs</li>
