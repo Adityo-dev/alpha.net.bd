@@ -62,13 +62,13 @@ const serviceOfferingsData = [
       { name: "Shared Hosting (BDIX)", url: "https://login.dinihost.com/index.php?rp=/store/ssd-shared-hosting" },
       { name: "Shared Hosting (Singapore)", url: "https://login.dinihost.com/index.php?rp=/store/linux-shared-hosting-singapore" },
       { name: "Shared Hosting (USA)", url: "https://login.dinihost.com/index.php?rp=/store/linux-shared-hosting-usa" },
-      { name: "Reseller Hosting (BDIX)", url: "" },
+      { name: "Reseller Hosting (BDIX)", url: "https://login.dinihost.com/index.php?rp=/store/ssd-reseller-hosting" },
     ],
     buttons: [
-      { name: "Order Now", url: "#", transparent: true },
+      { name: "Order Now", url: "https://login.dinihost.com/index.php?rp=/store/ssd-shared-hosting", transparent: true },
       {
         name: "View Detail",
-        url: "#",
+        url: "https://login.dinihost.com/index.php?rp=/store/ssd-shared-hosting",
         transparent: false,
       },
     ],
@@ -169,10 +169,10 @@ const serviceOfferingsData = [
       { name: "News Paper Website Design", url: "https://login.dinihost.com/index.php?rp=/store/website-design" },
     ],
     buttons: [
-      { name: "Order Now", url: "#", transparent: true },
+      { name: "Order Now", url: "https://login.dinihost.com/index.php?rp=/store/website-design", transparent: true },
       {
         name: "View Detail",
-        url: "#",
+        url: "https://login.dinihost.com/index.php?rp=/store/website-design",
         transparent: false,
       },
     ],
