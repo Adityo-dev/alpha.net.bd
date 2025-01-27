@@ -33,10 +33,10 @@ const serviceOfferingsData = [
       </form>
     ),
     details: [
-      { name: "Purchase Domain", url: "" },
-      { name: "Transfer Domain", url: "" },
-      { name: "Renew Domain", url: "" },
-      { name: "Register .bd domain", url: "" },
+      { name: "Purchase Domain", url: "https://login.dinihost.com/" },
+      { name: "Transfer Domain", url: "https://login.dinihost.com/" },
+      { name: "Renew Domain", url: "https://login.dinihost.com/" },
+      { name: "Register .bd domain", url: "https://login.dinihost.com/" },
     ],
     buttons: [
       { name: "Domain Price", url: "https://www.dinisoftbd.com/domain", transparent: true },
@@ -59,9 +59,9 @@ const serviceOfferingsData = [
     ),
     title: "Hosting",
     details: [
-      { name: "Shared Hosting (BDIX)", url: "" },
-      { name: "Shared Hosting (Singapore)", url: "" },
-      { name: "Shared Hosting (USA)", url: "" },
+      { name: "Shared Hosting (BDIX)", url: "https://login.dinihost.com/index.php?rp=/store/ssd-shared-hosting" },
+      { name: "Shared Hosting (Singapore)", url: "https://login.dinihost.com/index.php?rp=/store/linux-shared-hosting-singapore" },
+      { name: "Shared Hosting (USA)", url: "https://login.dinihost.com/index.php?rp=/store/linux-shared-hosting-usa" },
       { name: "Reseller Hosting (BDIX)", url: "" },
     ],
     buttons: [
@@ -85,16 +85,16 @@ const serviceOfferingsData = [
     ),
     title: "VPS",
     details: [
-      { name: "Unmanaged VPS", url: "" },
-      { name: "Managed VPS", url: "" },
-      { name: "Storage VPS", url: "" },
-      { name: "Backup VPS", url: "" },
+      { name: "Unmanaged VPS", url: "https://login.dinihost.com/index.php?rp=/store/bdix-vps" },
+      { name: "Managed VPS", url: "https://alpha-net-bd.vercel.app/ssd-vps" },
+      { name: "Storage VPS", url: "https://login.dinihost.com/index.php?rp=/store/storage-vps" },
+      { name: "Backup VPS", url: "https://login.dinihost.com/index.php?rp=/store/backup-vps" },
     ],
     buttons: [
-      { name: "Order Now", url: "#", transparent: true },
+      { name: "Order Now", url: "https://login.dinihost.com/index.php?rp=/store/bdix-vps", transparent: true },
       {
         name: "View Detail",
-        url: "#",
+        url: "https://login.dinihost.com/index.php?rp=/store/bdix-vps",
         transparent: false,
       },
     ],
@@ -111,16 +111,16 @@ const serviceOfferingsData = [
     ),
     title: "Dedicated Server",
     details: [
-      { name: "Unmanaged Dedicated Server", url: "" },
-      { name: "Managed Dedicated Server", url: "" },
-      { name: "High Performance Dedicated Server", url: "" },
-      { name: "Resell Dedicated Server", url: "" },
+      { name: "Unmanaged Dedicated Server", url: "https://alpha-net-bd.vercel.app/dedicated-server" },
+      { name: "Managed Dedicated Server", url: "https://login.dinihost.com/index.php?rp=/store/dedicated-serverbdix" },
+      { name: "High Performance Dedicated Server", url: "https://login.dinihost.com/index.php?rp=/store/dedicated-serversingapore" },
+      { name: "Resell Dedicated Server", url: "https://login.dinihost.com/index.php?rp=/store/dedicated-serversingapore" },
     ],
     buttons: [
-      { name: "Order Now", url: "#", transparent: true },
+      { name: "Order Now", url: "https://alpha-net-bd.vercel.app/dedicated-server", transparent: true },
       {
         name: "View Detail",
-        url: "#",
+        url: "https://alpha-net-bd.vercel.app/dedicated-server",
         transparent: false,
       },
     ],

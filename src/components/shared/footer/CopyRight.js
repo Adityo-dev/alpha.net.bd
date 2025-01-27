@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Facebook, Instagram, Twitter } from "lucide-react";
 // data
 const socialMedia = [
-  { icon: <Facebook size={20} strokeWidth={1.2} />, url: "#" },
+  { icon: <Facebook size={20} strokeWidth={1.2} />, url: "https://www.facebook.com/dinisoftbd" },
   { icon: <Instagram size={20} strokeWidth={1.2} />, url: "#" },
   { icon: <Twitter size={20} strokeWidth={1.2} />, url: "#" },
 ];

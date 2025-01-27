@@ -8,7 +8,7 @@ const VpsSelector = () => {
   const packages = [
     {
       id: 1,
-      ssd: "1G",
+      ssd: "2G",
       cpu: 1,
       ram: 2,
       space: 25,
@@ -16,55 +16,55 @@ const VpsSelector = () => {
       ip: 1,
       price: 800,
       location: "Los Angeles",
-      link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-starter-vps", // Add link for the package
+      link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-starter-vps", 
     },
     {
       id: 2,
       ssd: "4G",
-      cpu: 4,
+      cpu: 2,
       ram: 4,
       space: 50,
       traffic: 2,
       ip: 1,
-      price: 3710,
+      price: 1500,
       location: "Los Angeles",
-      link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-standard-vps", // Add link for the package
+      link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-standard-vps", 
     },
     {
       id: 3,
       ssd: "6G",
       cpu: 4,
-      ram: 6,
+      ram: 8,
       space: 75,
       traffic: 3,
       ip: 1,
-      price: 5830,
+      price: 3500,
       location: "Los Angeles",
-      link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-business-vps", // Add link for the package
+      link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-business-vps", 
     },
     {
       id: 4,
       ssd: "8G",
-      cpu: 6,
-      ram: 8,
+      cpu: 8,
+      ram: 16,
       space: 100,
       traffic: 4,
       ip: 1,
-      price: 1420,
+      price: 7000,
       location: "Los Angeles",
-      link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-advanced-vps", // Add link for the package
+      link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-advanced-vps", 
     },
     {
       id: 5,
       ssd: "16G",
-      cpu: 8,
-      ram: 16,
+      cpu: 16,
+      ram: 32,
       space: 150,
       traffic: 5,
       ip: 1,
-      price: 1910,
+      price: 14000,
       location: "Los Angeles",
-      link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-premium-vps", // Add link for the package
+      link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-premium-vps", 
     },
   
   ];
@@ -156,7 +156,7 @@ const VpsSelector = () => {
                   <p>IP Address</p>
                 </div>
                 <p>
-                  <span className="text-3xl">{selectedPackage?.cpu}</span>
+                  <span className="text-3xl">{selectedPackage?.ip}</span>
                   <span>IP</span>
                 </p>
               </div>
@@ -167,7 +167,7 @@ const VpsSelector = () => {
                   <p>Ram</p>
                 </div>
                 <p>
-                  <span className="text-3xl">{selectedPackage?.cpu}</span>
+                  <span className="text-3xl">{selectedPackage?.ram}</span>
                   <span>GB</span>
                 </p>
               </div>
@@ -178,7 +178,7 @@ const VpsSelector = () => {
                   <p>Traffic</p>
                 </div>
                 <p>
-                  <span className="text-3xl">{selectedPackage?.cpu}</span>
+                  <span className="text-3xl">{selectedPackage?.traffic}</span>
                   <span>TB</span>
                 </p>
               </div>
@@ -189,7 +189,7 @@ const VpsSelector = () => {
                   <p>SSD Space</p>
                 </div>
                 <p>
-                  <span className="text-3xl">{selectedPackage?.cpu}</span>
+                  <span className="text-3xl">{selectedPackage?.space}</span>
                   <span>GB</span>
                 </p>
               </div>
@@ -204,7 +204,7 @@ const VpsSelector = () => {
               <div className="space-y-3 text-center border-b pt-6 pb-6">
                 <p className="font-semibold">
                   <span className="text-5xl ">TK {selectedPackage?.price}</span>
-                  <span className="text-2xl"> /month</span>
+                  <span className="text-2xl"> /mo</span>
                 </p>
                 {/* Use the dynamic link for the button */}
                 <a

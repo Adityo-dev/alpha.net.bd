@@ -1,8 +1,11 @@
+import Image from "next/image";
+
 const tableHeader = [
-  "Plan Name",
-  "Speed",
-  "Memory",
-  "Disk Space",
+  "Package",
+  "CPU",
+  "RAM",
+  "Storage",
+  "IP",
   "Bandwidth",
   "Price",
   "",
@@ -47,6 +50,7 @@ function VpsTable({ tableData }) {
                       <td className={tdStyles}>{item?.speed}</td>
                       <td className={tdStyles}>{item?.memory}</td>
                       <td className={tdStyles}>{item?.diskSpace}</td>
+                      <td className={tdStyles}>{item?.ip}</td>
                       <td className={tdStyles}>{item?.bandwidth}</td>
                       <td className={tdStyles}>Tk{item?.price}</td>
                       <td className="border px-6 py-4">
@@ -70,10 +74,25 @@ function VpsTable({ tableData }) {
                   ))}
                 </tbody>
               </table>
+              <p className="p-4 text-sm text-gray-600 bg-gray-100 text-center">
+              For managed VPS 2500/- Will be added & USA Location 20% less or Singapore Location will be same
+              </p>
             </div>
           </div>
         ))}
+
+        {/* Image */}
+              <div>
+                  <Image
+                   src={"/opareting-image.jpg"}
+                   width={1000}
+                   height={1000}
+                   alt={"VPS"}
+                   className="w-full h-full object-cover"
+                  />
+             </div>
       </section>
+      
     </main>
   );
 }

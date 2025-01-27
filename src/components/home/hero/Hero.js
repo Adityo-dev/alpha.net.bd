@@ -7,7 +7,7 @@ const heroData = [
     description:
       "Give your business a professional makeover with email@yourbrand.com",
     image: "/emailslider.svg",
-    url: "#",
+    url: "/contact-us",
   },
   {
     title:
@@ -15,14 +15,14 @@ const heroData = [
     description:
       "START WITH THE PERFECT DOMAIN, With more than 300 domain extensions, you'll find the one that fits just right.",
     image: "/cloudslider.svg",
-    url: "#",
+    url: "https://www.dinisoftbd.com/domain",
   },
   {
     title: "Cloud<span class='text-[#FFB800]'>Virtual Private</span> Servers",
     description:
       " Storage Optimized Virtual Private Servers use enterprise hard disk drives to increase the amount of storage space allocated per slice.",
     image: "/dedicatedserverslider.svg",
-    url: "#",
+    url: "/ssd-vps",
   },
 ];
 
