@@ -8,8 +8,8 @@ const HostingPlan = () => {
     {
       category: "Shared Hosting",
       monthsAndTk: [
-        { months: "1", tk: "1500" },
-        { months: "2", tk: "2500" },
+        { months: "12", tk: "1500" },
+        { months: "24", tk: "2500" },
       ],
       detailsInfo: [
         { icon: <Database />, info: "5 GB SSD space" },
@@ -28,8 +28,8 @@ const HostingPlan = () => {
     {
       category: "Reseller Hosting",
       monthsAndTk: [
-        { months: "1", tk: "550" },
-        { months: "2", tk: "6000" },
+        { months: "12", tk: "550" },
+        { months: "24", tk: "6000" },
       ],
       detailsInfo: [
         { icon: <Database />, info: "10 GB SSD space" },
@@ -55,15 +55,15 @@ const HostingPlan = () => {
       detailsInfo: [
         { icon: <Database />, info: "CPU: 8 vCore" },
         { icon: <Database />, info: "RAM: 16 GB RAM" },
-        { icon: <Database />, info: "Bandwidth: 1TB" },
-        { icon: <Database />, info: "Storage: 100GB NVME" },
-        { icon: <Database />, info: "1 Snapshot" },
+        { icon: <Database />, info: "Bandwidth: 10TB" },
+        { icon: <Database />, info: "Storage: 500GB NVME" },
+        { icon: <Database />, info: "Standard Backup" },
         { icon: <Database />, info: "Full Root Access" },
-        { icon: <Database />, info: "ISO Base OS" },
-        { icon: <Database />, info: "One Click Reinstall" },
+        { icon: <Database />, info: "Basic OS" },
         { icon: <Database />, info: "Unmanaged" },
         { icon: <Database />, info: "1 IP" },
         { icon: <Database />, info: "Different Location" },
+        { icon: <Database />, info: "24x7 Support" },
       ],
     },
     {

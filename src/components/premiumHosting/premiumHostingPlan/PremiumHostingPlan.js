@@ -10,17 +10,9 @@ import {
   Volleyball,
   Wifi,
 } from "lucide-react";
-import Head from "next/head";
+import Link from "next/link";
 function PremiumHostingPlan({ plans }) {
   return (
-    <>
-      <Head>
-        <title>About Us - Dinisoft</title>
-        <meta
-          name="description"
-          content="Learn more about Dinisoft, the best web hosting company in Bangladesh."
-        />
-      </Head>
       <main className="container mx-auto px-3 lg:px-6">
       <h2 className="text-3xl md:text-4xl font-semibold text-center mb-12 text-[#1f2933]">
         PREMIUM HOSTING PLAN
@@ -137,14 +129,15 @@ function PremiumHostingPlan({ plans }) {
                 )}
               </div>
             </div>
-            <button className="w-full bg-[#2280c3] uppercase text-white font-semibold py-4 border-s-8 border-[#F5F5F5]">
-              Order Now
-            </button>
+            {/* Button with link */}
+            <Link href={plan.link}
+            className="w-full bg-[#2280c3] uppercase text-white font-semibold py-4 block text-center border-s-8 border-[#F5F5F5]">
+                Order Now
+            </Link>
           </div>
         ))}
       </div>
     </main>
-    </>
   );
 }
 

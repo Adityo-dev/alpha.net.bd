@@ -29,7 +29,7 @@ const faqData = [
   {
     title: "How can i pay you?",
     d: "Scan this QR and fill the form and pay.",
-    image: "/com.png",
+    image: "/dinisoft-payment.png",
     info: [
       "We have been providing reliable domain hosting services since 2012, with over 13 years of experience in Bangladesh's hosting industry.",
       "DiniSoft BD is known as the best domain hosting provider in Bangladesh. We offer the perfect domain names and hosting plans tailored to your needs, backed by years of expertise.",
@@ -63,7 +63,7 @@ function FAQ() {
                     alt="FAQ Image"
                     width={300}
                     height={300}
-                    className="w-14 h-14"
+                    className="w-200 h-40"
                   />
                 </div>
               )}

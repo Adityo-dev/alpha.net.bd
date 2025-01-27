@@ -11,7 +11,7 @@ const bottomNavData = [
   },
   {
     name: "domain",
-    url: "https://www.dinisoftbd.com/domain",
+    url: "https://login.dinihost.com/",
   },
   {
     name: "hosting",
@@ -37,7 +37,7 @@ const bottomNavData = [
       },
       {
         icon: <CircleArrowRight size={20} />,
-        name: "Windows Shared Hosting(USA)",
+        name: "Linux Shared Hosting (USA)",
         title: "Global Network Based High Performance Shared Hosting",
         url: "https://login.dinihost.com/index.php?rp=/store/linux-shared-hosting-usa",
       },
@@ -47,6 +47,7 @@ const bottomNavData = [
         title: "Global Network Based High Performance Reseller Hosting",
         url: "https://login.dinihost.com/index.php?rp=/store/reseller-hosting-usa",
       },
+
       {
         icon: <CircleArrowRight size={20} />,
         name: "Linux Shared Hosting (Singapore)",
@@ -55,15 +56,16 @@ const bottomNavData = [
       },
       {
         icon: <CircleArrowRight size={20} />,
-        name: "Linux Reseller Hosting (Singapore) ",
+        name: "Linux Reseller Hosting (Singapore)",
         title: "Global Faster Network Shared Hosting",
         url: "https://login.dinihost.com/index.php?rp=/store/reseller-hosting-singapore",
       },
+
     ],
   },
   {
     name: "Vps",
-    url: "#",
+    url: "/ssd-vps",
     info: [
       {
         icon: <CircleArrowRight size={20} />,
@@ -75,7 +77,7 @@ const bottomNavData = [
         icon: <CircleArrowRight size={20} />,
         title: "24 X 7 Support ",
         name: "Managed VPS (BDIX)",
-        url: "https://alpha-net-bd.vercel.app/ssd-vps",
+        url: "https://login.dinihost.com/index.php?rp=/store/managed-vps-bdix",
       },
       {
         icon: <CircleArrowRight size={20} />,
@@ -105,13 +107,13 @@ const bottomNavData = [
   },
   {
     name: "dedicated server",
-    url: "#",
+    url: "/dedicated-server",
     info: [
       {
         icon: <CircleArrowRight size={20} />,
         title: "Fresh Dedicated Server",
         name: "Dedicated Server (BDIX)",
-        url: "https://alpha-net-bd.vercel.app/dedicated-server",
+        url: "https://login.dinihost.com/index.php?rp=/store/dedicated-server",
       },
       {
         icon: <CircleArrowRight size={20} />,
@@ -165,6 +167,7 @@ const bottomNavData = [
         icon: <CircleArrowRight size={20} />,
         name: "VPN",
         title: "10 Network based VPN service",
+        url: "https://login.dinihost.com/index.php?rp=/store/vpn",
       },
       {
         icon: <CircleArrowRight size={20} />,
@@ -176,22 +179,32 @@ const bottomNavData = [
         icon: <CircleArrowRight size={20} />,
         name: "Software Development",
         title: "We can provide all kinds of software",
+        url: "https://login.dinihost.com/index.php?rp=/store/software-development",
       },
       {
         icon: <CircleArrowRight size={20} />,
         name: "Google Email (Gsuits)",
         title: "100% Inboxing email service",
+        url: "https://login.dinihost.com/index.php?rp=/store/email-services/google-email-gsuits",
       },
 
       {
         icon: <CircleArrowRight size={20} />,
         name: "Website Design",
         title: "Create you Excellent Website with Us",
+        url: "https://login.dinihost.com/index.php?rp=/store/website-design",
       },
       {
         icon: <CircleArrowRight size={20} />,
         name: "Zimbra Mail Server ",
         title: "Open Source License Mail Service",
+        url: "https://login.dinihost.com/index.php?rp=/store/email-services/zimbra-mail-server",
+      },
+      {
+        icon: <CircleArrowRight size={20} />,
+        name: "Backup Server",
+        title: "Storage VPS for backup",
+        url: "https://login.dinihost.com/index.php?rp=/store/backup-server",
       },
     ],
   },
@@ -203,83 +216,101 @@ const bottomNavData = [
         icon: <CircleArrowRight size={20} />,
         title: "SMS from Fixt Number",
         name: "Non Masking SMS",
+        url: "https://login.dinihost.com/index.php?rp=/store/bulk-sms",
       },
       {
         icon: <CircleArrowRight size={20} />,
         title: "11 Digit Company Name SMS",
         name: "Masking SMS",
+        url: "https://login.dinihost.com/index.php?rp=/store/bulk-sms",
       },
       {
         icon: <CircleArrowRight size={20} />,
         name: "Voice SMS",
         title: "Voice call SMS",
+        url: "https://login.dinihost.com/index.php?rp=/store/bulk-sms",
       },
       {
         icon: <CircleArrowRight size={20} />,
         name: "OTP SMS",
         title: "Legal OTP SMS Only",
+        url: "https://login.dinihost.com/index.php?rp=/store/bulk-sms",
       },
       {
         icon: <CircleArrowRight size={20} />,
         name: "API Documentation",
         title: "",
+        url: "https://dinisofbd.com/doc/smsapi.pdf",
       },
       {
         icon: <CircleArrowRight size={20} />,
         name: "Login your sms Portal",
         title: "SMS Login",
+        url: "https://sms.dinisoftbd.com/login/",
       },
     ],
   },
   {
     name: "web design",
-    url: "#",
+    url: "https://login.dinihost.com/index.php?rp=/store/website-design",
     info: [
       {
         icon: <CircleArrowRight size={20} />,
         title: "We can provide all kinds of software",
         name: "Software Development",
+        url: "https://login.dinihost.com/index.php?rp=/store/website-design",
       },
       {
         icon: <CircleArrowRight size={20} />,
         title: "Create you Excellent Website with Us",
         name: "Website Design",
+        url: "https://login.dinihost.com/index.php?rp=/store/website-design",
       },
       {
         icon: <CircleArrowRight size={20} />,
         name: "e-Commerce Website",
         title: "Wordpress, Laravel, Node.js etc",
+        url: "https://login.dinihost.com/index.php?rp=/store/website-design",
       },
     ],
   },
   {
     name: "about Us",
-    url: "about-us",
+    url: "#",
     info: [
       {
         icon: <CircleArrowRight size={20} />,
         title: "",
         name: "About DINISOFT",
+        url: "/about-us",
       },
       {
         icon: <CircleArrowRight size={20} />,
         title: "",
         name: "Privacy Policy",
+        url: "https://dinisoftbd.com/wp/pp/",
       },
       {
         icon: <CircleArrowRight size={20} />,
         name: "Refund Policy",
         title: "",
+        url: "https://dinisoftbd.com/wp/rfp/",
+      },
+      {
+        icon: <CircleArrowRight size={20} />,
+        name: "Terms of Service",
+        title: "",
+        url: "https://dinisoftbd.com/wp/tos/",
       },
     ],      
   },
   {
     name: "Colocation",
-    url: "#",
+    url: "https://login.dinihost.com/index.php?rp=/store/colocation",
   },
   {
     name: "Affiliate Program",
-    url: "#",
+    url: "https://login.dinihost.com/index.php?rp=/store/affiliate-program",
   },
   {
     name: "Contact",

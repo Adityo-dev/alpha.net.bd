@@ -4,24 +4,8 @@ import DomainName from "../domainName/DomainName";
 
 // data
 const technologySolutionsData = [
-  {
-    icon: <Hotel color="#1174bc" size={28} strokeWidth={1.5} />,
-    title: "Our Mission",
-    description:
-      "It is Hostmight's mission to deliver excellence in all levels of services to our clients. To work hard everyday because we love what we do with a passion. To be a global leader in providing world class facilities with the highest level of uptime. To have the highest level of integrity and work ethic. We are passionate about bringing you the latest innovations and technology. We aim to always update our software, servers, platforms and systems to help you stay ahead of the competition.",
-  },
-  {
-    icon: <Users color="#1174bc" size={28} strokeWidth={1.5} />,
-    title: "5000+ Customers in 60+ Countries",
-    description:
-      "Dinisoftbd Net's clientele includes individuals and companies of all sizes. We have had more than Five Thousand Customers in 60+ Countries over the 24 Years",
-  },
-  {
-    icon: <Handshake color="#1174bc" size={28} strokeWidth={1.5} />,
-    title: "Our Technology & Partners",
-    description:
-      "Dinisoftbd Net helps customers with the highest quality service by connecting with the following valued partners:",
-  },
+ 
+  
 ];
 
 function TechnologySolutions() {

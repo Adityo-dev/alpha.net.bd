@@ -10,7 +10,6 @@ const CompanyInfoTable = () => {
       "Modern Moor (MTB Bank Market) Ghashipara Road, Dinajpur, Bangladesh.",
     "Members Of": [
      " Chamber of commerce & industries", 
-      "Bangladesh Association of Software and Information Services (BASIS)",
       "Bangladesh Domain Hosting Provider Association (BDHPA)",
 
     ],
