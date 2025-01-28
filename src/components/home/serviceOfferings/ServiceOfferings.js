@@ -62,13 +62,13 @@ const serviceOfferingsData = [
       { name: "Shared Hosting (BDIX)", url: "https://login.dinihost.com/index.php?rp=/store/ssd-shared-hosting" },
       { name: "Shared Hosting (Singapore)", url: "https://login.dinihost.com/index.php?rp=/store/linux-shared-hosting-singapore" },
       { name: "Shared Hosting (USA)", url: "https://login.dinihost.com/index.php?rp=/store/linux-shared-hosting-usa" },
-      { name: "Reseller Hosting (BDIX)", url: "" },
+      { name: "Reseller Hosting (BDIX)", url: "https://login.dinihost.com/index.php?rp=/store/ssd-reseller-hosting" },
     ],
     buttons: [
-      { name: "Order Now", url: "#", transparent: true },
+      { name: "Order Now", url: "https://login.dinihost.com/index.php?rp=/store/ssd-shared-hosting", transparent: true },
       {
         name: "View Detail",
-        url: "#",
+        url: "https://login.dinihost.com/index.php?rp=/store/ssd-shared-hosting",
         transparent: false,
       },
     ],
@@ -137,16 +137,16 @@ const serviceOfferingsData = [
     ),
     title: "Business Email",
     details: [
-      { name: "Business Email", url: "" },
-      { name: "Zimbra Email", url: "" },
-      { name: "Enterprise Email", url: "" },
-      { name: "Google Email (Gsuite)", url: "" },
+      { name: "Business Email", url: "https://login.dinihost.com/index.php?rp=/store/email-services" },
+      { name: "Zimbra Email", url: "https://login.dinihost.com/index.php?rp=/store/email-services/zimbra-mail-server" },
+      { name: "Enterprise Email", url: "https://login.dinihost.com/index.php?rp=/store/email-services/enterprise-email" },
+      { name: "Google Email (Gsuite)", url: "https://login.dinihost.com/index.php?rp=/store/email-services/google-email-gsuits" },
     ],
     buttons: [
-      { name: "Order Now", url: "#", transparent: true },
+      { name: "Order Now", url: "https://login.dinihost.com/index.php?rp=/store/email-services", transparent: true },
       {
         name: "View Detail",
-        url: "#",
+        url: "https://login.dinihost.com/index.php?rp=/store/email-services",
         transparent: false,
       },
     ],
@@ -163,16 +163,16 @@ const serviceOfferingsData = [
     ),
     title: "Website Design",
     details: [
-      { name: "Basic Website Design", url: "" },
-      { name: "Advance Website Design", url: "" },
-      { name: "Company Website Design", url: "" },
-      { name: "News Paper Website Design", url: "" },
+      { name: "Basic Website Design", url: "https://login.dinihost.com/index.php?rp=/store/website-design" },
+      { name: "Advance Website Design", url: "https://login.dinihost.com/index.php?rp=/store/website-design" },
+      { name: "Company Website Design", url: "https://login.dinihost.com/index.php?rp=/store/website-design" },
+      { name: "News Paper Website Design", url: "https://login.dinihost.com/index.php?rp=/store/website-design" },
     ],
     buttons: [
-      { name: "Order Now", url: "#", transparent: true },
+      { name: "Order Now", url: "https://login.dinihost.com/index.php?rp=/store/website-design", transparent: true },
       {
         name: "View Detail",
-        url: "#",
+        url: "https://login.dinihost.com/index.php?rp=/store/website-design",
         transparent: false,
       },
     ],
@@ -189,16 +189,16 @@ const serviceOfferingsData = [
     ),
     title: "SMS",
     details: [
-      { name: "Non Masking SMS", url: "" },
-      { name: "Masking SMS", url: "" },
-      { name: "Voice SMS", url: "" },
-      { name: "OTP SMS", url: "" },
+      { name: "Non Masking SMS", url: "https://login.dinihost.com/index.php?rp=/store/bulk-sms" },
+      { name: "Masking SMS", url: "https://login.dinihost.com/index.php?rp=/store/bulk-sms" },
+      { name: "Voice SMS", url: "https://login.dinihost.com/index.php?rp=/store/bulk-sms" },
+      { name: "OTP SMS", url: "https://login.dinihost.com/index.php?rp=/store/bulk-sms" },
     ],
     buttons: [
-      { name: "Order Now", url: "#", transparent: true },
+      { name: "Order Now", url: "https://login.dinihost.com/index.php?rp=/store/bulk-sms", transparent: true },
       {
         name: "View Detail",
-        url: "#",
+        url: "https://login.dinihost.com/index.php?rp=/store/bulk-sms",
         transparent: false,
       },
     ],
@@ -215,16 +215,16 @@ const serviceOfferingsData = [
     ),
     title: "Software",
     details: [
-      { name: "School Management Software", url: "" },
-      { name: "Shop Management Software", url: "" },
-      { name: "Hospital Management Software", url: "" },
-      { name: "ERP", url: "" },
+      { name: "School Management Software", url: "https://login.dinihost.com/index.php?rp=/store/website-design" },
+      { name: "Shop Management Software", url: "https://login.dinihost.com/index.php?rp=/store/website-design" },
+      { name: "Hospital Management Software", url: "https://login.dinihost.com/index.php?rp=/store/website-design" },
+      { name: "ERP", url: "https://login.dinihost.com/index.php?rp=/store/website-design" },
     ],
     buttons: [
-      { name: "Order Now", url: "#", transparent: true },
+      { name: "Order Now", url: "https://login.dinihost.com/index.php?rp=/store/website-design", transparent: true },
       {
         name: "View Detail",
-        url: "#",
+        url: "https://login.dinihost.com/index.php?rp=/store/website-design",
         transparent: false,
       },
     ],
@@ -243,3 +243,5 @@ function ServiceOfferings() {
 }
 
 export default ServiceOfferings;
+
+

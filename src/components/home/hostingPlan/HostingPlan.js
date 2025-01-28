@@ -7,6 +7,7 @@ const HostingPlan = () => {
   const hostingPlanData = [
     {
       category: "Shared Hosting",
+      url: "https://login.dinihost.com/index.php?rp=/store/ssd-shared-hosting/1gb-pure-nvme-ssd",
       monthsAndTk: [
         { months: "12", tk: "1500" },
         { months: "24", tk: "2500" },
@@ -25,8 +26,10 @@ const HostingPlan = () => {
         { icon: <Database />, info: "24/7 Online support" },
       ],
     },
+    
     {
       category: "Reseller Hosting",
+      url: "https://login.dinihost.com/index.php?rp=/store/ssd-reseller-hosting/10gb-reseller-hosting-pure-ssd",
       monthsAndTk: [
         { months: "12", tk: "550" },
         { months: "24", tk: "6000" },
@@ -47,6 +50,7 @@ const HostingPlan = () => {
     },
     {
       category: "VPS",
+      url: "/ssd-vps",
       monthsAndTk: [
         { months: "1", tk: "2500" },
         { months: "3", tk: "7500" },
@@ -68,6 +72,7 @@ const HostingPlan = () => {
     },
     {
       category: "Dedicated Server",
+      url: "/dedicated-server",
       monthsAndTk: [
         { months: "1", tk: "8500" },
         { months: "3", tk: "25000" },
@@ -168,7 +173,7 @@ const HostingPlan = () => {
                 </ul>
               )}
             </div>
-            <Link href="#">
+            <Link href={`${plan.url}`}>
               <button
                 className={`w-full py-2 mt-4 ${
                   planIndex % 2 === 0 ? "bg-[#008f7e]" : "bg-[#ff8c00]"
