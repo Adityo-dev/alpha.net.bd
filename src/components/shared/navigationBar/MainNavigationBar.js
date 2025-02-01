@@ -320,7 +320,7 @@ const bottomNavData = [
 
 function MainNavigationBar() {
   return (
-    <main className="space-y-2">
+    <main className="space-y-2 sticky top-0 z-50 bg-white shadow-md">
       <TopNav />
       <CenterNav navData={bottomNavData} />
       <BottomNav navData={bottomNavData} />

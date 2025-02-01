@@ -15,7 +15,6 @@ const VpsSelector = () => {
       traffic: 1,
       ip: 1,
       price: 800,
-      location: "Los Angeles",
       link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-starter-vps", 
     },
     {
@@ -27,7 +26,6 @@ const VpsSelector = () => {
       traffic: 2,
       ip: 1,
       price: 1500,
-      location: "Los Angeles",
       link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-standard-vps", 
     },
     {
@@ -39,7 +37,6 @@ const VpsSelector = () => {
       traffic: 3,
       ip: 1,
       price: 3500,
-      location: "Los Angeles",
       link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-business-vps", 
     },
     {
@@ -51,7 +48,6 @@ const VpsSelector = () => {
       traffic: 4,
       ip: 1,
       price: 7000,
-      location: "Los Angeles",
       link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-advanced-vps", 
     },
     {
@@ -63,7 +59,6 @@ const VpsSelector = () => {
       traffic: 5,
       ip: 1,
       price: 14000,
-      location: "Los Angeles",
       link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-premium-vps", 
     },
   
@@ -221,9 +216,7 @@ const VpsSelector = () => {
                   (select during checkout):
                 </span>
               </p>
-              <p className="font-semibold mt-4 text-[#464c53]">
-                {selectedPackage?.location}
-              </p>
+             
             </div>
           </div>
         </div>

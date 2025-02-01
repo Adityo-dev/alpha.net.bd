@@ -7,11 +7,8 @@ function MakesExonHost({ makesExonHostData }) {
         {/* Header Section */}
         <div className="text-center">
           <h2 className="text-3xl lg:text-4xl font-semibold text-center mb-4">
-            What Makes ExonHost Special?
+          What is our specialty?
           </h2>
-          <p className="opacity-70 text-sm lg:text-base">
-            We Have the Features & Service You Deserve!
-          </p>
         </div>
 
         {/* Feature Grid */}

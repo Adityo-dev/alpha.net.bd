@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import AvailableOperatingSystems from "@/components/dedicatedServer/availableOperatingSystems/AvailableOperatingSystems";
 const tableHeader = [
   "Package",
   "CPU",
@@ -10,6 +10,21 @@ const tableHeader = [
   "Price",
   "",
 ];
+
+
+const availableOperatingSystemsData = [
+  { image: "/operating-systems-icon-1.png", name: "OpenB SD" },
+  { image: "/operating-systems-icon-2.png", name: "Ubuntu" },
+  { image: "/operating-systems-icon-3.png", name: "Free BSD" },
+  { image: "/operating-systems-icon-4.png", name: "CentOS" },
+  { image: "/operating-systems-icon-5.png", name: "Debian" },
+  { image: "/operating-systems-icon-6.png", name: "Gentoo" },
+  { image: "/operating-systems-icon-7.png", name: "Window server" },
+  { image: "/operating-systems-icon-8.png", name: "Fedora" },
+  { image: "/operating-systems-icon-9.png", name: "Core OS" },
+  { image: "/operating-systems-icon-10.png", name: "Open SU SE" },
+];
+
 
 const tdStyles =
   "border px-6 py-4 text-sm xl:text-base text-nowrap text-gray-600";
@@ -83,13 +98,7 @@ function VpsTable({ tableData }) {
 
         {/* Image */}
               <div>
-                  <Image
-                   src={"/opareting-image.jpg"}
-                   width={1000}
-                   height={1000}
-                   alt={"VPS"}
-                   className="w-full h-full object-cover"
-                  />
+                  <AvailableOperatingSystems availableOperatingSystemsData={availableOperatingSystemsData}/>
              </div>
       </section>
       
