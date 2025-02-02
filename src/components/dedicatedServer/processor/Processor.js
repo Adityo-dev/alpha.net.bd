@@ -1,5 +1,6 @@
 import { Cpu, MemoryStick, Rotate3d, Server } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 function Processor({ processorData }) {
   return (
@@ -93,9 +94,9 @@ function Processor({ processorData }) {
                   <p className="text-[#1e293b] text-2xl font-semibold">
                     Tk {singleProcessor?.tk}
                   </p>
-                  <button className="bg-[#1e293b] text-white px-6 py-3 rounded-md uppercase transition duration-300 hover:bg-[#40bc3d]">
+                  <Link href={"https://login.dinihost.com/index.php?rp=/store/dedicated-server"} className="bg-[#1e293b] text-white px-6 py-3 rounded-md uppercase transition duration-300 hover:bg-[#40bc3d]">
                     Configure
-                  </button>
+                  </Link>
                 </div>
                 
               </div>

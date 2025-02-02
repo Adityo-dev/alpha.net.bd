@@ -23,7 +23,7 @@ function HeroSlider({ sliderData }) {
       }}
     >
       {/* Hero Slider Section */}
-      <section className="container mx-auto px-3 lg:px-6 w-full h-[400px] sm:h-[550px] lg:h-[638px] overflow-hidden group relative">
+      <section className="container mx-auto px-3 lg:px-6 w-full h-[400px] sm:h-[550px] lg:h-[400px] overflow-hidden group relative">
         {/* Custom Navigation Buttons */}
         <div
           className={`${customButtonStyles} custom-heroSlider-button-prev left-12`}
@@ -81,7 +81,7 @@ function HeroSlider({ sliderData }) {
         <HostServiceFeatures />
       </section> */}
 
-      <section className="hidden sm:block relative w-full mt-10">
+      <section className="hidden sm:block relative w-full mt-4">
   <HostServiceFeatures />
   </section>
 
