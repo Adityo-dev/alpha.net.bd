@@ -14,7 +14,7 @@ const customButtonStyles =
 
 function HeroSlider({ sliderData }) {
   return (
-    <main className="relative overflow-hidden sm:mb-80 md:mb-72 lg:mb-64 xl:mb-40"
+    <main className="relative overflow-hidden"
       style={{
         backgroundImage: `url(${sliderData[0].image})`,
         backgroundSize: "cover",
@@ -77,13 +77,13 @@ function HeroSlider({ sliderData }) {
       </section>
 
       {/* Host Service Features Section */}
-      {/* <section className="hidden sm:block relative sm:top-[580px] lg:top-[660px] xl:top-[700px] 2xl:top-[780px] left-0 right-0 z-50">
+      <section className="hidden sm:block relative left-0 right-0 z-50 w-full mt-4">
         <HostServiceFeatures />
-      </section> */}
+      </section>
 
-      <section className="hidden sm:block relative w-full mt-4">
+      {/* <section className="hidden sm:block relative w-full mt-4">
   <HostServiceFeatures />
-  </section>
+  </section> */}
 
     </main>
   );

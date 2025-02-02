@@ -43,7 +43,7 @@ const footerData = [
           </>
         ),
         icon: <MapPin size={20} />,
-        url: "#",
+        url: "https://maps.app.goo.gl/mFaubb1Ztm5qcvB86",
       },
       {
         name: "+8801788800151",
