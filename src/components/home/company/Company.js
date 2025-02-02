@@ -6,7 +6,7 @@ const companyData = [
   { image: "/company/DirectAdminLogo.svg.png", alt: "Direct Admin Logo" },
   { image: "/company/kv6919kedc-kvm-logo-kvm-axs-guard-documentation.png", alt: "kvm-logo-kvm-axs-guard-documentation" },
   { image: "/company/linux-server.jpg", alt: "linux server" },
-  { image: "/company/litespeed-logo_darkbg.png", alt: "litespeed-logo_darkbg" },
+  // { image: "/company/litespeed-logo_darkbg.png", alt: "litespeed-logo_darkbg" },
   { image: "/company/MySQL-Logo.png", alt: "MySQL-Logo" },
   { image: "/company/phpmyadmin-hacking.webp", alt: "phpmyadmin-hacking" },
   { image: "/company/Screenshot 2025-01-30 095048.png", alt: "" },
