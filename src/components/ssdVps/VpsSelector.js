@@ -193,9 +193,8 @@ const VpsSelector = () => {
             </div>
           </div>
 
-          <div className="w-full lg:w-2/6 static -mt-28">
+          <div className="w-full lg:w-2/6 static -mt-20">
             <div className="w-full bg-white shadow-lg p-6">
-              <p className="text-[#fd235d] border-b pb-6">Managed*</p>
               <div className="space-y-3 text-center border-b pt-6 pb-6">
                 <p className="font-semibold">
                   <span className="text-5xl ">TK {selectedPackage?.price}</span>

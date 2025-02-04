@@ -5,7 +5,7 @@ const heroData = [
     title:
       "Simple, Powerful <span class='text-[#FFB800]'>Email for Small </span> Businesses",
     description:
-      "Give your business a professional makeover with email@yourbrand.com",
+      "Give your business a professional makeover with sales@dinisoftbd.com",
     image: "/dedicated-servers-cover.jpeg",
     url: "/contact-us",
   },
