@@ -1,5 +1,5 @@
 // components
-import { CircleArrowRight} from "lucide-react";
+import { CircleArrowRight } from "lucide-react";
 import BottomNav from "./BottomNav";
 import CenterNav from "./CenterNav";
 import TopNav from "./TopNav";
@@ -60,7 +60,6 @@ const bottomNavData = [
         title: "Global Faster Network Shared Hosting",
         url: "https://login.dinihost.com/index.php?rp=/store/reseller-hosting-singapore",
       },
-
     ],
   },
   {
@@ -302,7 +301,7 @@ const bottomNavData = [
         title: "",
         url: "/terms-of-service",
       },
-    ],      
+    ],
   },
   {
     name: "Colocation",
