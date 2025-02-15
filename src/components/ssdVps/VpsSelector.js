@@ -15,7 +15,6 @@ const VpsSelector = () => {
       traffic: 1,
       ip: 1,
       price: 800,
-      location: "Los Angeles",
       link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-starter-vps", 
     },
     {
@@ -27,7 +26,6 @@ const VpsSelector = () => {
       traffic: 2,
       ip: 1,
       price: 1500,
-      location: "Los Angeles",
       link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-standard-vps", 
     },
     {
@@ -39,7 +37,6 @@ const VpsSelector = () => {
       traffic: 3,
       ip: 1,
       price: 3500,
-      location: "Los Angeles",
       link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-business-vps", 
     },
     {
@@ -51,7 +48,6 @@ const VpsSelector = () => {
       traffic: 4,
       ip: 1,
       price: 7000,
-      location: "Los Angeles",
       link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-advanced-vps", 
     },
     {
@@ -63,7 +59,6 @@ const VpsSelector = () => {
       traffic: 5,
       ip: 1,
       price: 14000,
-      location: "Los Angeles",
       link: "https://login.dinihost.com/index.php?rp=/store/bdix-vps/bdix-premium-vps", 
     },
   
@@ -198,9 +193,8 @@ const VpsSelector = () => {
             </div>
           </div>
 
-          <div className="w-full lg:w-2/6 static -mt-28">
+          <div className="w-full lg:w-2/6 static -mt-20">
             <div className="w-full bg-white shadow-lg p-6">
-              <p className="text-[#fd235d] border-b pb-6">Managed*</p>
               <div className="space-y-3 text-center border-b pt-6 pb-6">
                 <p className="font-semibold">
                   <span className="text-5xl ">TK {selectedPackage?.price}</span>
@@ -221,9 +215,7 @@ const VpsSelector = () => {
                   (select during checkout):
                 </span>
               </p>
-              <p className="font-semibold mt-4 text-[#464c53]">
-                {selectedPackage?.location}
-              </p>
+             
             </div>
           </div>
         </div>

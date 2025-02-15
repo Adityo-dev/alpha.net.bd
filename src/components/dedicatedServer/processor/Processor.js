@@ -1,5 +1,6 @@
 import { Cpu, MemoryStick, Rotate3d, Server } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 function Processor({ processorData }) {
   return (
@@ -36,7 +37,7 @@ function Processor({ processorData }) {
                     <p className="font-semibold text-[#1e293b]">
                       {singleProcessor?.name}
                     </p>
-                    <p className="text-sm text-[#6b7781]">
+                    {/* <p className="text-sm text-[#6b7781]">
                       <span className="font-semibold text-[#1e293b]">
                         {singleProcessor?.cores} Cores
                       </span>
@@ -44,7 +45,7 @@ function Processor({ processorData }) {
                       <span className="font-semibold text-[#1e293b]">
                         {singleProcessor?.ghz} GHz
                       </span>
-                    </p>
+                    </p> */}
                   </div>
                 </div>
 
@@ -53,36 +54,36 @@ function Processor({ processorData }) {
                   <div className="flex items-center gap-3">
                     <MemoryStick size={28} color="#6b7781" strokeWidth={1.2} />
                     <div>
-                      <p className="text-sm text-[#6b7781]">Memory</p>
+                      <p className="text-sm text-[#6b7781]">RAM</p>
                       <p className="font-medium text-[#1e293b]">
-                        {singleProcessor?.memory}
+                        {singleProcessor?.ram}
                       </p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
                     <Cpu size={28} color="#6b7781" strokeWidth={1.2} />
                     <div>
-                      <p className="text-sm text-[#6b7781]">Speed</p>
-                      <p className="font-medium text-[#1e293b]">
-                        {singleProcessor?.speed}
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <Server size={28} color="#6b7781" strokeWidth={1.2} />
-                    <div>
-                      <p className="text-sm text-[#6b7781]">Storage</p>
+                      <p className="text-sm text-[#6b7781]">STORAGE</p>
                       <p className="font-medium text-[#1e293b]">
                         {singleProcessor?.storage}
                       </p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
+                    <Server size={28} color="#6b7781" strokeWidth={1.2} />
+                    <div>
+                      <p className="text-sm text-[#6b7781]">BANDWIDTH</p>
+                      <p className="font-medium text-[#1e293b]">
+                        {singleProcessor?.bandwidth}
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-3">
                     <Rotate3d size={28} color="#6b7781" strokeWidth={1.2} />
                     <div>
-                      <p className="text-sm text-[#6b7781]">Transfer</p>
+                      <p className="text-sm text-[#6b7781]">LOCATION</p>
                       <p className="font-medium text-[#1e293b]">
-                        {singleProcessor?.transfer}
+                        {singleProcessor?.location}
                       </p>
                     </div>
                   </div>
@@ -93,15 +94,21 @@ function Processor({ processorData }) {
                   <p className="text-[#1e293b] text-2xl font-semibold">
                     Tk {singleProcessor?.tk}
                   </p>
-                  <button className="bg-[#1e293b] text-white px-6 py-3 rounded-md uppercase transition duration-300 hover:bg-[#40bc3d]">
+                  <Link href={"https://login.dinihost.com/index.php?rp=/store/dedicated-server"} className="bg-[#1e293b] text-white px-6 py-3 rounded-md uppercase transition duration-300 hover:bg-[#40bc3d]">
                     Configure
-                  </button>
+                  </Link>
                 </div>
+                
               </div>
             ))}
+            
+           
           </div>
+          
         ))}
+         <p className="text-center bg-[#1e293b] text-white px-6 py-3">For managed Dedicated servers 3000/- Will be added with cPanel, CloudLinux, LiteSpeed, and Softaculous (Shared License).</p>
       </div>
+      
     </section>
   );
 }

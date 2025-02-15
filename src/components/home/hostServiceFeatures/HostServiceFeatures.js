@@ -26,7 +26,7 @@ const hostServiceData = [
 function HostServiceFeatures() {
   return (
     <section className="container mx-auto px-3 lg:px-6 ">
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 bg-white shadow-md p-8 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 bg-white shadow-md p-8">
         {hostServiceData.map((service, ind) => (
           <div
             key={ind}

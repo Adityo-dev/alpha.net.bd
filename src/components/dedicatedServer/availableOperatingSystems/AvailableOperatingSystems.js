@@ -27,6 +27,7 @@ function AvailableOperatingSystems({ availableOperatingSystemsData }) {
             <p className="mt-4 text-[#1f2933] text-sm font-medium">
               {data?.name}
             </p>
+            
           </div>
         ))}
       </div>
