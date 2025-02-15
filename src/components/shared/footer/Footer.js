@@ -11,7 +11,6 @@ const footerData = [
     info: [
       { name: "About Us", url: "/about-us" },
       { name: "Blog", url: "#" },
-      { name: "Testimonials", url: "#" },
       { name: "FAQs", url: "#" },
     ],
   },
@@ -22,16 +21,15 @@ const footerData = [
       { name: "Linux Reseller Hosting (BDIX)", url: "https://login.dinihost.com/index.php?rp=/store/ssd-reseller-hosting" },
       { name: "Windows Shared Hosting", url: "https://login.dinihost.com/index.php?rp=/store/windows-shared-hosting-ssd" },
       { name: "Linux Shared Hosting (USA)", url: "https://login.dinihost.com/index.php?rp=/store/linux-shared-hosting-usa" },
-      { name: "Technical Support", url: "#" },
     ],
   },
   {
     title: "Policy",
     info: [
-      { name: "Terms & Conditions", url: "#" },
-      { name: "Privacy Policy", url: "#" },
-      { name: "Refund Policy", url: "#" },
-      { name: "SLA", url: "#" },
+      { name: "Terms & Conditions", url: "/terms-of-service" },
+      { name: "Privacy Policy", url: "/privacy-policy" },
+      { name: "Refund Policy", url: "/refund-policy" },
+      { name: "SLA", url: "/sla-policy" },
     ],
   },
   {
@@ -45,7 +43,7 @@ const footerData = [
           </>
         ),
         icon: <MapPin size={20} />,
-        url: "#",
+        url: "https://maps.app.goo.gl/mFaubb1Ztm5qcvB86",
       },
       {
         name: "+8801788800151",
@@ -56,11 +54,6 @@ const footerData = [
         name: "sales@dinisoftbd.com",
         icon: <Mail size={20} />,
         url: "mailto:sales@dinisoftbd.com",
-      },
-      {
-        name: "Contact Us",
-        icon: <Check size={20} />,
-        url: "/contact-us",
       },
     ],
   },

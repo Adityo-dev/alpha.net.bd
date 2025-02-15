@@ -4,6 +4,7 @@ import "./globals.css";
 // components
 import MainNavigationBar from "@/components/shared/navigationBar/MainNavigationBar";
 import Footer from "@/components/shared/footer/Footer";
+import FacebookCard from "@/components/FacebookCard/FacebookCard";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
       >
         <MainNavigationBar />
         {children}
+        <FacebookCard />
         <Footer />
       </body>
     </html>

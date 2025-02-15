@@ -13,7 +13,7 @@ function BottomNav({ navData }) {
         {navData.map((item, index) => (
           <div
             key={index}
-            className="relative capitalize border px-6 py-2 group z-50"
+            className="relative capitalize border px-6 py-2 group z-50 sticky top-0"
           >
             <Link
               href={item.url}

@@ -36,7 +36,7 @@ const centerData = [
 
 function CenterNav({ navData }) {
   return (
-    <section className="max-w-[1452px] w-full mx-auto px-3 lg:px-6 flex items-center justify-between">
+    <section className="max-w-[1452px] w-full mx-auto px-3 lg:px-6 flex items-center justify-between ">
       <Link href={"/"}>
         <Image
           src="/logo.jpg"
